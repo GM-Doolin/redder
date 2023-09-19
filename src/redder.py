@@ -169,7 +169,7 @@ class comment:
         self.id = str(comment.id)
         self.parent_id = None
         if clrx.IsParentId(comment.parent_id):
-            parent_id = str(comment.parent_id)
+            self.parent_id = str(comment.parent_id)
         self.author = str(comment.author)
         self.score = int(comment.score)
         self.body = str(comment.body)
