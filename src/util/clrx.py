@@ -23,7 +23,16 @@ class clrx:
     def UnSanitizeText(text: str) -> str:
         newText = text.decode("ascii", "ignore")
         return str(newText)
+    
+    # Parse url for the page name
+    @staticmethod
+    def GetURLPage(url: str) -> str:
+        if protoSnip := re.sub(r"^https{0,1}|://|www.|reddit|.com|/r/|/|/$", "", url):
+            return protoSnip
+        else:
+            return url
         
+    # Check if ID is parent ID (PRAW)
     @staticmethod
     def IsParentId(id: str) -> bool:
         if parentMatch := re.match(r"t1_", id):

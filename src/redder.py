@@ -12,14 +12,14 @@ from .util.util import *
 ###### ###### ###### ###### ######
 
 # Create subredder class object from given subreddit name and post count
-def GetSubreddit(URL: str, postCount: int = 10) -> 'subredder':
+def GetSubreddit(subName: str, postCount: int = 10) -> 'subredder':
     try:
         ri = praw.Reddit(
             client_id     = Creds.client_id,
             client_secret = Creds.client_secret,
             user_agent    = Creds.user_agent
         )
-        sr = subredder(ri.subreddit(url=URL), postCount)
+        sr = subredder(ri.subreddit(subName), postCount)
         return sr
     except Exception as e: 
         mrkr.printYellow("Redder ran into unexpected issues when retrieving data from the URL the subreddit data!")
@@ -39,7 +39,7 @@ def GetPost(URL: str) -> 'post':
         mrkr.printYellow("Redder ran into unexpected issues when retrieving data from the URL provided!")
         raise e
 
-# Convert subredder class object to JSON str
+# Convert class object to JSON str
 def ToJSON(obj, isIndented: bool = True) -> str:
     try:
         jsonpickle.set_encoder_options('json')
@@ -85,7 +85,7 @@ def ReadJSONFile(fileName: str, fileExt: str = "json") -> str:
 class Creds:
     client_id     = "2ywZ-_sgiTazjJo-ue2hfQ"
     client_secret = "LMxkB2T9P9klCYG-NHGLGX-7cWHwtA"
-    user_agent    = "redder:v0.4.5"
+    user_agent    = "redder:v0.5.0"
 
 ###### ###### ###### ###### ###### ###### ###### ######
 ###### Containers For Retrieved Sub-Reddit Data  ######
