@@ -1,0 +1,5 @@
+name: redder
+channels:
+  - defaults
+  - conda-forge
+prefix: C:\Users\dooling\miniconda3\envs\redder

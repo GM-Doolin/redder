@@ -33,12 +33,12 @@ try:
     if args.subreddit:
         mySub = redder.GetSubreddit(redder.clrx.GetURLPage(args.subreddit))
         redder.mrkr.printCyan("Redder is retrieving data from the \"" + mySub.name + "\" subreddit!")
-        redder.WriteJSONFile(mySub.name, mySub.ToJSON())
+        redder.WriteJSONFile("subreddit-" + mySub.id, mySub.ToJSON())
         redder.mrkr.printGreen("Redder has successfully finished collecting data from the \"" + mySub.name + "\" subreddit!")
     elif args.post:
         myPost = redder.GetPost(args.post)
         redder.mrkr.printCyan("Redder is retrieving data from the \"" + myPost.title + "\" post!")
-        redder.WriteJSONFile(myPost.id, myPost.ToJSON())
+        redder.WriteJSONFile("post-" + myPost.id, myPost.ToJSON())
         redder.mrkr.printGreen("Redder has successfully finished collecting data from the \"" + myPost.title + "\" post!")
 except Exception as e:
     redder.mrkr.printRed("Exception: " + str(e))
