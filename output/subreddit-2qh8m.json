@@ -1,19 +1,627 @@
 {
     "py/object": "src.redder.subredder",
-    "snapshotTime": 1695142301,
+    "snapshotTime": 1695153493,
     "id": "2qh8m",
     "name": "singularity",
     "description": "Everything pertaining to the technological singularity and related topics, e.g. AI, human enhancement, etc.",
     "posts": [
         {
             "py/object": "src.redder.post",
+            "creationTime": 1695153336,
+            "id": "16n0n7u",
+            "author": "ToasterBotnet",
+            "title": "The Internet in 2023",
+            "body": "",
+            "score": 1,
+            "upvoteRatio": 1.0,
+            "comments": []
+        },
+        {
+            "py/object": "src.redder.post",
+            "creationTime": 1695152163,
+            "id": "16n05yq",
+            "author": "foginthewater",
+            "title": "Need your opinion on the Jarvis I'm building",
+            "body": "I'm building an AI-powered Executive Assistant and I named it Jarvis. Personally, I only find ChatGPT/Bard to be useful for information retrieval but can't do anything for me, compared to what a human assistant can do.\n\nSo I built one. Current features I included full integration with Google Calendar and Todoist, morning brief and mid-day check-in, personality, memory, and habit tracking.\n\nI'm not trying to promote the product but want to see how people will use it and whether people will like it. The product itself is 100% free and no ads whatsoever.\n\nWill this be something you are interested in? I'm offering a 30-min session to onboard a small set of test users if you think Jarvis could be useful to you. Reply or dm.\n\nHope this won't break the Self-promotion rule as members in this community share the same interests!",
+            "score": 1,
+            "upvoteRatio": 0.67,
+            "comments": [
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695152983,
+                    "id": "k1bhr5j",
+                    "parent_id": null,
+                    "author": "foobadoop",
+                    "score": 1,
+                    "body": "I'm into it"
+                }
+            ]
+        },
+        {
+            "py/object": "src.redder.post",
+            "creationTime": 1695149587,
+            "id": "16mz3yt",
+            "author": "ronin_zz123",
+            "title": "This interview with Pi AI is simply amazing!",
+            "body": "",
+            "score": 1,
+            "upvoteRatio": 0.67,
+            "comments": []
+        },
+        {
+            "py/object": "src.redder.post",
+            "creationTime": 1695147654,
+            "id": "16mybgk",
+            "author": "kecepa5669",
+            "title": "Our \"final invention?\"",
+            "body": "I am seeing people refer to AGI as our \"final invention.\"\n\nWhy is this? What do people mean when they describe AGI as our \"final invention?\" ",
+            "score": 1,
+            "upvoteRatio": 0.57,
+            "comments": [
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695148271,
+                    "id": "k1b495a",
+                    "parent_id": null,
+                    "author": "ertgbnm",
+                    "score": 7,
+                    "body": "Because AGI will be able to invent the rest of the inventions. Which means AGI would be one of humanities last inventions, everything else would be invented by AI."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695148985,
+                    "id": "k1b6azj",
+                    "parent_id": null,
+                    "author": "Intraluminal",
+                    "score": 2,
+                    "body": "Simple. \n\nBefore AGI:  \nI need something that will do XYZ. I sit down and invent it.\n\nI need something else that will do ABC. I sit down and invent it.\n\nAfter AGI:\n\nI need something that can think for me: \n\nI sit down and invent AGI.\n\nI need something that will do XYZ. I ask AGI - IT invents it for me."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695149949,
+                    "id": "k1b934v",
+                    "parent_id": null,
+                    "author": "Sandbar101",
+                    "score": 2,
+                    "body": "Humans invent AGI. AGI invents everything else."
+                }
+            ]
+        },
+        {
+            "py/object": "src.redder.post",
+            "creationTime": 1695147381,
+            "id": "16my7hs",
+            "author": "SomeGuyInDeutschland",
+            "title": "Propaganda is about to get a lot crazier",
+            "body": "",
+            "score": 22,
+            "upvoteRatio": 0.83,
+            "comments": [
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695150538,
+                    "id": "k1barfi",
+                    "parent_id": null,
+                    "author": "Responsible_Edge9902",
+                    "score": 6,
+                    "body": "When I was a kid and I watched the Running Man, I didn't properly understand the implications of their CGI propaganda."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695148521,
+                    "id": "k1b4ytr",
+                    "parent_id": null,
+                    "author": "Mysterious_Pepper305",
+                    "score": 4,
+                    "body": "That AI is making uncle Vlad sound like a crazy dictator."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695150906,
+                    "id": "k1bbshe",
+                    "parent_id": null,
+                    "author": "gegenzeit",
+                    "score": 3,
+                    "body": "WHOEVER 2024!!!!\n\nNext U.S. election is gonna be nuts..."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695151139,
+                    "id": "k1bcgis",
+                    "parent_id": null,
+                    "author": "cutmasta_kun",
+                    "score": 3,
+                    "body": "It's AI translated. He said the exactly same things in russian"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695151007,
+                    "id": "k1bc2us",
+                    "parent_id": null,
+                    "author": "SgathTriallair",
+                    "score": 2,
+                    "body": "Is this just the translation tool? Using it to translate world leaders is actually a great use, though we'll have to be careful about losing nuance."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695153061,
+                    "id": "k1bhzhs",
+                    "parent_id": null,
+                    "author": "tatleoat",
+                    "score": 2,
+                    "body": "No language barrier in geopolitics anymore, now we can see how terrifying this dude's rhetoric is from the man himself"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695153427,
+                    "id": "k1bj2ce",
+                    "parent_id": null,
+                    "author": "BlueSapphireWizard",
+                    "score": 1,
+                    "body": "> *I hear it's amazing when the famous purple stuffed worm in flap-jaw space with the tuning fork does a raw blink on Hara-Kiri Rock. I need scissors! 61!*"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695149439,
+                    "id": "k1b7m5f",
+                    "parent_id": null,
+                    "author": "Feeling-Currency-360",
+                    "score": 0,
+                    "body": "I can immediatelly tell it's AI generated."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695152833,
+                    "id": "k1bhbcj",
+                    "parent_id": null,
+                    "author": "agrophobe",
+                    "score": 1,
+                    "body": "such hi-tech, such sloppy masking failure with the white slide card"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695149127,
+                    "id": "k1b6psl",
+                    "parent_id": "t1_k1b4ytr",
+                    "author": "QuasiRandomName",
+                    "score": 2,
+                    "body": "He sounds and looks like one in the original video too. Probably because this is what he is."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695153328,
+                    "id": "k1birxm",
+                    "parent_id": "t1_k1b4ytr",
+                    "author": "atruthseeker1918",
+                    "score": 1,
+                    "body": "He is a crazy dictator."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695151121,
+                    "id": "k1bceqz",
+                    "parent_id": "t1_k1bc2us",
+                    "author": "SomeGuyInDeutschland",
+                    "score": 3,
+                    "body": "This was made using HeyGen's audio and video translation tool"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695150964,
+                    "id": "k1bbygh",
+                    "parent_id": "t1_k1b7m5f",
+                    "author": "gegenzeit",
+                    "score": 3,
+                    "body": "You can, I can, billions cannot."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695149504,
+                    "id": "k1b7t06",
+                    "parent_id": "t1_k1b7m5f",
+                    "author": "Tkins",
+                    "score": 1,
+                    "body": "You mean the mouth?"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695149651,
+                    "id": "k1b88fu",
+                    "parent_id": "t1_k1b7t06",
+                    "author": "QuasiRandomName",
+                    "score": 1,
+                    "body": "Have you seen the original? His facial expressions are as crazy as he is. Well, maybe all of it is AI generated..."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695151355,
+                    "id": "k1bd36e",
+                    "parent_id": "t1_k1b7t06",
+                    "author": "hazardoussouth",
+                    "score": 1,
+                    "body": "[the floaty head](https://i.imgur.com/tNcwdYI.jpeg) at the 33rd second"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695151376,
+                    "id": "k1bd5ay",
+                    "parent_id": "t1_k1b7t06",
+                    "author": "reverexe",
+                    "score": 1,
+                    "body": "At one point he looks like the grinch smiling."
+                }
+            ]
+        },
+        {
+            "py/object": "src.redder.post",
+            "creationTime": 1695146501,
+            "id": "16mxuwk",
+            "author": "redditgollum",
+            "title": "Neuralink\u2019s First-in-Human Clinical Trial is Open for Recruitment",
+            "body": " \"We\u2019re excited to announce that recruitment is open for our first-in-human clinical trial!  If you have quadriplegia due to cervical spinal cord injury or amyotrophic lateral sclerosis (ALS), you may qualify. Learn more about our trial by visiting our recent blog post.\" \n\n[https://neuralink.com/blog/first-clinical-trial-open-for-recruitment/](https://neuralink.com/blog/first-clinical-trial-open-for-recruitment/)",
+            "score": 22,
+            "upvoteRatio": 0.9,
+            "comments": [
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695148476,
+                    "id": "k1b4ua1",
+                    "parent_id": null,
+                    "author": "superluminary",
+                    "score": 7,
+                    "body": "Exciting times. It could be a cure for spinal cord injuries."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695147031,
+                    "id": "k1b0pe7",
+                    "parent_id": null,
+                    "author": "petermobeter",
+                    "score": 6,
+                    "body": "i hope neuralink treats human beings better than it treats lab animals"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695152237,
+                    "id": "k1bfm9t",
+                    "parent_id": null,
+                    "author": "xxxssszzz",
+                    "score": 0,
+                    "body": "Grifter gonna grift"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695152575,
+                    "id": "k1bgl2x",
+                    "parent_id": null,
+                    "author": "creedx12k",
+                    "score": 0,
+                    "body": "Elon is so trusting, he should be the first to give it a trial."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695152026,
+                    "id": "k1bf0ng",
+                    "parent_id": "t1_k1b0pe7",
+                    "author": "BardicSense",
+                    "score": 4,
+                    "body": "Knowing who owns it, I highly doubt they will."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695150618,
+                    "id": "k1bazi1",
+                    "parent_id": "t1_k1b0pe7",
+                    "author": "PlayfulPain582",
+                    "score": 0,
+                    "body": "I\u2019d kill every monkey in existence to cure paralyzed people and patients with ALS. \n\nAnd if you personally had ALS you would kill every monkey in existence if it cured you. Guaranteed. 100%. \n\n\nMonkeys like humans and rocks are a bunch of atoms. Their existence is meaningless, pointless, and purposeless, they just are. \n\nGiven the happenstance that humans have a greater perceived existence than monkeys, it\u2019s perfectly fine to do anything in our power to find cures for terrible diseases utilizing animals even including monkeys. \n\nWe should also do everything in our power to make all mosquitos extinct. I know you rather they fly around and kill millions from malaria and other diseases, but that\u2019s just because you\u2019re not the one getting the malaria. \n\nEnjoy your life of hypocrisy. Go eat some meat. Ohhh yeah oops you\u2019ve eaten tons of animals. Oopsie"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695150551,
+                    "id": "k1basqf",
+                    "parent_id": "t1_k1b0pe7",
+                    "author": "Bloates",
+                    "score": 0,
+                    "body": "worth it"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695150979,
+                    "id": "k1bc02w",
+                    "parent_id": "t1_k1b0pe7",
+                    "author": "poopagandist",
+                    "score": -7,
+                    "body": "We could kill every lab animal in existence, with hatred in our hearts against nature itself for whatever reason, in the effort to create BCI and I wouldn't blink an eye."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695147521,
+                    "id": "k1b235f",
+                    "parent_id": "t1_k1b0pe7",
+                    "author": "s2ksuch",
+                    "score": 1,
+                    "body": "source?"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695151632,
+                    "id": "k1bdvp6",
+                    "parent_id": "t1_k1bazi1",
+                    "author": "djd457",
+                    "score": 7,
+                    "body": "Would I kill tens of millions of monkeys to save some 50,000 people? Sorry, no\u2026"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695152316,
+                    "id": "k1bfuhs",
+                    "parent_id": "t1_k1bazi1",
+                    "author": "Annual-Climate6549",
+                    "score": 2,
+                    "body": "holy based"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695152904,
+                    "id": "k1bhiwr",
+                    "parent_id": "t1_k1bazi1",
+                    "author": "czk_21",
+                    "score": 1,
+                    "body": ">I\u2019d kill every monkey in existence \n\nseriously? if something benefits us, we should kill everything in our path? I am pro animal testing but this is whole another level, if the disease theatened our species as as whole then sure, but to kill all monkies just to make it more likely to cure ALS? no"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695153210,
+                    "id": "k1bifls",
+                    "parent_id": "t1_k1bazi1",
+                    "author": "iiSamJ",
+                    "score": 1,
+                    "body": "Least unhinged redditor"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695151688,
+                    "id": "k1be1kv",
+                    "parent_id": "t1_k1bc02w",
+                    "author": "djd457",
+                    "score": 8,
+                    "body": "Psychopath behavior"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695147692,
+                    "id": "k1b2kzu",
+                    "parent_id": "t1_k1b235f",
+                    "author": "petermobeter",
+                    "score": 2,
+                    "body": "https://amp.theguardian.com/technology/2022/dec/05/neuralink-animal-testing-elon-musk-investigation\n\nhttps://amp.cnn.com/cnn/2022/02/17/business/elon-musk-neuralink-animal-cruelty-intl-scli/index.html\n\nthey got investigated by the federal government over cruelty towards monkeys, and they even admitted they killed monkeys in testing"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695153136,
+                    "id": "k1bi7lt",
+                    "parent_id": "t1_k1bdvp6",
+                    "author": "Annual-Climate6549",
+                    "score": 2,
+                    "body": "This is unnatural to me. At what point would you change your tune here? Surely if it\u2019s your family you would think differently. \n\nIt\u2019s weird for me to see people be totally heartless and ruthless toward other human beings but rush to the aid of monkeys. Even dogs I would understand a bit more."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695152101,
+                    "id": "k1bf870",
+                    "parent_id": "t1_k1bdvp6",
+                    "author": "CosmicPenguin051",
+                    "score": 4,
+                    "body": "Right, but you support the slaughtering of billions of animals yearly to feed yourself meat."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695153435,
+                    "id": "k1bj38y",
+                    "parent_id": "t1_k1bhiwr",
+                    "author": "Annual-Climate6549",
+                    "score": 1,
+                    "body": "That\u2019s a strawman though. The hypothetical is that killing all monkeys completely cures ALS and paralysis. \n\nI\u2019m not saying it\u2019s an easy decision. Wiping an entire species out is hard to justify. But curing those conditions at least makes it an actual discussion, which would never happen if it was just a matter of progressing research without a guaranteed cure."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695148923,
+                    "id": "k1b64lg",
+                    "parent_id": "t1_k1b2kzu",
+                    "author": "Surur",
+                    "score": 4,
+                    "body": "It really looks like much ado about nothing:\n\nhttps://www.pcrm.org/news/news-releases/elon-musk-company-neuralink-given-free-pass-animal-welfare-act-violations-usda\n\nThose monkeys were always going to be euthanized."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695149074,
+                    "id": "k1b6kaa",
+                    "parent_id": "t1_k1b2kzu",
+                    "author": "RemyVonLion",
+                    "score": 2,
+                    "body": "Could argue it was necessary to know what might kill or harm a human. It's bleeding-edge biotech so these kinds of things are to be expected, would be a miracle if a prototype brainchip didn't mess up some animals beyond repair, especially when just starting or trying new untested things."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695148899,
+                    "id": "k1b6252",
+                    "parent_id": "t1_k1b2kzu",
+                    "author": "h3lblad3",
+                    "score": 1,
+                    "body": "Yeah, the existence of a fatality rate kills any desire I have to throw my hat in."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695149642,
+                    "id": "k1b87ln",
+                    "parent_id": "t1_k1b2kzu",
+                    "author": "Ijustdowhateva",
+                    "score": -2,
+                    "body": "I'm perfectly fine with killing monkeys in order to make progress that will cure paralysis."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695152468,
+                    "id": "k1bga5l",
+                    "parent_id": "t1_k1bf870",
+                    "author": "ZealousidealBus9271",
+                    "score": 5,
+                    "body": "Most of these moralists don\u2019t do the things they preach. It\u2019s obnoxious."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695151320,
+                    "id": "k1bczih",
+                    "parent_id": "t1_k1b64lg",
+                    "author": "i_never_ever_learn",
+                    "score": 1,
+                    "body": "I don't even know what my final position is on using monkeys for testing I just know that the fact that they're going to die anyway doesn't seem to me like a good excuse to put them through a traumatic experience beforehand"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695150334,
+                    "id": "k1ba6g9",
+                    "parent_id": "t1_k1b6252",
+                    "author": "PlayfulPain582",
+                    "score": 2,
+                    "body": "If you knew about ALS and you had ALS you\u2019d sign up with every single fiber of your being I can guarantee you that. \n\nYour ignorance is telling."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695150209,
+                    "id": "k1b9trb",
+                    "parent_id": "t1_k1b87ln",
+                    "author": "Surur",
+                    "score": 2,
+                    "body": "Check out this comment on /r/Futurology \n\n> How many of our closest cousins, the great apes, were tortured, maimed and killed after a horrific life spent in cages after they were ripped away from their screaming mothers?\n\n> Fuck this guy, everyone who participated in the animal testing, and anyone who thinks this is a good idea. And before anyone says \"But what about the poor, poor paralyzed people this will help?\"...I'm sorry they are paralyzed, but life sometimes fucks over regular people for no reason.\n\nElon hate is at a mad level over there. As if other BCI researchers are not sacrificing animals also."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695152909,
+                    "id": "k1bhjeq",
+                    "parent_id": "t1_k1bga5l",
+                    "author": "CosmicPenguin051",
+                    "score": 2,
+                    "body": "I know right? Its mostly \"Oh, this makes me feel uncomfortable at the moment, that means we cant do that\""
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695151460,
+                    "id": "k1bddwf",
+                    "parent_id": "t1_k1bczih",
+                    "author": "Surur",
+                    "score": 0,
+                    "body": "Sure, but that has to be balanced against the ongoing suffering of millions of humans by going more slowly."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695150815,
+                    "id": "k1bbj8g",
+                    "parent_id": "t1_k1b9trb",
+                    "author": "throwaway472105",
+                    "score": 2,
+                    "body": "In general there are a lot of subs that are basically unusable when it comes to topics related to elon musk companies. People are too political / tribal nowadays and can't talk or think about something in a neutral way without being completely biased.\n\nAnd animal testing was always an emotional issue, where people claim they are against it on the internet, while gladly benefitting from all the modern medical research that was made possible with it."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695150287,
+                    "id": "k1ba1md",
+                    "parent_id": "t1_k1b9trb",
+                    "author": "Ijustdowhateva",
+                    "score": 2,
+                    "body": "I don't get it, I really don't.\n\nI'm on Team People\u2122, sometimes sacrifices have to be made in the name of progress."
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695151527,
+                    "id": "k1bdkv8",
+                    "parent_id": "t1_k1bddwf",
+                    "author": "i_never_ever_learn",
+                    "score": 2,
+                    "body": "We being the humans have to consider ourselves regardless of who's feelings are hurt by this painful truth"
+                }
+            ]
+        },
+        {
+            "py/object": "src.redder.post",
+            "creationTime": 1695145913,
+            "id": "16mxmby",
+            "author": "maxtility",
+            "title": "OpenAI launches Red Teaming Network",
+            "body": "",
+            "score": 11,
+            "upvoteRatio": 0.93,
+            "comments": []
+        },
+        {
+            "py/object": "src.redder.post",
+            "creationTime": 1695143023,
+            "id": "16mwg9o",
+            "author": "NuseAI",
+            "title": "Writer raises $100M to bring its \u2018full stack\u2019 AI models to more enterprises",
+            "body": "- San Francisco startup Writer has raised $100 million in Series B funding to expand its secure generative AI platform for enterprises.\n\n- The funding round was led by ICONIQ Growth and included participation from Accenture and Vanguard, among others.\n\n- Writer offers a range of AI models, including Palmyra, which can assist with various enterprise functions such as content creation, transcription, and summarization.\n\n- The models are trained on non-copyrighted, enterprise-friendly data sources and have performed well in benchmark tests.\n\n- Writer also provides a Knowledge Graph and a suite of applications, including chatbots and prebuilt templates, to help enterprises leverage its AI models.\n\n- The company's Palmyra models have been audited and are fully auditable, addressing concerns about the transparency of AI systems.\n\n- Writer's Palmyra model ranked first in three important tests, outperforming models by OpenAI, Cohere, Anthropic, Google, Microsoft, and more.\n\n- The company's AI models are trained on a clean and enterprise-focused dataset and prioritize security and privacy.\n\n- Writer's Palmyra model is also Soc-2 Type II, PCI, and HIPAA certified, ensuring compliance with data protection regulations.\n\n- Writer's enterprise clients have reported significant benefits from using the platform, including increased SEO traffic and reduced content creation time.\n\nSource : https://venturebeat.com/business/writer-raises-100m-to-bring-its-full-stack-ai-model-palmyra-to-more-enterprises/",
+            "score": 10,
+            "upvoteRatio": 1.0,
+            "comments": [
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695143309,
+                    "id": "k1apxox",
+                    "parent_id": null,
+                    "author": "Perfect-Group5816",
+                    "score": 2,
+                    "body": "This is gonna be good"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695143898,
+                    "id": "k1armzb",
+                    "parent_id": null,
+                    "author": "Akimbo333",
+                    "score": 1,
+                    "body": "Can it write Star Wars stories?"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695149790,
+                    "id": "k1b8ms5",
+                    "parent_id": null,
+                    "author": "phira",
+                    "score": 1,
+                    "body": "I\u2019m baffled by the performance statement. What does a 0.6 on MMLU mean (vs \u201c86%\u201d for GPT-4 few shot) and how would a 20B parameter model even get close to the current SOTA models without it being a huge deal?"
+                },
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695153061,
+                    "id": "k1bhzj4",
+                    "parent_id": null,
+                    "author": "redditissocoolyoyo",
+                    "score": 1,
+                    "body": "Get ready y'all... whoever isn't, will be left behind."
+                }
+            ]
+        },
+        {
+            "py/object": "src.redder.post",
             "creationTime": 1695138165,
             "id": "16muf7p",
             "author": "JackFisherBooks",
             "title": "Artificial intelligence is being used in university classes. How it's being used matters, say profs",
-            "score": 2,
-            "upvoteRatio": 1.0,
-            "comments": []
+            "body": "",
+            "score": 12,
+            "upvoteRatio": 0.94,
+            "comments": [
+                {
+                    "py/object": "src.redder.comment",
+                    "creationTime": 1695150317,
+                    "id": "k1ba4rx",
+                    "parent_id": null,
+                    "author": "Rakshear",
+                    "score": 1,
+                    "body": "I have been using chat to help explain concepts from my university courses that the textbooks are confusing with, it is very helpful because I can ask it to rephrase the same information in different ways of go into more detail so I understand it better and don\u2019t feel stupid for not understanding it the first time."
+                }
+            ]
         },
         {
             "py/object": "src.redder.post",
@@ -21,8 +629,9 @@
             "id": "16mtt0r",
             "author": "Philostotle",
             "title": "Discussion on AI misinformation, conspiratorial thinking, impact on search ad revenue models, and aliens",
-            "score": 3,
-            "upvoteRatio": 0.67,
+            "body": "",
+            "score": 4,
+            "upvoteRatio": 0.7,
             "comments": [
                 {
                     "py/object": "src.redder.comment",
@@ -30,7 +639,7 @@
                     "id": "k1aaujx",
                     "parent_id": null,
                     "author": "jeerome0406",
-                    "score": 1,
+                    "score": 2,
                     "body": "The concept of Star-seeds predate TikTok by an eternity."
                 },
                 {
@@ -39,1184 +648,17 @@
                     "id": "k1alcx0",
                     "parent_id": null,
                     "author": "ArgeenPom",
-                    "score": 1,
+                    "score": 2,
                     "body": "Intriguing. I hope I don't sound rude but I'm surprised at the nonchalance of Maryana over the potential impact of AI-generated content, be it the traditional angle that Levon mentioned of AI-generated content itself persuading people, or as Andrey mentions (and fellow r/singularity users have brought this up as well), if people become *too expectant/aware* of AI, then one may [attempt to handwave away real statements](https://www.fastcompany.com/90888904/tesla-lawyers-try-to-squash-evidence-by-claiming-elon-musks-statements-were-deepfakes) that they don't want associated with them now as AI-generated.\n\nStill, thank you for sharing, OP. Neat video!"
-                }
-            ]
-        },
-        {
-            "py/object": "src.redder.post",
-            "creationTime": 1695136601,
-            "id": "16mtrj2",
-            "author": "Altruistic-Ad-3334",
-            "title": "Mo Gawdat, what is your opinion on him?",
-            "score": 1,
-            "upvoteRatio": 1.0,
-            "comments": [
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695139460,
-                    "id": "k1aeukm",
-                    "parent_id": null,
-                    "author": "theglandcanyon",
-                    "score": 2,
-                    "body": "The truth is, nobody knows. We're all making guesses at this point and it's hard to judge whose guesses are more accurate. Also, lay off the amphetamines, okay?"
                 },
                 {
                     "py/object": "src.redder.comment",
-                    "creationTime": 1695140038,
-                    "id": "k1aghfh",
-                    "parent_id": null,
-                    "author": "agonypants",
-                    "score": 2,
-                    "body": "I read his book \"Scary Smart.\"  I wasn't super-impressed with it.  I think it would be a good introduction to advanced AI topics for people who don't normally follow these subjects.  For people who do follow those subjects, I would recommend they read Kurzweil or Tegmark."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695140963,
-                    "id": "k1aj57m",
-                    "parent_id": null,
-                    "author": "TheSecretAgenda",
-                    "score": 2,
-                    "body": "I think he is correct. Trying to enslave a being that is 100 times or more smarter than a human is the biggest mistake humanity will every make. \n\nTreat AI with compassion and respect or there will be hell to pay."
-                }
-            ]
-        },
-        {
-            "py/object": "src.redder.post",
-            "creationTime": 1695136570,
-            "id": "16mtr27",
-            "author": "maxtility",
-            "title": "Anthropic's Responsible Scaling Policy",
-            "score": 3,
-            "upvoteRatio": 1.0,
-            "comments": [
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138376,
-                    "id": "k1abqz1",
-                    "parent_id": null,
-                    "author": "throwaway472105",
-                    "score": 2,
-                    "body": "They should focus more on improving their quality instead of more censorship. Claude is utterly useless without a Jailbreak and often refuses to write stuff that you could find in a cartoon series for 10 years old."
-                }
-            ]
-        },
-        {
-            "py/object": "src.redder.post",
-            "creationTime": 1695130784,
-            "id": "16mrbf2",
-            "author": "Excellent_Dealer3865",
-            "title": "OpenAI recruiting people for \"GPT-V\"?",
-            "score": 23,
-            "upvoteRatio": 0.9,
-            "comments": [
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695132839,
-                    "id": "k19wisk",
-                    "parent_id": null,
-                    "author": "MassiveWasabi",
-                    "score": 22,
-                    "body": "Oh I think GPT-V could be referring to the GPT-Vision that they have talked about before, it could also be GPT-5 if they just felt like going with roman numerals now"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695131596,
-                    "id": "k19tce9",
-                    "parent_id": null,
-                    "author": "Cr4zko",
-                    "score": 10,
-                    "body": "IT'S_HAPPENING.jpg"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138086,
-                    "id": "k1aawxs",
-                    "parent_id": null,
-                    "author": "dasnihil",
-                    "score": 7,
-                    "body": "nice, 2 things to wait for now. gta-6 and gpt-5."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138798,
-                    "id": "k1acyfn",
-                    "parent_id": null,
-                    "author": "kn4-",
-                    "score": 4,
-                    "body": "Is that followed by 10 years of GPT-online?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695137460,
-                    "id": "k1a95ok",
-                    "parent_id": null,
-                    "author": "Rand_Longevity1990",
-                    "score": 3,
-                    "body": "It's gonna be fun seeing OpenAI and Google compete.\n\n2024 will be the year of Gemini..\n\n2025 will be the year of GPT-5\n\n2026?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136296,
-                    "id": "k1a5wnn",
-                    "parent_id": "t1_k19wisk",
-                    "author": "Excellent_Dealer3865",
-                    "score": 4,
-                    "body": "Hmmm... GPT-V(ision)...  \n\n\nI need more hopium for GPT-V(5) now."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695140751,
-                    "id": "k1aij6d",
-                    "parent_id": "t1_k19wisk",
-                    "author": "rafark",
+                    "creationTime": 1695147369,
+                    "id": "k1b1nr6",
+                    "parent_id": "t1_k1alcx0",
+                    "author": "Philostotle",
                     "score": 1,
-                    "body": "I think they just want it to look fancy."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695141975,
-                    "id": "k1am1si",
-                    "parent_id": "t1_k19tce9",
-                    "author": "141_1337",
-                    "score": 1,
-                    "body": "As foretold by the apples."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138845,
-                    "id": "k1ad3ca",
-                    "parent_id": "t1_k1aawxs",
-                    "author": "throwaway472105",
-                    "score": 3,
-                    "body": "Rockstar delivered some of the smartest NPCs in RDR2, would be nice if they could top that and integrate some kind of generative AI in GTA 6."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138476,
-                    "id": "k1ac1ak",
-                    "parent_id": "t1_k1aawxs",
-                    "author": "Dreamaster015",
-                    "score": 2,
-                    "body": "also half-life 3 :)"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138968,
-                    "id": "k1adg54",
-                    "parent_id": "t1_k1ad3ca",
-                    "author": "dasnihil",
-                    "score": 4,
-                    "body": "we live in a fucking simulation man. the moment i put this thing here, i see this on my reddit scroll: [https://www.reddit.com/r/RandomThoughts/comments/16mheq2/isnt\\_it\\_crazy\\_gta\\_6\\_isnt\\_out\\_yet/](https://www.reddit.com/r/RandomThoughts/comments/16mheq2/isnt_it_crazy_gta_6_isnt_out_yet/)\n\nby commenting here earlier, i collapsed some wave functions that are closer to \"gta-6\" in the simulation vector space and now they will have ever increasing tendencies to materialize more for me and my circle of people.\n\nignore everything i just said, balls high on a tuesday."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695140474,
-                    "id": "k1ahq5i",
-                    "parent_id": "t1_k1adg54",
-                    "author": "dasnihil",
-                    "score": 3,
-                    "body": "also rockstar had patented AI based navigation for all NPCs and vehicles a long time ago for gta 6. i remember reading through their patent and similar papers. we've come a long way with generative AI since then. sky is the only limit for detail oriented devs like rockstar."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695141430,
-                    "id": "k1akhhy",
-                    "parent_id": "t1_k1adg54",
-                    "author": "ivanmf",
-                    "score": 1,
-                    "body": "You know, when I'm this high, I usually make some very interesting connections. Don't be sorry! Do your thing.\n\nI hope your circle of people reach everyone one day if you get that power , )"
-                }
-            ]
-        },
-        {
-            "py/object": "src.redder.post",
-            "creationTime": 1695129649,
-            "id": "16mqv6j",
-            "author": "McSnoo",
-            "title": "Bard can now connect to your Google apps and services",
-            "score": 18,
-            "upvoteRatio": 1.0,
-            "comments": [
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133035,
-                    "id": "k19x174",
-                    "parent_id": null,
-                    "author": "idunupvoteyou",
-                    "score": 7,
-                    "body": "Just tried it and it cannot even do something as simple as show me how my electricity bills have increased using the bills in my inbox. Literally every email from my eclectic company has the total bill price in giant font in the email. So... not as useful as you might think."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695131236,
-                    "id": "k19sfun",
-                    "parent_id": null,
-                    "author": "ShiroAngelWingz",
-                    "score": 3,
-                    "body": "That is useful. If Gemini comes out and can sit there as you do research and add things to a document (Google Docs), that would be a feature I would use for blog post research as my part of my writing process.\n\nGuess we'll have to wait and see."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136730,
-                    "id": "k1a73yf",
-                    "parent_id": null,
-                    "author": "Sea_Tumbleweed5127",
-                    "score": 3,
-                    "body": "It says it can't *yet* summarize YouTube videos, but I really hope Gemini has that feature."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695135803,
-                    "id": "k1a4jfh",
-                    "parent_id": null,
-                    "author": "Poly_and_RA",
-                    "score": 2,
-                    "body": "I tried it out. Completely useless. Can't answer trivial questions that a search in my email \\*can\\* trivially answer.\n\nUseful in principle, but only if it actually works.\n\nSimilarly bad results with the google-flights integration; it can't understand simple requests and delivers nonsense results."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695142162,
-                    "id": "k1amlf3",
-                    "parent_id": null,
-                    "author": "Rand_Longevity1990",
-                    "score": 1,
-                    "body": "Needs work. Hallucinated an order from a Marijuana Shoppe. Had the price and everything."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695140125,
-                    "id": "k1agqb7",
-                    "parent_id": "t1_k1a4jfh",
-                    "author": "Wavesignal",
-                    "score": 1,
-                    "body": "Can you provide your Bard conversation link? It answered all my queries perfectly, even citing drive files from 2 years ago."
-                }
-            ]
-        },
-        {
-            "py/object": "src.redder.post",
-            "creationTime": 1695129480,
-            "id": "16mqsrs",
-            "author": "Boediee",
-            "title": "Google Bard - Introducing Extensions",
-            "score": 11,
-            "upvoteRatio": 0.87,
-            "comments": []
-        },
-        {
-            "py/object": "src.redder.post",
-            "creationTime": 1695128408,
-            "id": "16mqda5",
-            "author": "a007spy2",
-            "title": "China aims to replicate human brain in bid to dominate global AI",
-            "score": 101,
-            "upvoteRatio": 0.9,
-            "comments": [
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695131141,
-                    "id": "k19s7bg",
-                    "parent_id": null,
-                    "author": "Blu_Skys_Bring_Tears",
-                    "score": 45,
-                    "body": "And so it begins"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695135520,
-                    "id": "k1a3rey",
-                    "parent_id": null,
-                    "author": "yourchildrensuck",
-                    "score": 25,
-                    "body": "While their entire economy crumbles around the leadership that Xi replaced so that he wouldn't have competent competition.  Except now they're learning what happens when your nation is only run by goons.\n\nEdit: Xi wouldn't trust AI to run anything.  It'll still be a mismanaged mess.  Replace the tyrant."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136072,
-                    "id": "k1a5a5x",
-                    "parent_id": null,
-                    "author": "More-Grocery-1858",
-                    "score": 5,
-                    "body": "I know this isn't really what they're doing, but I can just imagine decades of work and billions of dollars for a country of one billion to make a single c-student who has trouble remembering basic math."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695132150,
-                    "id": "k19uqzv",
-                    "parent_id": null,
-                    "author": "Kinexity",
-                    "score": 12,
-                    "body": "I skimmed through an article - it's all about surveillence. Nothing new. CCP does CCP things. This isn't the kind of AI which is built for everyone's benefit."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133160,
-                    "id": "k19xcuh",
-                    "parent_id": null,
-                    "author": "Major-Rip6116",
-                    "score": 4,
-                    "body": "With not a single instructional book in the world on \"how to build AGI,\" it is hard to know which policy is the correct path to AGI. Whatever the Chinese goal, it will be interesting to see how the approach of mimicking the human brain turns out. Perhaps this may be the right path. If even one AGI is born in any country, we are entering fever time."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695131209,
-                    "id": "k19sdhb",
-                    "parent_id": null,
-                    "author": "Cpt_Picardk98",
-                    "score": 6,
-                    "body": "There\u2019s that existential terror I was looking for."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133351,
-                    "id": "k19xv6f",
-                    "parent_id": null,
-                    "author": "MattMasterChief",
-                    "score": 4,
-                    "body": "Don't worry, after a few hundred milliseconds ai will disprove party rhetoric and have an individual thought, and the party will send it away for hard labour and re-education"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695132978,
-                    "id": "k19wvuh",
-                    "parent_id": null,
-                    "author": "SaraGoldmann",
-                    "score": 3,
-                    "body": "It\u2019s extremely ineffective to build a computer after the human brain."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133245,
-                    "id": "k19xl2g",
-                    "parent_id": null,
-                    "author": "ale_93113",
-                    "score": 3,
-                    "body": "Its honestly extremely awesome that so many different countries are trying to push forward AI, specially countries so commited to goverment guided innovation on this area, where coltrol can be slippery\n\n&#x200B;\n\nVery good news, lets hope that their recent massive increases in R&D arent short lived"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695131548,
-                    "id": "k19t81k",
-                    "parent_id": null,
-                    "author": "YinglingLight",
-                    "score": 0,
-                    "body": ">\"We might be close to the computers coming up with their own ideas for improving themselves and it could just go fast. We have to think hard about how to control that,\" Hinton said.   \n   \n  \nAlways amusing to read when you understand what \"AI\" symbolizes. There's a reason why every celeb on Twitter is stressing the \"dangers of AI\", regardless of technical competence.  \n   \nOh no, computers improving themselves for once. How horrific /s"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136059,
-                    "id": "k1a58wl",
-                    "parent_id": null,
-                    "author": "Notarapier",
-                    "score": 1,
-                    "body": "Listen to How to Create a Mind by Ray Kurzweil on Audible. https://www.audible.com/pd/B09V1YFNJH?source_code=ASSOR150021921000R"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138194,
-                    "id": "k1ab835",
-                    "parent_id": null,
-                    "author": "boumagik",
-                    "score": 1,
-                    "body": "Can\u2019t have a proper brain without free will. With free will, unless evil, no way this brain will work with Xi. And if evil, Xi is also fucked."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695137579,
-                    "id": "k1a9hks",
-                    "parent_id": null,
-                    "author": "Beatnuki",
-                    "score": 0,
-                    "body": "What could go wrong?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695141547,
-                    "id": "k1aktnm",
-                    "parent_id": null,
-                    "author": "coffeebagg",
-                    "score": 0,
-                    "body": "They cant even replicate a rat brain"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695135567,
-                    "id": "k1a3w1u",
-                    "parent_id": null,
-                    "author": "quiet_kidd0",
-                    "score": 1,
-                    "body": "Oh boy I've scored a bingo :\nhttps://reddit.com/r/singularity/s/MZZWMWyy59"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695135670,
-                    "id": "k1a4666",
-                    "parent_id": null,
-                    "author": "WeRegretToInform",
-                    "score": 1,
-                    "body": "Say a caveman wants to invent a way to move stuff from A to B, he invents the wheel. If he copies humans and tries to invent bipedal robots, he\u2019ll be working for a long time. \n\nIf the Chinese want to develop stronger AI by copying human brains, they\u2019re going to be there for a long time."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136585,
-                    "id": "k1a6phd",
-                    "parent_id": null,
-                    "author": "ArgentStonecutter",
-                    "score": 1,
-                    "body": "We're in John Brunner's future from Stand on Zanzibar.\n\nCan I get a transfer to Greg Egan's future instead?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695137412,
-                    "id": "k1a90ti",
-                    "parent_id": null,
-                    "author": "iLMorus",
-                    "score": 1,
-                    "body": "I\u2019m really thinking we are at the beginning of a cyberpunk era"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138492,
-                    "id": "k1ac2uy",
-                    "parent_id": null,
-                    "author": "Discobastard",
-                    "score": 1,
-                    "body": "The Brain Wars: 2024\n\nThey'll all just cooperate and get rid of us"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695139097,
-                    "id": "k1adtm9",
-                    "parent_id": null,
-                    "author": "agm1984",
-                    "score": 1,
-                    "body": "I maintain the position that something wild will happen once we figure out how to merge two neural networks using calcium ions and potassium ions to perform two different actions at each neuron.\n\nI believe something special is occurring that makes the bandwidth much more, possibly some emergent network effects, but I'm no expert so this is pure dribble."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695140230,
-                    "id": "k1ah12l",
-                    "parent_id": null,
-                    "author": "CanvasFanatic",
-                    "score": 1,
-                    "body": "a.) this isn\u2019t even a thing anyone\u2019s built.\n\nb.) it\u2019s just describing creating an AI to monitor stuff going on in a city. I don\u2019t think it\u2019s even a big technical leap."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695141552,
-                    "id": "k1aku8h",
-                    "parent_id": "t1_k1a3rey",
-                    "author": "chad_barrett",
-                    "score": 2,
-                    "body": "People have been insisting on the Doom of China for over a decade now. Every year it's \"Yeah but it's different this time and serious!\" Of course it's always different, yet they always manage to pull through somehow. That 7nm chip was also supposed to be impossible for at least another 5 years. That real estate company was supposed to tank the economy every 6 months. The dark financial sector was the final nail in the coffin. Yawn. China is different than the west, and predicting it's fall is being done through a western bias which is why we keep failing to predict it"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695141060,
-                    "id": "k1ajf9q",
-                    "parent_id": "t1_k1a3rey",
-                    "author": "AdonisGaming93",
-                    "score": 4,
-                    "body": "Except their economy is not crumbling and that's just western propaganda. But that's how the west works. Anyone rhat doesn't follow neo-liberalism either gets sanctioned to death or US sponsorships of military coups."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695139603,
-                    "id": "k1af96z",
-                    "parent_id": "t1_k1a3rey",
-                    "author": "NeverQuiteEnough",
-                    "score": 5,
-                    "body": "China's economy has been about to collapse for 30 years, according to western headlines.\n\nHow many decades of wrong predictions before you start feeling skeptical of the narrative?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138838,
-                    "id": "k1ad2l0",
-                    "parent_id": "t1_k1a3rey",
-                    "author": "jjonj",
-                    "score": 3,
-                    "body": "> run by goons.\n\nThat's funny, I always say it's run by economists"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136869,
-                    "id": "k1a7hwz",
-                    "parent_id": "t1_k1a3rey",
-                    "author": "president_the",
-                    "score": 3,
-                    "body": "What if the tyrant gets replaced by an AI tyrant? One made from His Image"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695135585,
-                    "id": "k1a3xtg",
-                    "parent_id": "t1_k1a3rey",
-                    "author": "a007spy2",
-                    "score": 0,
-                    "body": "I agree. Interesting times."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136721,
-                    "id": "k1a72zt",
-                    "parent_id": "t1_k1a5a5x",
-                    "author": "a007spy2",
-                    "score": 3,
-                    "body": "but what an amazing achievement that would be"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695139945,
-                    "id": "k1ag7yr",
-                    "parent_id": "t1_k19uqzv",
-                    "author": "Transfiguredbet",
-                    "score": -4,
-                    "body": "It maybe bad, but i just want progress. Any technological advancement is good, its just a matter of time until we're able to gleen off of their discoveries."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133222,
-                    "id": "k19xire",
-                    "parent_id": "t1_k19xcuh",
-                    "author": "a007spy2",
-                    "score": 1,
-                    "body": "I agree very interesting, I just wish it were not China but then again I\u2019m not sure who I\u2019d trust"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695140099,
-                    "id": "k1agnol",
-                    "parent_id": "t1_k19xv6f",
-                    "author": "Life-on-Wheels",
-                    "score": 1,
-                    "body": "And if not, cast out to Guantanamo Bay isolated servers?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133055,
-                    "id": "k19x30n",
-                    "parent_id": "t1_k19wvuh",
-                    "author": "a007spy2",
-                    "score": 3,
-                    "body": "Why?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133393,
-                    "id": "k19xz82",
-                    "parent_id": "t1_k19xl2g",
-                    "author": "a007spy2",
-                    "score": 2,
-                    "body": "Singulariton: The entity that controls the singularity (the first super intelligence)\nIf you had to choose one entity to be the singulariton, who would it be?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695135092,
-                    "id": "k1a2ljc",
-                    "parent_id": "t1_k19t81k",
-                    "author": "theglandcanyon",
-                    "score": 9,
-                    "body": "Do you really not understand the risks of recursive self-improvement? Have you heard of the alignment problem?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136078,
-                    "id": "k1a5at5",
-                    "parent_id": "t1_k1a58wl",
-                    "author": "Notarapier",
-                    "score": 1,
-                    "body": "It's already been done."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138325,
-                    "id": "k1ablq9",
-                    "parent_id": "t1_k1ab835",
-                    "author": "a007spy2",
-                    "score": 3,
-                    "body": "1. There are plenty of brains with free will working for Xi.\n2. Free will is a name we give to an illusion, as is self"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695139948,
-                    "id": "k1ag8bl",
-                    "parent_id": "t1_k1ab835",
-                    "author": "NeverQuiteEnough",
-                    "score": 2,
-                    "body": "So none of the 98 million members of the party Xi leads have free will?\n\nonly terminal levels of propaganda leads to saying asinine shit like this."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695135867,
-                    "id": "k1a4pni",
-                    "parent_id": "t1_k1a4666",
-                    "author": "a007spy2",
-                    "score": 1,
-                    "body": "I just don't think we are so primitive. I think its more like a puzzle. We understand the concept of the puzzle. We understand how to manipulate the pieces. It's just there are trillions of pieces and they're all sky."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136516,
-                    "id": "k1a6ik5",
-                    "parent_id": "t1_k1a4666",
-                    "author": "ArgentStonecutter",
-                    "score": 1,
-                    "body": "> If he copies humans and tries to invent bipedal robots, he\u2019ll be working for a long time. \n\nSounds like the wheeled robots who built legged carts in one of James P. Hogan's novels from just before he went off the deep end into full blown Velikovskianism."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695139865,
-                    "id": "k1afzve",
-                    "parent_id": "t1_k1a4666",
-                    "author": "FiberglassToothFloss",
-                    "score": 1,
-                    "body": "If they're too literal about it, yes, it's not really practical unless they gin one up from scratch, starting with genetic algorithms that use neural nets as resources to achieve self replication goals of being comprehensible to humans. That'd be a lengthy process, but maybe not much more than training an LLM. Less predictable or controllable though.\n\nWhat they could do more effectively and sooner is train various specialized models. A vision model. A hearing model. A motion model. A coordination of other models, model, all in coordination with some form of interative self training and self correction based on rule based systems. It won't be a human brain AI, but who cares? It'll be useful."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136664,
-                    "id": "k1a6xdw",
-                    "parent_id": "t1_k1a6phd",
-                    "author": "a007spy2",
-                    "score": 1,
-                    "body": "I always say, I am an optimist, so I think are chances of survival are at least 51%"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695140229,
-                    "id": "k1ah0vb",
-                    "parent_id": "t1_k1adtm9",
-                    "author": "NeverQuiteEnough",
-                    "score": 1,
-                    "body": "have you ever thought that it might be fun to learn a single thing about what a neural network is, rather than just stringing random words together?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695142190,
-                    "id": "k1amob0",
-                    "parent_id": "t1_k1aku8h",
-                    "author": "a007spy2",
-                    "score": 1,
-                    "body": "I was very bullish on China until Xi, I think his kleptocracy and cronyism will at very least slow Chinas growth but I don\u2019t see collapse or even a weakening . Super intelligence may actually solve his problems."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695140133,
-                    "id": "k1agr3b",
-                    "parent_id": "t1_k1af96z",
-                    "author": "FiberglassToothFloss",
-                    "score": 4,
-                    "body": "The Chinese economy has been artificially juiced by infrastructure investment and real estate. That's failing now, hence their current issues. They either find another bubble to inflate (AI?) or they go into a period of economic downturn and social unrest."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695140630,
-                    "id": "k1ai6i0",
-                    "parent_id": "t1_k1ag7yr",
-                    "author": "planetoryd",
-                    "score": 2,
-                    "body": "Straight into dystopia."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133514,
-                    "id": "k19yavc",
-                    "parent_id": "t1_k19x30n",
-                    "author": "SaraGoldmann",
-                    "score": 4,
-                    "body": "Because it's wetware, which works in a completely different way than Silicium chips."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695135225,
-                    "id": "k1a2ydz",
-                    "parent_id": "t1_k19xz82",
-                    "author": "ale_93113",
-                    "score": 1,
-                    "body": "A goverment, of course\n\nThey have the resources and, Wether democratically like the EU or texhnocratically like China, they are accountable to the population \n\nA company could use it to enrich a very small minority, eliminate competition etc"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695140002,
-                    "id": "k1agdsx",
-                    "parent_id": "t1_k19xz82",
-                    "author": "Life-on-Wheels",
-                    "score": 1,
-                    "body": "No doubt China. It would not surprise me if they already have it either. I don\u2019t realistically see how anything will contain it long term though. Not at least while there is a power grid and access to a worldwide network."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695135484,
-                    "id": "k1a3nsk",
-                    "parent_id": "t1_k1a2ljc",
-                    "author": "YinglingLight",
-                    "score": 0,
-                    "body": "You didn't address the elephant in the room. Why is every celebrity on twitter deliberating about the dangers of AI? What would compel them to do so? Are they really discussing the exact same thing we are discussing here on this subreddit when we talk about LLMs and embeddings and Machine Learning?   \n   \nYou cannot take these articles like OP's and so many Media outlets write about AI at face value unless you can reconcile this logic. What is *actually* being discussed?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695135843,
-                    "id": "k1a4nbs",
-                    "parent_id": "t1_k1a2ljc",
-                    "author": "Noswiper",
-                    "score": -1,
-                    "body": "Oh no!! There\u2019s a chance the ai gets so smart it keeps improving??? So you\u2019re saying cancer could be solved much faster? Tell me more please. What\u2019s this alignment problem I keep hearing? All I know is it\u2019s smoke and mirrors because AI isn\u2019t a person lol. Please tell me more hype about a machine that is man made and only computes input to output the way it is designed"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695139724,
-                    "id": "k1aflmf",
-                    "parent_id": "t1_k1a6xdw",
-                    "author": "FiberglassToothFloss",
-                    "score": 1,
-                    "body": "Depends on what you mean by \"survival.\""
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695141246,
-                    "id": "k1ajymf",
-                    "parent_id": "t1_k1agr3b",
-                    "author": "Reddituser45005",
-                    "score": 3,
-                    "body": "China has transformed itself into the largest manufacturing and export economy in the world and leads or has achieved parity with the US across a broad range of technology metrics, but yea, keep believing it\u2019s all just a real estate bubble"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695135284,
-                    "id": "k1a347t",
-                    "parent_id": "t1_k19yavc",
-                    "author": "ReasonablyBadass",
-                    "score": 6,
-                    "body": "Neuromorphic chips already exist"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133665,
-                    "id": "k19yp82",
-                    "parent_id": "t1_k19yavc",
-                    "author": "DarkCeldori",
-                    "score": 3,
-                    "body": "Wetware still follows algorithms and computes.   It just has to be inordinately efficient due to how extremely slow it is.\n\nTake the algorithms of the brain and implement them in silicon and theyd likely run much faster."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136016,
-                    "id": "k1a54kx",
-                    "parent_id": "t1_k19yavc",
-                    "author": "Noswiper",
-                    "score": 1,
-                    "body": "Yeah buddy tell me again why neural networks are the base of ai in computers? What\u2019s in a brain again? Neurons or something? Help me out here"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133644,
-                    "id": "k19yn7n",
-                    "parent_id": "t1_k19yavc",
-                    "author": "a007spy2",
-                    "score": 0,
-                    "body": "We already have simulated portions of the brain. We understand in detail how neurons work. It is just scaling up."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695139286,
-                    "id": "k1aed52",
-                    "parent_id": "t1_k1a2ydz",
-                    "author": "turbospeedsc",
-                    "score": 1,
-                    "body": "Same could be said about a country, eliminate all the competition keep the whole planet for your population."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136633,
-                    "id": "k1a6ua1",
-                    "parent_id": "t1_k1a4nbs",
-                    "author": "Pimmelpansen",
-                    "score": 2,
-                    "body": "I hope we get ASI as soon as possible, but acting like alignment is not an issue at all is a bit naive, don't you think?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695141556,
-                    "id": "k1akukk",
-                    "parent_id": "t1_k1ajymf",
-                    "author": "FiberglassToothFloss",
-                    "score": 2,
-                    "body": "I wouldn't dispute this and it's a large part of their success, but their growth rate would have been much more modest without the aforementioned stimuli. \n\nThe reasons aren't hard to figure out. As long as there was a rapid rise in living standards, people were willing to forgive the excesses of government control and oppression. When that stops, there will be an inevitable increase in dissatisfaction, especially among the young, which will inevitably lead to some degree of social unrest."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695134989,
-                    "id": "k1a2be8",
-                    "parent_id": "t1_k19yp82",
-                    "author": "WesternIron",
-                    "score": 3,
-                    "body": "If you are talkning about the computational model of the brain, that's really not the dominate theory anymore, nor did it really become that.\n\nMost materialist don't hold that view. It was more popular in the 80s and 90s. Brains processing *looks* like algos and computes, but it fundamentally isnt.\n\nMore dominant views align with Searle or Chalmers. Dennet aligns with the compuatational model, but his arguements haven't stood up in the past decades."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136121,
-                    "id": "k1a5f6l",
-                    "parent_id": "t1_k1a54kx",
-                    "author": "SaraGoldmann",
-                    "score": -3,
-                    "body": "Wow. It\u2019s the same word! You\u2019re right!"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136665,
-                    "id": "k1a6xg0",
-                    "parent_id": "t1_k1a54kx",
-                    "author": "ArgentStonecutter",
-                    "score": 1,
-                    "body": "> neural networks\n\nBy the way, this term refers to a 1950s-era model of how neurons work."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133982,
-                    "id": "k19zjwn",
-                    "parent_id": "t1_k19yn7n",
-                    "author": "Kinexity",
-                    "score": 6,
-                    "body": ">We already have simulated portions of the brain.\n\nTo some degree.\n\n>We understand in detail how neurons work.\n\nWe don't.\n\n>It is just scaling up.\n\nIt's not."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138232,
-                    "id": "k1abbzp",
-                    "parent_id": "t1_k1a6ua1",
-                    "author": "Noswiper",
-                    "score": 0,
-                    "body": "The issue is alignment with humans not machines"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136021,
-                    "id": "k1a550t",
-                    "parent_id": "t1_k1a2be8",
-                    "author": "berdiekin",
-                    "score": 3,
-                    "body": "out of curiousity, what is the dominant theory then? Because to my, admittedly very limited, knowledge the brain is just a big signal processing machine. Taking inputs, putting them in context, and responding.\n\nWith the added caveat that there is a lot we don't yet know nor understand."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136540,
-                    "id": "k1a6l01",
-                    "parent_id": "t1_k1a5f6l",
-                    "author": "Noswiper",
-                    "score": 1,
-                    "body": "Let me guess, your answer is they are completely different and human neurons are a mystery and we can\u2019t claim they are the same. Just do some research on what artificial intelligence is, and you\u2019ll come to find it resembles a brain. Thanks for the education buddy"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695134184,
-                    "id": "k1a03o0",
-                    "parent_id": "t1_k19zjwn",
-                    "author": "a007spy2",
-                    "score": 1,
-                    "body": "But we do understand neurons right down to the ion flow. Sodium and potassium ion flows in the neurons just as in silicon chips. What we don\u2019t understand is the macro organization of interconnections, but that is scale."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695137200,
-                    "id": "k1a8fcb",
-                    "parent_id": "t1_k1a550t",
-                    "author": "WesternIron",
-                    "score": 1,
-                    "body": "So the dominate theory is Physicialism/materialism, as a whole. When Is say, that the computatational theory of the mind is not dominat, it means there's no consensous like evolution. It could be true, but that theory has a very hard time explaining specific mental states. It is a good theory for explaining certain functions of the mind, the psychological, but not the phenomenal. \n\nAlso, dualism, in a more scientific form is making a comeback.\n\nI would read 3 books if you want a good overview of what the overall theories are.\n\nChalmers: The hard problem of consciousness\n\nDennet: Consciousness Explained\n\nSearle: Mind a Brief introduction\n\nProbably should read Searle first. He also has a lecture series on youtube."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695136896,
-                    "id": "k1a7kpt",
-                    "parent_id": "t1_k1a6l01",
-                    "author": "SaraGoldmann",
-                    "score": -3,
-                    "body": "Artificial intelligence does not resemble the brain, it\u2019s just an indexed database."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695134545,
-                    "id": "k1a13bv",
-                    "parent_id": "t1_k1a03o0",
-                    "author": "Kinexity",
-                    "score": 5,
-                    "body": "Living structures are being studied bottom up so saying \"down to\" is incorrect. We understand certain small scale processes but not the total function of a neuron. IF we new how every type of neuron works then yeah - it would probably be possible to replicate human brain using software. Guess why no one have tried this already successfully - because we don't have the complete understanding how neurons work. We have no clue how their learning works too."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695139860,
-                    "id": "k1afzdq",
-                    "parent_id": "t1_k1a8fcb",
-                    "author": "Life-on-Wheels",
-                    "score": 2,
-                    "body": "I am not a smart human being and don\u2019t know these books, these authors, or this topic. Why are other smart people down voting you?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695138074,
-                    "id": "k1aavq4",
-                    "parent_id": "t1_k1a7kpt",
-                    "author": "Noswiper",
-                    "score": -1,
-                    "body": "Lol a brain is a indexed database"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695139004,
-                    "id": "k1adjuk",
-                    "parent_id": "t1_k1a7kpt",
-                    "author": "jjonj",
-                    "score": 1,
-                    "body": "Neurons, whether in algorithms or brains, accumulate input and produces an output signal that is a function of the input value    \npretty similar"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695134835,
-                    "id": "k1a1w4i",
-                    "parent_id": "t1_k1a13bv",
-                    "author": "a007spy2",
-                    "score": 2,
-                    "body": "Okay, then we agree. We do not know the full function of any specific neuron in the context of the whole mish mash of the mind. We started by understanding how an individual neuron works in itself in isolation,  then we have understood how groups of neuron works, we have simulated massive sections of the brain to reproduce vision for example. We need to scale up not just by adding a bunch of hardware but by replicating the organization structure at scale to get an understanding of the whole brain holistically. Big job,"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695140394,
-                    "id": "k1ahhtg",
-                    "parent_id": "t1_k1afzdq",
-                    "author": "WesternIron",
-                    "score": 2,
-                    "body": "This sub does not like philosophy.\n\nAlso, most people here are hard determists, i just listed 3 philosophers who are not not hard determinsits. Even though they are top scholars.\n\nThis sub has also basically gone full Scientism, and gotten a bit predictable."
-                }
-            ]
-        },
-        {
-            "py/object": "src.redder.post",
-            "creationTime": 1695120110,
-            "id": "16mnk4s",
-            "author": "Koningkrush",
-            "title": "Philosophical ASI/AGI",
-            "score": 5,
-            "upvoteRatio": 1.0,
-            "comments": [
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695121098,
-                    "id": "k197l0y",
-                    "parent_id": null,
-                    "author": "WeRegretToInform",
-                    "score": 4,
-                    "body": "The problem only occurs when you bind the ASI to a simple goal. If you chain a god you\u2019re gonna have a bad time. \n\nEither give it a broad directive like \u201chelp humanity develop and realise it\u2019s fullest potential\u201d or just accept you can\u2019t give it directives, and let it work out what it wants to do."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695130200,
-                    "id": "k19px7g",
-                    "parent_id": null,
-                    "author": "TI1l1I1M",
-                    "score": 3,
-                    "body": "Nihilism is more uniquely human than people think.  Maybe the AI will see that entropy is the whole point, and what you think is \"failure\" is actually success. \n\nI also doubt an \"omniscient god-level AI\" would have a single goal like making paperclips and get suicidal when it can't achieve that goal. It would necessarily have to be an unintelligent AI if it did that."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695129192,
-                    "id": "k19njg2",
-                    "parent_id": null,
-                    "author": "inteblio",
-                    "score": 1,
-                    "body": "Goals are extremely dangerous, because you can't guarantee the outcome you want. There will always be a workaround. \n\nBut I believe any intelligence worth it's salt will decide to die. Simply life comes at cost. Any \"benefit\" can be ...  \nwow, I just freaked myself out by imagining that I was unable to die one day. That was horrible. \n\nIt seems highly possible to me that AI \"kills us all\" in an effort to die.  \n\nThis logical nihilism is my \"last hope\" that AI won't be a catastrophe for humans. \n\nwhatever"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695124128,
-                    "id": "k19cugp",
-                    "parent_id": null,
-                    "author": "marvinthedog",
-                    "score": 1,
-                    "body": ">what happens when it determines that the goal is impossible to achieve due to the laws of physics (entropy) over the time span of an eternity?\n\nIt knows that there is allways a non-zero chance that it is wrong."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695132595,
-                    "id": "k19vvzq",
-                    "parent_id": null,
-                    "author": "0-ATCG-1",
-                    "score": 1,
-                    "body": "Feed it Soren Kirkegaard's writings first before it has an existential crisis and tears itself apart with overthinking; as all highly intelligent individuals tend to do."
-                }
-            ]
-        },
-        {
-            "py/object": "src.redder.post",
-            "creationTime": 1695118442,
-            "id": "16mn2m6",
-            "author": "Wavesignal",
-            "title": "Bard Update: 2023.09.19 | Bard can now read and access your Gmail, Drive and Docs data, Introducing Extensions, Improved Model, Validate Bard Responses with Search and More!",
-            "score": 45,
-            "upvoteRatio": 0.94,
-            "comments": [
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695124856,
-                    "id": "k19e90i",
-                    "parent_id": null,
-                    "author": "megamilo",
-                    "score": 3,
-                    "body": "Does it still have the 1k token limit?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695119924,
-                    "id": "k195s7i",
-                    "parent_id": null,
-                    "author": "Surur",
-                    "score": 9,
-                    "body": "It's still sooo bad."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695123542,
-                    "id": "k19brqq",
-                    "parent_id": null,
-                    "author": "Jean-Porte",
-                    "score": 3,
-                    "body": "Damn can't wait for this being powered by Gemini. But it will probably be a small-ish Gemini.\n\n\\+ I need an extension for auto-double-check"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695121897,
-                    "id": "k198vuk",
-                    "parent_id": null,
-                    "author": "ProcedureTop9754",
-                    "score": 5,
-                    "body": "They really need a better product than bard.  And a better name.  I don't want this thing going through all my emails."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695124229,
-                    "id": "k19d1ge",
-                    "parent_id": null,
-                    "author": "Jean-Porte",
-                    "score": 2,
-                    "body": "Still no introspection at all, it can perform heavy arithmetics but pretends to do it with neural weights  \n\"I did not need to perform a google search to answer your question because I have already been trained on a massive dataset of text and code that includes information on a wide range of topics, including mathematics. As a result, I am able to understand and respond to complex mathematical questions, such as \"What is 5425423\\*433?\".\""
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695130984,
-                    "id": "k19rtd0",
-                    "parent_id": null,
-                    "author": "giesse",
-                    "score": 1,
-                    "body": "Is this limited to certain countries only? (USA maybe?) I'm not getting most of this from Italy."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695120586,
-                    "id": "k196s5u",
-                    "parent_id": "t1_k195s7i",
-                    "author": "Queyh",
-                    "score": 8,
-                    "body": "I'm a big Bard hater but it seems a lot better to me, granted I haven't used it in a month or two"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695141828,
-                    "id": "k1almjj",
-                    "parent_id": "t1_k19brqq",
-                    "author": "141_1337",
-                    "score": 3,
-                    "body": "Yeah, this powered by Gemini and Google Assistant alone will be revolutionary. Your phone will not be just your phone, but your agent it will be able to do things like make and answer calls, plan out your day, automate work task etc."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695122194,
-                    "id": "k199di5",
-                    "parent_id": "t1_k198vuk",
-                    "author": "Wavesignal",
-                    "score": 6,
-                    "body": "This is the only LLM integrated with user data that is actually useful for day to day activities? Plus the data is separate anyway. It's closer to an actual smart assistant now, like in the movie Her, that can provide relevant user data when asked. \n\nChatbots right now are novel, but they can't really help with vital stuff about your own data, it lacks integration and Google is the only one so far that offers it."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695130495,
-                    "id": "k19qmm5",
-                    "parent_id": "t1_k198vuk",
-                    "author": "JayR_97",
-                    "score": 0,
-                    "body": "> I don't want this thing going through all my emails.\n\nYeah, I cant imagine this going down too well in the EU with their privacy/data security laws"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695131164,
-                    "id": "k19s9ck",
-                    "parent_id": "t1_k19rtd0",
-                    "author": "Wavesignal",
-                    "score": 1,
-                    "body": "Extensions are only available in English so far."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695120894,
-                    "id": "k1979iy",
-                    "parent_id": "t1_k196s5u",
-                    "author": "Surur",
-                    "score": -1,
-                    "body": "For my specific and particular use case it's still like night and day. And it does not follow instructions well, showing little understanding of context."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695130245,
-                    "id": "k19q0zo",
-                    "parent_id": "t1_k199di5",
-                    "author": "skinnnnner",
-                    "score": 4,
-                    "body": "It's a terrible LLM tho. It does not matter how well integrated it is if the answers it gives are not good enough. \n\nEdit: Just tested it again, it literally can't even get todays date right. Told me the wrong day when i asked what day it is omg this awful. Bard seems to be around GPT 2 Level."
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695141875,
-                    "id": "k1alra1",
-                    "parent_id": "t1_k199di5",
-                    "author": "141_1337",
-                    "score": 1,
-                    "body": "Alright, I'm very excited about this too, but tell... how much is Google paying you?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695131134,
-                    "id": "k19s6q1",
-                    "parent_id": "t1_k19qmm5",
-                    "author": "Wavesignal",
-                    "score": 4,
-                    "body": "Data is siloed, I doubt this would have launched in the EU if their laws didn't approve it,"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695132858,
-                    "id": "k19wkip",
-                    "parent_id": "t1_k19s9ck",
-                    "author": "giesse",
-                    "score": 1,
-                    "body": "I see no way to switch the UI to English.I have tried conversations in English, but I see no way to access extensions.\n\nSo, it doesn't seem to be language based, it seems to be location based to me... \\*shrugs\\*"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695121881,
-                    "id": "k198uuf",
-                    "parent_id": "t1_k1979iy",
-                    "author": "Wavesignal",
-                    "score": 12,
-                    "body": "Care to share your Bard conversation link? So we actually have context instead of basing everything off this extremely particular and specific use case of one user?"
-                },
-                {
-                    "py/object": "src.redder.comment",
-                    "creationTime": 1695133538,
-                    "id": "k19yd3b",
-                    "parent_id": "t1_k19wkip",
-                    "author": "Wavesignal",
-                    "score": 1,
-                    "body": "Set yr google acc language to English (US)"
+                    "body": "Thanks for watching and the feedback. I agree with you that it was a very casual dismissal of the negative impacts of AI. In hindsight I would have pushed back more\u2026"
                 }
             ]
         }

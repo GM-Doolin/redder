@@ -85,7 +85,7 @@ def ReadJSONFile(fileName: str, fileExt: str = "json") -> str:
 class Creds:
     client_id     = "2ywZ-_sgiTazjJo-ue2hfQ"
     client_secret = "LMxkB2T9P9klCYG-NHGLGX-7cWHwtA"
-    user_agent    = "redder:v0.5.0"
+    user_agent    = "redder:v0.6.0"
 
 ###### ###### ###### ###### ###### ###### ###### ######
 ###### Containers For Retrieved Sub-Reddit Data  ######
@@ -140,6 +140,7 @@ class post:
         self.id = str(submission.id)
         self.author = str(submission.author)
         self.title = str(submission.title)
+        self.body = str(submission.selftext)
         self.score = int(submission.score)
         self.upvoteRatio = submission.upvote_ratio
         self.comments = []
@@ -152,7 +153,7 @@ class post:
     def ToJSON(self, isIndented: bool = True) -> str:
         return ToJSON(self, isIndented)
     
-    # get the average comment score of the post
+    # get the average comment score of the postttttttttr
     def GetAvgCommentScore(self) -> float:
         scoreTotal = 0
         for cmt in self.comments:
