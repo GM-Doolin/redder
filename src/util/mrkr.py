@@ -15,25 +15,25 @@ class mrkr:
 
     # print green terminal text
     @staticmethod
-    def printGreen(text: str) -> None:
+    def Green(text: str) -> None:
         print(colorama.Fore.LIGHTGREEN_EX, text, colorama.Style.RESET_ALL)
 
     # print cyan terminal text
     @staticmethod
-    def printCyan(text: str) -> None:
+    def Cyan(text: str) -> None:
         print(colorama.Fore.LIGHTCYAN_EX, text, colorama.Style.RESET_ALL)
 
     # print yellow terminal text
     @staticmethod
-    def printYellow(text: str) -> None:
+    def Yellow(text: str) -> None:
         print(colorama.Fore.LIGHTYELLOW_EX, text, colorama.Style.RESET_ALL)
 
     # print magenta terminal text
     @staticmethod
-    def printMagenta(text: str) -> None:
+    def Magenta(text: str) -> None:
         print(colorama.Fore.LIGHTMAGENTA_EX, text, colorama.Style.RESET_ALL)
 
     # print red terminal text
     @staticmethod
-    def printRed(text: str) -> None:
+    def Red(text: str) -> None:
         print(colorama.Fore.LIGHTRED_EX, text, colorama.Style.RESET_ALL)

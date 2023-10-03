@@ -31,6 +31,14 @@ class clrx:
             return protoSnip
         else:
             return url
+    
+    # Parse file name and remove extension
+    @staticmethod
+    def RemoveFileExt(filename: str) -> str:
+        if extSnip := re.sub(r".[a-zA-Z0-9]+$", "", filename):
+            return extSnip
+        else:
+            return filename
         
     # Check if ID is parent ID (PRAW)
     @staticmethod

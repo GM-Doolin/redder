@@ -22,7 +22,7 @@ def GetSubreddit(subName: str, postCount: int = 10) -> 'subredder':
         sr = subredder(ri.subreddit(subName), postCount)
         return sr
     except Exception as e: 
-        mrkr.printYellow("Redder ran into unexpected issues when retrieving data from the URL the subreddit data!")
+        mrkr.Yellow("Redder ran into unexpected issues when retrieving data from the URL the subreddit data!")
         raise e
 
 # Create class object from given reddit url
@@ -36,7 +36,7 @@ def GetPost(URL: str) -> 'post':
         sr = post(ri.submission(url=URL))
         return sr
     except Exception as e: 
-        mrkr.printYellow("Redder ran into unexpected issues when retrieving data from the URL provided!")
+        mrkr.Yellow("Redder ran into unexpected issues when retrieving data from the URL provided!")
         raise e
 
 # Convert class object to JSON str
@@ -48,7 +48,7 @@ def ToJSON(obj, isIndented: bool = True) -> str:
         else:
             return jsonpickle.encode(obj, keys = True)
     except Exception as e:
-        mrkr.printYellow("Redder ran into unexpected issues encoding object to JSON!")
+        mrkr.Yellow("Redder ran into unexpected issues encoding python object to JSON!")
         raise e
     
 # Convert subredder JSON str to subredder class object
@@ -57,35 +57,44 @@ def JSONToSubredder(json: str) -> 'subredder':
         jsonpickle.set_decoder_options('json')
         return jsonpickle.decode(json, keys = True)
     except Exception as e:
-        mrkr.printYellow("Redder ran into unexpected issues decoding JSON to subredder!")
+        mrkr.Yellow("Redder ran into unexpected issues decoding JSON to subredder!")
         raise e
 
-# Write JSON str into the file "usrdta\filename.fileExt"
-def WriteJSONFile(fileName: str, json: str, isIndented: bool = True, fileExt: str = "json") -> None:
+# Convert post JSON str to post class object
+def JSONToPost(json: str) -> 'post':
     try:
-        file = open("output\\" + fileName + "." + fileExt, "w")
+        jsonpickle.set_decoder_options('json')
+        return jsonpickle.decode(json, keys = True)
+    except Exception as e:
+        mrkr.Yellow("Redder ran into unexpected issues decoding JSON to post!")
+        raise e
+
+# Write file "output\filename.fileExt"
+def WriteFile(fileName: str, json: str, fileExt: str = "json") -> None:
+    try:
+        file = open("output\\" + fileName + "." + fileExt, "w", encoding = "utf-8")
         file.write(json)
         file.close()
     except Exception as e:
-        mrkr.printYellow("Redder ran into unexpected issues writing JSON file!")
+        mrkr.printYellow("Redder ran into unexpected issues writing file!")
         raise e
     
-# Open and read JSON file "usrdta\fileName.fileExt", return JSON str
-def ReadJSONFile(fileName: str, fileExt: str = "json") -> str:
+# Read file "output\fileName.fileExt", return str
+def ReadFile(fileName: str, fileExt: str = "json") -> str:
     try:
-        file = open("output\\" + fileName + "." + fileExt, "w")
+        file = open("output\\" + fileName + "." + fileExt, "r", encoding = "utf-8")
         json = file.read()
         file.close()
         return json
     except Exception as e:
-        mrkr.printYellow("Redder ran into unexpected issues reading JSON file!")
+        mrkr.Yellow("Redder ran into unexpected issues reading file!")
         raise e
 
 # Container For Redder Credentials for PRAW API
 class Creds:
     client_id     = "2ywZ-_sgiTazjJo-ue2hfQ"
     client_secret = "LMxkB2T9P9klCYG-NHGLGX-7cWHwtA"
-    user_agent    = "redder:v0.6.0"
+    user_agent    = "redder:v0.8.0"
 
 ###### ###### ###### ###### ###### ###### ###### ######
 ###### Containers For Retrieved Sub-Reddit Data  ######
@@ -153,7 +162,18 @@ class post:
     def ToJSON(self, isIndented: bool = True) -> str:
         return ToJSON(self, isIndented)
     
-    # get the average comment score of the postttttttttr
+    # Return comments of post
+    def ListComments(self) -> str:
+        try:
+            comments = ""
+            for cmt in self.comments:
+                comments += cmt.body + "\n\n"
+            return comments
+        except Exception as e:
+            mrkr.Yellow("Redder ran into unexpected issues listing comments from the post!")
+            raise e
+    
+    # get the average comment score of the post
     def GetAvgCommentScore(self) -> float:
         scoreTotal = 0
         for cmt in self.comments:
