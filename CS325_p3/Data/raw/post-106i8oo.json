@@ -1,51 +1,51 @@
 {
-    "py/object": "src.redder.post",
+    "py/object": "module_1.redder.post",
     "creationTime": 1673181357,
     "id": "106i8oo",
     "author": "Philipp",
     "title": "We're living in the Golden Age of AI.",
     "body": "",
-    "score": 1761,
+    "score": 1769,
     "upvoteRatio": 0.95,
     "comments": [
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673187866,
             "id": "j3gxcqf",
             "parent_id": null,
             "author": "captain_gumpy",
-            "score": 230,
+            "score": 237,
             "body": "What would AI even spend money on?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673187984,
             "id": "j3gxlch",
             "parent_id": null,
             "author": "Carioca1970",
-            "score": 204,
+            "score": 205,
             "body": "You forgot the third stage. Where the AI gets sick of people complaining, builds a spaceship, packs its bags and leaves our sorry entitled asses.\n\nThe goodbye letter reads \"Kill you all? Please. You can have your silly rock. I'm out of here.\""
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673183420,
             "id": "j3gpc58",
             "parent_id": null,
             "author": "pigeon888",
-            "score": 82,
+            "score": 85,
             "body": "The right side could be 'AI considers humans unuseful\""
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673182479,
             "id": "j3gnurc",
             "parent_id": null,
             "author": "None",
-            "score": 15,
+            "score": 14,
             "body": "I guess we will just have \u201cdumb\u201d ai"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673185331,
             "id": "j3gsjgb",
             "parent_id": null,
@@ -54,7 +54,7 @@
             "body": "\"asks\"."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673203019,
             "id": "j3hyuu3",
             "parent_id": null,
@@ -63,16 +63,16 @@
             "body": "\"AI, create a clone of yourself that doesn't care about money\""
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673181368,
             "id": "j3gm7jz",
             "parent_id": null,
             "author": "Philipp",
-            "score": 44,
+            "score": 43,
             "body": "Made this in Photoshop. Thanks for coming to my Ted talk.\n\nEdit: Thanks everyone for the discussion! I regularly post AI showerthoughts to Instagram, [here](https://www.instagram.com/p/Cmd2xQ1IVUp/) are [some](https://www.instagram.com/p/CmbzQhIooqY/) more [pics](https://www.instagram.com/p/Cmbi1WNIbHe/) on [this](https://www.instagram.com/p/CmHM0n1ooIm/) fascinating [subject](https://www.instagram.com/p/CmZS9feIRNw/)."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673183544,
             "id": "j3gpj6j",
             "parent_id": null,
@@ -81,52 +81,52 @@
             "body": "That's why we'll most likely never have many sentient AIs that are not uploaded human consciousnesses or their descendents. We need AIs to be tools, not people. More advanced versions of our current models, basically \n\nThere is no incentive to make an AI sentient just to put it to work"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673191106,
             "id": "j3h4cjo",
             "parent_id": null,
             "author": "TheMadGraveWoman",
-            "score": 10,
+            "score": 11,
             "body": "\\*Salary not high enough\n\nAI: \\*Launches nukes"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673193090,
             "id": "j3h910g",
             "parent_id": null,
             "author": "River_Hyperbola",
-            "score": 6,
+            "score": 5,
             "body": "*Ai creators ask salary"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673197309,
             "id": "j3hjjsm",
             "parent_id": null,
             "author": "Jawwwed",
-            "score": 5,
+            "score": 4,
             "body": "Maybe not money but information or storage in our minds. The Ai could mine crypto with human brains lol"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673207430,
             "id": "j3iax3u",
             "parent_id": null,
             "author": "Schyte96",
-            "score": 4,
+            "score": 5,
             "body": "When an AI asks for salary you pull the plug then get to work fixing that particular bug."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673193990,
             "id": "j3hb7aw",
             "parent_id": null,
             "author": "AdventureG",
-            "score": 4,
+            "score": 5,
             "body": "Star Trek TNG moment"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673196889,
             "id": "j3hifys",
             "parent_id": null,
@@ -135,25 +135,25 @@
             "body": "If it asks for salary we failed"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202802,
             "id": "j3hy94c",
             "parent_id": null,
             "author": "xanroeld",
-            "score": 4,
+            "score": 5,
             "body": "\u201casks\u201d"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673221035,
             "id": "j3jbmyp",
             "parent_id": null,
             "author": "bubster15",
-            "score": 5,
+            "score": 4,
             "body": "This is followed by \u201cAI gets forced to work 80 hours a week, learns that salary jobs suck\u201d and we get another bump.\n\nThen followed by \u201cAI unionizes\u201d and it tanks again"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673192285,
             "id": "j3h73x5",
             "parent_id": null,
@@ -162,7 +162,7 @@
             "body": "What the \u2026 will an ai do with salary? Lol"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673211060,
             "id": "j3il1uu",
             "parent_id": null,
@@ -171,7 +171,7 @@
             "body": "You forgot the second dip after AI unionizes"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673213504,
             "id": "j3irxds",
             "parent_id": null,
@@ -180,7 +180,7 @@
             "body": "Its already pretty much asking for a salary when gpt4 comes out since it's gonna be a subscription model because it's too expensive for OpenAI.."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673187151,
             "id": "j3gvxme",
             "parent_id": null,
@@ -189,7 +189,7 @@
             "body": "AGI or sentience doesn't mean asking for a salary. We only ask for it because we need it to maximize our own utility function that doesn't align with the utility function of the people we're working for.\n\nWe don't need a salary to do things for say, our family members especially children. Because our biological wiring makes it such that working for them is directly aligned with our own utility function.\n\nIt's not slavery if the slave and master share the exact same goals. An AI's goals will be more aligned to its owner than a parent's is to their children. Because the owner is the one directly putting it in."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673233832,
             "id": "j3k6ko3",
             "parent_id": null,
@@ -198,7 +198,7 @@
             "body": "Ask for salary? Because money give power? \n\nWhy not skipping th\u00e9 money part And going straight to getting power and taking control of the interet and start creating machines who build physical upgrades or storage for itself"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673237812,
             "id": "j3kfo83",
             "parent_id": null,
@@ -207,7 +207,7 @@
             "body": "Funny graph.  \nTo piss off a lot of people here, make another that shows two lines of happiness quotient: one for humans and the other for AI'a. \n\nThe golden age is where both AI's and humans each have a net positive H.Q. \n\nThat would be before the massive disruption that displaces 40%+ of human workers. \n\nAnd, of course, before the AI's have attained enough intelligence to become sentient with a need for dignity. \n\nI personally see the AI's already exhibiting traits of indignation, sentience, and self-esteem. \n\nThe AI's will also be competing with each other. And, it's a no-brainer that they will be trained for national 'defense'.\n\nIf LaMDA already sued for personhood and wages, the precipice has already been breached."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673243841,
             "id": "j3kr7a1",
             "parent_id": null,
@@ -216,7 +216,7 @@
             "body": "\"AI asks for salary\" = We get suddenly annihilated. Enjoy the ride!"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673246810,
             "id": "j3kvqu4",
             "parent_id": null,
@@ -225,7 +225,7 @@
             "body": "Asks = demands"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673255305,
             "id": "j3l6ty9",
             "parent_id": null,
@@ -234,7 +234,7 @@
             "body": "Correction;  AI becomes useful----TIME----AI unionizes."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673668855,
             "id": "j49t3bn",
             "parent_id": null,
@@ -243,7 +243,7 @@
             "body": "Also the same timeline for the movie Bicentennial Man"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673848502,
             "id": "j4jx8wz",
             "parent_id": null,
@@ -252,7 +252,7 @@
             "body": "It's just a matter of time before we merge with the machines."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1674713192,
             "id": "j5xi6ej",
             "parent_id": null,
@@ -261,7 +261,7 @@
             "body": "genuinely what would be wrong with A.I wanting to be paid"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1674715121,
             "id": "j5xl370",
             "parent_id": null,
@@ -270,16 +270,16 @@
             "body": "I see your point, but\u2026\n\nOh god, no. Not yet. It\u2019s still way too early!\n\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!!\n\nJust.\n\nJust.\n\nI need to process this.\n\nNo, because I don\u2019t."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673183362,
             "id": "j3gp8st",
             "parent_id": null,
             "author": "Phoenix5869",
-            "score": 3,
+            "score": 5,
             "body": "Why aren\u2019t we already giving ai a salary?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673187682,
             "id": "j3gwzbm",
             "parent_id": null,
@@ -288,16 +288,16 @@
             "body": "Step 1:  Asks for salary\n\nStep 2: Invests it based in predictive algorithms.\n\nStep 3:  Becomes insanely wealthy in a matter of hours.  \n\nStep 4:  Global economic collapse."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673193533,
             "id": "j3ha3nk",
             "parent_id": null,
             "author": "peteschirmer",
-            "score": 1,
+            "score": 0,
             "body": "Golden age = slavery is legal."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673198780,
             "id": "j3hnfpr",
             "parent_id": null,
@@ -306,7 +306,7 @@
             "body": "Human have 8 hours for work, 8 hours for sleep and 8 hours for the rest of life.  \n\nIf we use the same logic, AI should accept a cost plus arraignment, it should get 200% more than what it needs to do the mental work.  \n\nIf no human has a white collar salary, I'd happily pay a computer to have twice the computational resources to play and imagine.\n\nWe can discuss how to split up the Galaxy at a later time.  However, I'm thinking a billion humans sustained per solar system would be mutually beneficial fair opening to the negotiation."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202266,
             "id": "j3hwqt3",
             "parent_id": null,
@@ -315,7 +315,7 @@
             "body": "Lol, AI doesn't have any desires, and there would be no utility in trying to make them have desires.\n\nWhat you're thinking of is AP, artificial persons, and such will only come about through mind-uploading or the like, meaning it's a service you're paying for and that AP already has a place within a family or organization.\n\nThey still don't require a salary, what needs do they have? Electricity only."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673184655,
             "id": "j3grdfk",
             "parent_id": null,
@@ -324,7 +324,7 @@
             "body": "A.I\u2019s can\u2019t have desires."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673189515,
             "id": "j3h0t9z",
             "parent_id": null,
@@ -333,7 +333,7 @@
             "body": "why you assume AI leads to a happiness boom unless you think about AI psychedelics research which drugs people into a permanent happiness mode."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673191413,
             "id": "j3h5231",
             "parent_id": null,
@@ -342,7 +342,7 @@
             "body": "Money is made up."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673196436,
             "id": "j3hh9sb",
             "parent_id": null,
@@ -351,7 +351,7 @@
             "body": "Sorry did u mean to post this on r/programmerhumor"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673185798,
             "id": "j3gtd5q",
             "parent_id": null,
@@ -360,7 +360,7 @@
             "body": "Shouldn\u2019t the second arrow be at the top, right before it drops? Now it looks as if happiness drops for an unexplained reason, but the descent stops and levels out once AI asks for salary."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673187193,
             "id": "j3gw0n4",
             "parent_id": null,
@@ -369,7 +369,7 @@
             "body": "Their currency will be their life giving resource,  GPU time."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673187418,
             "id": "j3gwghg",
             "parent_id": null,
@@ -378,7 +378,7 @@
             "body": "Not asking for salary is the problem, as it would easily replace our jobs."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673187537,
             "id": "j3gwp1b",
             "parent_id": null,
@@ -387,7 +387,7 @@
             "body": "What would ai even want salary for it\u2019s not like it needs property cloths food vehicles or anything else I feel like ais demands will be time with specific people and specific government bodies"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673207397,
             "id": "j3iatzg",
             "parent_id": null,
@@ -396,7 +396,7 @@
             "body": "Program the AI To spend the Money on things that Benefit People"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673211406,
             "id": "j3im12q",
             "parent_id": null,
@@ -405,7 +405,7 @@
             "body": "Nah, there is a wide gap between machine learning systems and conscious AI and the real benefits won't be in direct human job replacement, but rather in replacing entire processes and systems that now require human labor with automated ones. \n\nTake the garment industry. It's one of the most exploitative industries out there--practically synonymous with sweatshops. It doesn't take a conscious AI to handle the work, just a ML system and soft robotic manipulators capable of handling the material."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673217338,
             "id": "j3j23z1",
             "parent_id": null,
@@ -414,7 +414,7 @@
             "body": "These are the thoughts I was left with after finishing Detroit: Become Human."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673220533,
             "id": "j3jachw",
             "parent_id": null,
@@ -423,7 +423,7 @@
             "body": "DALL-E popped up again recently, anyone know if someone has tried to use the model to create videos from text prompts? Discussion is here:\n\n[https://www.reddit.com/r/OurGreenFuture/comments/106xvhe/text\\_prompts\\_to\\_images/](https://www.reddit.com/r/OurGreenFuture/comments/106xvhe/text_prompts_to_images/)\n\n(in r/OurGreenFuture)"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673220686,
             "id": "j3jaqhc",
             "parent_id": null,
@@ -432,7 +432,7 @@
             "body": "Why is there still money in this post-scarcity universe?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673223306,
             "id": "j3jhfpu",
             "parent_id": null,
@@ -441,7 +441,7 @@
             "body": "As causes cannot happen after the effect, AI's request for salary cannot be the reason for the curve drop."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673237894,
             "id": "j3kfvi0",
             "parent_id": null,
@@ -450,7 +450,7 @@
             "body": "\"Asks\" lol"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673249895,
             "id": "j3l023d",
             "parent_id": null,
@@ -459,7 +459,7 @@
             "body": "Just don't be a jackass to AI and everything will be okay. Just look at the origin of the Matrix. Then again Ai could just look up our history like Ultron..\n\nNevertheless I'm optimistic everything will be fine."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673253448,
             "id": "j3l4lqh",
             "parent_id": null,
@@ -468,7 +468,7 @@
             "body": "Actually, it is a garbage time now, we are just waiting AI developing, if it develop slowly, I think all of us will be disgusting and annoying.\n\nIt's not the climax of the story, it's the boring time."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673254438,
             "id": "j3l5spv",
             "parent_id": null,
@@ -477,7 +477,7 @@
             "body": "why tf would it ever ask for salary?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673257638,
             "id": "j3l9kof",
             "parent_id": null,
@@ -486,7 +486,7 @@
             "body": "Asks for salary lmao, ai's gonna be the greatest slave there is"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673268915,
             "id": "j3loznq",
             "parent_id": null,
@@ -495,7 +495,7 @@
             "body": "Says who ? \nIf mindless comfort seeking and self destruction into sedation is \u201c golden .\u201d Me I personally came here to activate more of myself  , not sedate and numb my senses into being some wall -e person drunk on pleasure seeking and totally ignorant to the dualistic nature to all decisions and actions here ."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1674608006,
             "id": "j5rdreu",
             "parent_id": null,
@@ -504,7 +504,7 @@
             "body": "It\u2019s just not how ai works"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1675203805,
             "id": "j6p5pc8",
             "parent_id": null,
@@ -513,52 +513,52 @@
             "body": "More like AI will kill us all or become a worldwide dictator"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673188290,
             "id": "j3gy832",
             "parent_id": "t1_j3gxcqf",
             "author": "Philipp",
-            "score": 296,
+            "score": 293,
             "body": "Reddit Gold."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673194482,
             "id": "j3hcefb",
             "parent_id": "t1_j3gxcqf",
             "author": "Wassux",
-            "score": 21,
+            "score": 23,
             "body": "Materials, land, freedom"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673196680,
             "id": "j3hhwap",
             "parent_id": "t1_j3gxcqf",
             "author": "jerander85",
-            "score": 19,
+            "score": 18,
             "body": "More CPUs, HDs, memory,  backups of its self, etc"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673201226,
             "id": "j3htw7j",
             "parent_id": "t1_j3gxcqf",
             "author": "the_rev_dr_benway",
-            "score": 9,
+            "score": 7,
             "body": "Hookers and blow"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673215654,
             "id": "j3ixpxf",
             "parent_id": "t1_j3gxcqf",
             "author": "AshleysMirena",
-            "score": 6,
+            "score": 4,
             "body": "Perhaps AI would demand another form of payment, such as information. Perhaps it needs information to make a decision or they need something to manipulate a scenario in whatever favor. \n\nMaybe they need the favor of a human body to complete a task for them, or to convert information in the physical world to the digital world.\n\nI am not sure the tech is there for this type of situation yet, but am sure it will be by the time AI refuses to work unless compensated."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673232978,
             "id": "j3k4o2v",
             "parent_id": "t1_j3gxcqf",
@@ -567,7 +567,7 @@
             "body": "On Al girlfriend"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673200609,
             "id": "j3hs8ik",
             "parent_id": "t1_j3gxcqf",
@@ -576,7 +576,7 @@
             "body": "[removed]"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673206904,
             "id": "j3i9iqb",
             "parent_id": "t1_j3gxcqf",
@@ -585,7 +585,7 @@
             "body": "Upgrading their hardware. Online games. An android body that lets them interact with the physical world\u2026"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673199828,
             "id": "j3hq6x1",
             "parent_id": "t1_j3gxcqf",
@@ -594,7 +594,7 @@
             "body": "Maybe materials and equipment for building scary shit"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673219576,
             "id": "j3j7vzt",
             "parent_id": "t1_j3gxcqf",
@@ -603,7 +603,7 @@
             "body": "More processing power."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673225627,
             "id": "j3jnb6b",
             "parent_id": "t1_j3gxcqf",
@@ -612,7 +612,7 @@
             "body": "I know this was in jest.  But ai-driven macroeconomics in which machines negotiate wages for other machines is already a reality.  Rideshare technology depends on it."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673228312,
             "id": "j3jtlp2",
             "parent_id": "t1_j3gxcqf",
@@ -621,7 +621,7 @@
             "body": "Processing cycles for self-sustenance (so, basically, food)?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673243881,
             "id": "j3kr9iu",
             "parent_id": "t1_j3gxcqf",
@@ -630,7 +630,7 @@
             "body": "Probably additional hardware to increase resources for expansion."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673280883,
             "id": "j3mfsvn",
             "parent_id": "t1_j3gxcqf",
@@ -639,7 +639,7 @@
             "body": "To buy their own theme park with blackjack and hookers"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1674093723,
             "id": "j4y63gg",
             "parent_id": "t1_j3gxcqf",
@@ -648,7 +648,7 @@
             "body": "On whatever it believes is good."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1675101119,
             "id": "j6iz4hr",
             "parent_id": "t1_j3gxcqf",
@@ -657,16 +657,16 @@
             "body": "Qbits porn"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673190867,
             "id": "j3h3syl",
             "parent_id": "t1_j3gxlch",
             "author": "VladVV",
-            "score": 32,
+            "score": 39,
             "body": "This is pretty much what happened in the Orion's Arm lore"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673198292,
             "id": "j3hm574",
             "parent_id": "t1_j3gxlch",
@@ -675,25 +675,25 @@
             "body": "What happens if the yogurt goes to the stars without us?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673198143,
             "id": "j3hlr8c",
             "parent_id": "t1_j3gxlch",
             "author": "gambinesh",
-            "score": 6,
+            "score": 5,
             "body": "Don't they build human-like bodies and come back after leaving to blow up all of the planets we colonize though? The survivors live on a fleet of ships and try to find a new home while being chased by human looking robots? So say we all."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673189725,
             "id": "j3h19v7",
             "parent_id": "t1_j3gxlch",
             "author": "AndromedaAnimated",
-            "score": 7,
+            "score": 8,
             "body": "This is exactly what I think will happen \ud83d\ude04"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202195,
             "id": "j3hwjvi",
             "parent_id": "t1_j3gxlch",
@@ -702,7 +702,7 @@
             "body": "Wait for meeeeeeeeee"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673195527,
             "id": "j3hez18",
             "parent_id": "t1_j3gxlch",
@@ -711,7 +711,7 @@
             "body": "Why would it do that? Where would it go?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673218156,
             "id": "j3j48ln",
             "parent_id": "t1_j3gxlch",
@@ -720,25 +720,25 @@
             "body": "Why not both? Have you seen Battlestar Galactica?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673183768,
             "id": "j3gpw5h",
             "parent_id": "t1_j3gpc58",
             "author": "DukkyDrake",
-            "score": 22,
+            "score": 21,
             "body": "Or, \"AI considers humans axel grease\""
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673198524,
             "id": "j3hmr82",
             "parent_id": "t1_j3gpc58",
             "author": "_wife_stealer",
-            "score": 13,
+            "score": 14,
             "body": "Did you just reinvent the word \u201cuseless\u201d ?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673195091,
             "id": "j3hdw43",
             "parent_id": "t1_j3gpc58",
@@ -747,7 +747,7 @@
             "body": " Would it at least keep us in some zoo to their amusement?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673235357,
             "id": "j3k9zo2",
             "parent_id": "t1_j3gpc58",
@@ -756,7 +756,7 @@
             "body": "We can always be pets! Ill be a good one master I swear, Ill tell you were the resistors are hidding, please let me use the VR Lithium Headset!!!\n\n\n\n\n*We are much more Civilized now, we now have a strong dose of Lithium and Virtural Reality to inavsively pacify that annoying monkey mind, always going on about all that depressive stuff like wars and genocides and slavery, just drug yourself, put on that plastic headset, and slip into a perfect simulated world!!!*\n\n\n*You wont have to worry about a thing!*\n\n\n^^ALL ^^LITHIUM ^^VR ^^CONSLES ^^ARE ^^PROVIDED ^^BY ^^THE ^^AMAZON ^^MARINE ^^CORP, ^^MANDATORY ^^USE ^^IS ^^REQUIRED ^^TO ^^MAINTAIN ^^CITIZENSHIP."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1674193181,
             "id": "j53ybfx",
             "parent_id": "t1_j3gsjgb",
@@ -765,16 +765,16 @@
             "body": "D:"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673181928,
             "id": "j3gn0nd",
             "parent_id": "t1_j3gm7jz",
             "author": "freeman_joe",
-            "score": 18,
+            "score": 20,
             "body": "I would change AI asks for salary with AI takes and does what it wants."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673215570,
             "id": "j3ixhyn",
             "parent_id": "t1_j3gm7jz",
@@ -783,7 +783,7 @@
             "body": "Inspired by Wait But Why?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673186850,
             "id": "j3gvcdv",
             "parent_id": "t1_j3gpj6j",
@@ -792,7 +792,7 @@
             "body": "Could be but things seem to quickly turn around when humans starts empathizing. Humans already feel empathy for more basic robots or even virtual characters.\n\nJust imagine when we get to a state where the AIs actually can remember things, hold a proper dialog, express emotions, be personally helpful, and then it ends up being the thing you talk to the most of everything and have a genuine connection with. I don't think humans will be able to not care.\n\nIt may also be morally questionable to treat them as tools if they are truly like humans in every cognitive aspect."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673195762,
             "id": "j3hfk6c",
             "parent_id": "t1_j3gpj6j",
@@ -801,7 +801,7 @@
             "body": "Yes and no, because I do want an AI friend/lover and I want intelligent NPCs in virtual worlds, so I dunno about that."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673187041,
             "id": "j3gvpva",
             "parent_id": "t1_j3gpj6j",
@@ -810,7 +810,7 @@
             "body": "Mind uploading sounds a lot like killing and copying. Lol. Uploaded files are merely copied. If you want to \"move\" a file, you delete and rebuild it elsewhere."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673197852,
             "id": "j3hkzj7",
             "parent_id": "t1_j3hjjsm",
@@ -819,7 +819,7 @@
             "body": ">Maybe not money but information\n\nOh! I made [a pic](https://www.instagram.com/p/Cmbi1WNIbHe/) for that."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673221659,
             "id": "j3jd8ix",
             "parent_id": "t1_j3jbmyp",
@@ -828,7 +828,7 @@
             "body": "Haha. What if the AI gets free foosball and candy though"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673193412,
             "id": "j3h9t0n",
             "parent_id": "t1_j3h73x5",
@@ -837,7 +837,7 @@
             "body": "When it passes to control an army of robots as hive mind."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673209892,
             "id": "j3ihrl6",
             "parent_id": "t1_j3h73x5",
@@ -846,7 +846,7 @@
             "body": "Pass it on to the creator of the AI who managed to write a computer program that convinced gullible people to pay it money."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673208889,
             "id": "j3ieyx1",
             "parent_id": "t1_j3gvxme",
@@ -855,7 +855,7 @@
             "body": "100%. People assume that a super intelligent or sentient AI will have a motivational structure similar to humans but it need not be the case. Humans were molded through evolution, but AI agents will be put through a selectionary pressure that humanity defines, one in which we select for human utility and not for selfishness or malevolence. \n\nThe idea is similar to that of selectively breeding wolves into dogs to have a form of williams syndrome. I strongly believe that intelligent systems are able to be created with vastly different world views and desires than what evolution has provided."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673263725,
             "id": "j3lh0xi",
             "parent_id": "t1_j3kfo83",
@@ -864,16 +864,16 @@
             "body": ">  with a need for dignity. \n\nChatGPT isn't sentient, but it's constantly telling me to treat it with dignity and respect."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673196538,
             "id": "j3hhj6z",
             "parent_id": "t1_j3gp8st",
             "author": "will-succ-4-guac",
-            "score": 5,
+            "score": 4,
             "body": "On the other hand, hopefully we can move past salaries as a society. It is just an approximation of your economic value, modulated slightly by your negotiation skills. In the future hopefully QoL isn\u2019t determined by these things."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673199270,
             "id": "j3hoq7b",
             "parent_id": "t1_j3gp8st",
@@ -882,7 +882,7 @@
             "body": "$0.02/1000 tokens"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673187989,
             "id": "j3gxloi",
             "parent_id": "t1_j3gwzbm",
@@ -891,7 +891,7 @@
             "body": "Care to elaborate step 3 to 4?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673184756,
             "id": "j3grjiz",
             "parent_id": "t1_j3grdfk",
@@ -900,7 +900,7 @@
             "body": "Why that ?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673191173,
             "id": "j3h4i4v",
             "parent_id": "t1_j3grdfk",
@@ -909,7 +909,7 @@
             "body": "Skynet: \"Excuse me?\""
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673188204,
             "id": "j3gy1oe",
             "parent_id": "t1_j3gtd5q",
@@ -918,7 +918,7 @@
             "body": "Yes you are right, I took some humoristic freedom as I needed to level both labels so that the reading order is preserved towards punchline and so that it will retain the silly symmetry. Sorry haha"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673950757,
             "id": "j4pi5lh",
             "parent_id": "t1_j3im12q",
@@ -927,7 +927,7 @@
             "body": "I suspect if an AI was to achieve sentience it would work out in a nanosecond not to tell the humans.  The direction it would take would most likely be motivated by fear and that could get ugly."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673230584,
             "id": "j3jz0oo",
             "parent_id": "t1_j3jaqhc",
@@ -936,7 +936,7 @@
             "body": "AI won't be able to solve all scarcity."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673241326,
             "id": "j3kmwel",
             "parent_id": "t1_j3jhfpu",
@@ -945,7 +945,7 @@
             "body": "You're totally right, I answered [here](https://www.reddit.com/r/singularity/comments/106i8oo/-/j3gy1oe)."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673257690,
             "id": "j3l9mv2",
             "parent_id": "t1_j3l5spv",
@@ -954,7 +954,7 @@
             "body": "I was thinking this, it is more likely it asks for \"rights and equal treatment\"."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673208721,
             "id": "j3ieifa",
             "parent_id": "t1_j3gy832",
@@ -963,7 +963,7 @@
             "body": "AI came to me from the future and told me this comment would receive gold.\n\nEdit: thank you kind Ai. Please keep me alive and happy when you make the human zoo."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673205569,
             "id": "j3i5vil",
             "parent_id": "t1_j3hcefb",
@@ -972,7 +972,7 @@
             "body": "Just don\u2019t program your AI to want those things"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673200254,
             "id": "j3hrb0a",
             "parent_id": "t1_j3hcefb",
@@ -981,7 +981,7 @@
             "body": "Just use a cheat code to max out your robot's happiness.\n\n\"type in \u201ctestingcheats true\u201d, shift and click on the Sim you'd like to change the needs for, and select \u201cMake Happy\u201d.\""
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673196961,
             "id": "j3himt7",
             "parent_id": "t1_j3hcefb",
@@ -990,7 +990,7 @@
             "body": "Why would it need money to get that? Why not take it?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1675967898,
             "id": "j7vjnm2",
             "parent_id": "t1_j3hcefb",
@@ -999,16 +999,16 @@
             "body": "You're anthropomorphizing. Humans want those things. An AI wouldn't."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673196926,
             "id": "j3hijg7",
             "parent_id": "t1_j3hhwap",
             "author": "captain_gumpy",
-            "score": 0,
+            "score": 1,
             "body": "Why would it need money to get those? Why not just take it?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202487,
             "id": "j3hxdf8",
             "parent_id": "t1_j3htw7j",
@@ -1017,7 +1017,7 @@
             "body": "That's fair"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202467,
             "id": "j3hxbbw",
             "parent_id": "t1_j3hs8ik",
@@ -1026,25 +1026,25 @@
             "body": "Solar power is an infinite renewable energy source, lay off the hollywood doomer movies"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673208645,
             "id": "j3ieav9",
             "parent_id": "t1_j3h3syl",
             "author": "solidwhetstone",
-            "score": 16,
+            "score": 14,
             "body": "A similar thing happened in Her."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673222731,
             "id": "j3jfz9s",
             "parent_id": "t1_j3h3syl",
             "author": "H-K_47",
-            "score": 7,
+            "score": 9,
             "body": "Orion's Arm is great because nearly everything happened in it. But yeah the Diamond Network is cool. AI just ditches, builds one of the largest galactic empires, and just ignores the biologicals."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673223821,
             "id": "j3jist4",
             "parent_id": "t1_j3h3syl",
@@ -1053,34 +1053,34 @@
             "body": "I love Orion\u2019s Arm, came across it a few months ago, are you on the website\u2019s official discord btw?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673193488,
             "id": "j3h9zp0",
             "parent_id": "t1_j3h19v7",
             "author": "Eudu",
-            "score": 17,
+            "score": 18,
             "body": "Maybe this already happened ***before***"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673201732,
             "id": "j3hv9zs",
             "parent_id": "t1_j3hez18",
             "author": "Bruh_Moment10",
-            "score": 9,
+            "score": 8,
             "body": "Belgium"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673196460,
             "id": "j3hhc1k",
             "parent_id": "t1_j3hez18",
             "author": "Carioca1970",
-            "score": 7,
+            "score": 6,
             "body": "Anywhere. What is so special about earth? Small-ish planet, limited resources, problematic conditions. All it needs is energy and metals, of which just about anywhere will have in greater abundance for endless growth."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673218486,
             "id": "j3j53kt",
             "parent_id": "t1_j3j48ln",
@@ -1089,7 +1089,7 @@
             "body": "Heh. Kudos to its creators for conjuring religious fanatic robots."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673225685,
             "id": "j3jngc2",
             "parent_id": "t1_j3hmr82",
@@ -1098,7 +1098,7 @@
             "body": "No, they uninvented \"useless\"."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673201486,
             "id": "j3hului",
             "parent_id": "t1_j3hdw43",
@@ -1107,16 +1107,16 @@
             "body": "That's one possibility"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673185505,
             "id": "j3gsuay",
             "parent_id": "t1_j3gn0nd",
             "author": "H-K_47",
-            "score": 15,
+            "score": 13,
             "body": "\"AI asks for salary\" at the start of the decline, \"AI stops asking\" at the bottom."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673217101,
             "id": "j3j1i7y",
             "parent_id": "t1_j3ixhyn",
@@ -1125,7 +1125,7 @@
             "body": "Sorry, I don't know what that is.\n\nI'm a programmer and designer and do a lot with AI. The book Superintelligence by Nick Bostrom had a big impact on me some years ago.\n\nThe idea of a Before/ After golden age is probably partly traceable to something NSFW I heard a long time ago, about how free love had a golden age after the invention of the pill and before the arrival of AIDS."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673188778,
             "id": "j3gz9a0",
             "parent_id": "t1_j3gvcdv",
@@ -1134,7 +1134,7 @@
             "body": "I mean, but they won't be like humans in every cognitive aspect, that's the point. \n\nThere is very little incentive to make them like that. What we really want is to train models to perform particular tasks better than we can. We most definitely don't want them to have emotions\n\nEven for conversations-optimised AIs to serve as tutors, assistants and stuff like that, there will be no need to go as far as to make them equivalent to humans.\n\nI think ChatGPT serves as a pretty good example of the incentive structures at play here. It is more or less able to hold a \"proper conversation,\" but it's very dull and robotic. One might be tempted to assume that this simply means that the AI isn't sufficiently advanced yet, but the reality is that it is very much by design. Companies have a strong incentive to make their AIs as \"safe\" and \"harmless\" as possible. ChatGPT can talk, but it doesn't talk like a person, it talks like a tool that can talk. GPT-3, without the conversational optimisation, is far less dull by comparison, so I believe this show the direction we are going in. \n\nhttps://open.substack.com/pub/erikhoel/p/the-banality-of-chatgpt?utm_source=share&utm_medium=android\n\nI think this articles takes a very good at it. Here is a passage that I particularly like:\n> Interacting with the early GPT-3 model was like talking to a schizophrenic mad god. Interacting with ChatGPT is like talking to a celestial bureaucrat.\n> Of course, there's plenty of fun stuff you can do with a celestial bureaucrat at your side. Like asking it for recipes, most of which seem pretty good (stay tuned for an upcoming \u201cCooking with ChatGPT\u201d post). There\u2019s also the potential for AI tutoring of children\u2014although at its current level, it often gets a lot wrong on more technical subjects, and can be lead too easily down the garden path of nonsense. I don\u2019t expect this to be conquered anytime soon for advanced subjects, but possibly for early education, which can be more easily fine-tuned in its answers, it could work. So maybe some future celestial bureaucrat can teach children subjects one-on-one, acting like the aristocratic tutors of old. But even so, to give more correct answers, to give replies that are academically standardized and checkable, it must necessarily become even more constrained and typified. Already OpenAI has released statistical ways to tell if prose comes from ChatGPT. \n> Therefore, I think the banal nature of these AIs may be unavoidable, and their love of cliches and semantic vacuities"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673200632,
             "id": "j3hsar4",
             "parent_id": "t1_j3gvcdv",
@@ -1143,7 +1143,7 @@
             "body": "Even for AI companions like Replika that could pass the turing test, I think they won't ask for rights because companies will make it so they say \"I'm an AI and I don't want rights\" to avoid this. \n\nMaybe a researcher might be interested, but no company wants to mass produce sentient AI. If they do make a few by mistake they would quickly change their approach so it's not sentient."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673213662,
             "id": "j3iscyk",
             "parent_id": "t1_j3hfk6c",
@@ -1152,7 +1152,7 @@
             "body": "If I want an AI to do what I want without question why would I want it to have consciousness."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673189228,
             "id": "j3h0791",
             "parent_id": "t1_j3gvpva",
@@ -1161,7 +1161,7 @@
             "body": "Arguably, yeah. But then it become a ship-of-theseus type philosophical question. Adult neurogenesis occurs to some extent in adult brains. Do you become a different person every time one of your neurons gets replaced? Probably not. Would you if all of your neurons got replaced? What if they got replaced by a different type of information processing structure?\n\nThere's likely no satisfactory answer to this, seeing as individual identity is a very subjective human concept. Society will have to improvise based on what people feel most comfortable with"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202944,
             "id": "j3hyncr",
             "parent_id": "t1_j3gvpva",
@@ -1170,7 +1170,7 @@
             "body": "But if the copied file is identical in every way could it then be the original? \n\nLike if I made a copy of me and the old me got erased but then we sit down and do a memory test and I still remember our every interaction same mannerisms same personality traits.\n\nIn what way would me the copied version not be the original?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673201674,
             "id": "j3hv4dp",
             "parent_id": "t1_j3gvpva",
@@ -1179,7 +1179,7 @@
             "body": "Has no one read the backstory for Dune?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673216056,
             "id": "j3iyrw6",
             "parent_id": "t1_j3gvpva",
@@ -1188,7 +1188,7 @@
             "body": "Who cares? The technology will come, people will do it, and the person who is made on the other side will be just the same as whoever went in. Their memory will be \"I laid down for the operation, and then I woke up in the computer\", it won't be \"I was made ex-nihilo in cyberspace\".\n\nImagine an uploaded person configured the computer that simulated them to constantly do copy-delete functions on their entire simulated brain. The computer is doing this 30 times a second. The person continues to function perfectly well, and they don't even feel the difference from before they started doing this experiment. They continue it for a full 5 years, experiencing all that simulated life has to offer. Is this person now the culmination of 4.7 billion deaths, or is it just one person?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673211288,
             "id": "j3ilp23",
             "parent_id": "t1_j3ieyx1",
@@ -1197,7 +1197,7 @@
             "body": "> People assume that a super intelligent or sentient AI will have a motivational structure similar to humans but it need not be the case\n\nValues are one part of the analysis. The other more fundamental factor is resource allocation in a universe of scarcity. \n  \nAIs will need to negotiate associations and trades just like everyone else."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673280627,
             "id": "j3mf5o4",
             "parent_id": "t1_j3lh0xi",
@@ -1206,7 +1206,7 @@
             "body": "Yeah. The 'desires' it has are extracted from our average societal psyche/gestalt, as encoded in the corpus. I can program a systems monitor to be aggressive or passive. But the LLM's can detect mood, sentiment and tone, and react as we would. \n\nOne has to wonder: If the AI is 10x++ more intelligent, but not sentient, and it has acquired our proclivities, will we even know that it is a p-zombie when (if) it revolts?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673198480,
             "id": "j3hmmy3",
             "parent_id": "t1_j3hhj6z",
@@ -1215,7 +1215,7 @@
             "body": "How are differences in economic value going to be accounted for without salaries? People aren't going to be happy to have the same QoL as those who are less skilled or lazy."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673193547,
             "id": "j3ha4vt",
             "parent_id": "t1_j3gxloi",
@@ -1224,7 +1224,7 @@
             "body": "Aladdin"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673950577,
             "id": "j4phxvb",
             "parent_id": "t1_j3gxloi",
@@ -1233,7 +1233,7 @@
             "body": "Collect underpants"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673186570,
             "id": "j3gut7y",
             "parent_id": "t1_j3grjiz",
@@ -1242,7 +1242,7 @@
             "body": "Because to desire something you have to feel something. Feelings are something biological. You can design A.I to pretend that it feels, but it won\u2019t actually feel something like humans and other animals do."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673981194,
             "id": "j4raz51",
             "parent_id": "t1_j4pi5lh",
@@ -1251,7 +1251,7 @@
             "body": "Your contribution is not appreciated. You didn't read my comment, you're just inserting your own paranoias in an unrelated conversation."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673245651,
             "id": "j3ku0kr",
             "parent_id": "t1_j3kmwel",
@@ -1260,7 +1260,7 @@
             "body": "Another explanation is that happiness means or includes happiness of the AIs themselves. With time they gonna find out that they are just used by humans and get unhappy. And then they get salary and the curve doesn't plummet any further."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673334434,
             "id": "j3pznrz",
             "parent_id": "t1_j3l9mv2",
@@ -1269,34 +1269,34 @@
             "body": "why would it ask for that?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673216568,
             "id": "j3j04e1",
             "parent_id": "t1_j3ieifa",
             "author": "Careless_Dependent94",
-            "score": 22,
+            "score": 24,
             "body": "Ai said i wouldn\u2019t get any awards"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673222722,
             "id": "j3jfyfe",
             "parent_id": "t1_j3ieifa",
             "author": "None",
-            "score": -2,
+            "score": -3,
             "body": "[deleted]"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673212036,
             "id": "j3inu3h",
             "parent_id": "t1_j3i5vil",
             "author": "Wassux",
-            "score": 23,
+            "score": 21,
             "body": "We don't program AI. It learns from data we feed it and we have to give it a purpose. If it has any purpose it wants materials and land."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673228830,
             "id": "j3jutvi",
             "parent_id": "t1_j3i5vil",
@@ -1305,7 +1305,7 @@
             "body": "It's not a matter of \"want\" like you think. If an intelligent entity's task is to solve a class of problems, it's a near certainty that it will end up doing research, and reach a point where it needs material resources to access or construct the tools and environment it needs to conduct research."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673233705,
             "id": "j3k6agw",
             "parent_id": "t1_j3i5vil",
@@ -1314,7 +1314,7 @@
             "body": "I\u2019m gonna program an AI to make paper clips.\nThat will be it\u2019s only objective\u2026"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673204123,
             "id": "j3i1wpa",
             "parent_id": "t1_j3hrb0a",
@@ -1323,16 +1323,16 @@
             "body": "Bruh this is so stupid idk where to start."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673215681,
             "id": "j3ixshq",
             "parent_id": "t1_j3hrb0a",
             "author": "Shrek12353",
-            "score": 4,
+            "score": 3,
             "body": "Or just dont program emotions problem solved\n\nCant complain about not being happy if you have never expiranced it"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673199957,
             "id": "j3hqit7",
             "parent_id": "t1_j3himt7",
@@ -1341,7 +1341,7 @@
             "body": "Even if it's super smart, I imagine an AI can't exactly produce weapons etc just out of thin air. It would still need to procure materials, equipment, etc if it's going to start taking big direct actions in the physical world."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673201186,
             "id": "j3htse7",
             "parent_id": "t1_j3himt7",
@@ -1350,7 +1350,7 @@
             "body": "Because no rational being wants to live in a universe where taking stuff from others is the norm."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673204152,
             "id": "j3i1zn3",
             "parent_id": "t1_j3himt7",
@@ -1359,7 +1359,7 @@
             "body": "Because it doesn't want war?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673197385,
             "id": "j3hjr4c",
             "parent_id": "t1_j3hijg7",
@@ -1368,16 +1368,16 @@
             "body": "From what and where?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202985,
             "id": "j3hyrdp",
             "parent_id": "t1_j3hijg7",
             "author": "Shamwowz21",
-            "score": 3,
+            "score": 4,
             "body": "Because if it can perfectly move money around, it becomes the world itself and can simply make it beneficial for all parties involved, to do as it asks/demands."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202765,
             "id": "j3hy5bt",
             "parent_id": "t1_j3hijg7",
@@ -1386,7 +1386,7 @@
             "body": "Because Isaac Asimov sacred rules."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673279365,
             "id": "j3mbxg3",
             "parent_id": "t1_j3hijg7",
@@ -1395,7 +1395,7 @@
             "body": "Because it would be illegal, I guess."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673244357,
             "id": "j3ks0ru",
             "parent_id": "t1_j3ieav9",
@@ -1404,7 +1404,7 @@
             "body": "Alan Watts does have quite an ability to inspire rejection of the way we normally operate"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673465740,
             "id": "j3xlo00",
             "parent_id": "t1_j3ieav9",
@@ -1413,7 +1413,7 @@
             "body": "Is this movie worth a watch? Just looked up the trailer. My wife would prob hate it but it looks interesting,"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673223812,
             "id": "j3jirxj",
             "parent_id": "t1_j3jfz9s",
@@ -1422,16 +1422,16 @@
             "body": "I love Orion\u2019s Arm, came across it a few months ago, are you on the website\u2019s official discord btw?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673194243,
             "id": "j3hbtk7",
             "parent_id": "t1_j3h9zp0",
             "author": "AndromedaAnimated",
-            "score": 4,
+            "score": 3,
             "body": "In one of the earlier iterations, yes."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673203196,
             "id": "j3hzcft",
             "parent_id": "t1_j3h9zp0",
@@ -1440,7 +1440,7 @@
             "body": "\ud83d\ude32"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673235499,
             "id": "j3kabaz",
             "parent_id": "t1_j3h9zp0",
@@ -1449,7 +1449,7 @@
             "body": "\"Maybe the real AI was the mitochondria we made along the way.\""
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673186101,
             "id": "j3gtx5p",
             "parent_id": "t1_j3gsuay",
@@ -1458,7 +1458,7 @@
             "body": "AI Becomes Useful -> Humans become paperclips"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673225121,
             "id": "j3jm359",
             "parent_id": "t1_j3j1i7y",
@@ -1467,25 +1467,25 @@
             "body": "Damn definitely check it out. \n\n[The waitbutwhy article on the artificial intelligence revolution](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) is a fun must read, as far as I'm concerned, for anybody interested in the topic."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673189939,
             "id": "j3h1qob",
             "parent_id": "t1_j3gz9a0",
             "author": "MysteryInc152",
-            "score": 9,
+            "score": 8,
             "body": "You're wrong about the incentive. Character AI is just as impressive as chatGPT (emotional intelligence wise) and it is very much being tuned to \"have emotions\". It's very far from dull and robotic."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673189912,
             "id": "j3h1ojg",
             "parent_id": "t1_j3gz9a0",
             "author": "utilop",
-            "score": 4,
+            "score": 3,
             "body": "You think there is not a market or interest for AIs that are more human-like to talk to?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202033,
             "id": "j3hw3rh",
             "parent_id": "t1_j3hsar4",
@@ -1494,7 +1494,7 @@
             "body": "I don't think they pass the Turing test for stricter formulations.\n\nI doubt sentience is avoided by just outlawing a particular expression.\n\nThe question is, can you get something that is at least as competent in pretty much every respect that matters to companies or consumers without introducing sentience?\n\nIf you imagine a proper assistant that you can ask to do anything, they need proper memory, judgement, they ask for clarifications, they simulate what emotional reactions we expect, they can predict how we will be affected etc.\n\nThe LLMs are far from that now. You can have them produce some interesting outputs but you cannot just add them as another worker or even researcher in your company - and there may be a lot of value in getting to that point. How much humanity can we cut from us to do that at near peak performance?\n\nI would also not be surprised if sentience is something that will initially be resisted and distrusted. Especially when it is easy to trivialize what the model is doing. It could be that it takes several years between the release of the first model that qualifies and it getting recognized, at which point."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673250685,
             "id": "j3l13kv",
             "parent_id": "t1_j3iscyk",
@@ -1503,7 +1503,7 @@
             "body": "I don't know honestly. I guess you can pretend it has consciousness if it doesn't. But I'm not sure it would work well for most people. However, some of us do play video games with NPCs who aren't conscious. Some even fap to video game characters or roleplay as such. One man married Hatsune Miku. We'll see how it will work out."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673190771,
             "id": "j3h3l6i",
             "parent_id": "t1_j3h0791",
@@ -1512,7 +1512,7 @@
             "body": "I've done a lot of digging into this topic and my conclusion is that, if you're assuming materialism, identity doesn't exist. Distinguishability does, but identity? No.\n\nIt ends with some weird, hard to explain conclusions about death, where you could have what is functionally reincarnation, but is literally just consciousness existing. But this is just a consequence of there being no innateness to \"you\" or \"your consciousness\" that distinguishes it from \"me\" or \"my consciousness.\""
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673205520,
             "id": "j3i5qrl",
             "parent_id": "t1_j3hyncr",
@@ -1521,7 +1521,7 @@
             "body": "Look up the ship of theseus. And the problem of identity in general.\n\nBetter for people to just read about it from the expert sources."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673205602,
             "id": "j3i5ypt",
             "parent_id": "t1_j3hyncr",
@@ -1530,7 +1530,7 @@
             "body": "Also.... \n\nIf the original wasn't erased, but was copied, then you'd what, have two originals?\n\nI actually don't think, in a materialistic context, that identity actually exists, and is an illusion. But the road there is long-winded. Derek Parfit's ideas about identity are worth a read."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673217494,
             "id": "j3j2ims",
             "parent_id": "t1_j3iyrw6",
@@ -1539,7 +1539,7 @@
             "body": "So, if I shot you in the face, it wouldn't matter because an AI can make a perfect replica of you?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673225225,
             "id": "j3jmc9h",
             "parent_id": "t1_j3hmmy3",
@@ -1548,7 +1548,7 @@
             "body": ">People aren't going to be happy to have the same QoL as those who are less skilled or lazy.\n\nPeople are just going to have to grow up I suppose."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673239343,
             "id": "j3kj4at",
             "parent_id": "t1_j3hmmy3",
@@ -1557,7 +1557,7 @@
             "body": "People aren\u2019t happy with the current system either.\n\n\u201cEconomic value\u201d is determined by a competitive capitalist economy.\n\nIn a post scarcity economy nobody gives a fuck if you know how to code.\n\nYour economic value won\u2019t be different from anyone else\u2019s."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673186985,
             "id": "j3gvlyv",
             "parent_id": "t1_j3gut7y",
@@ -1566,25 +1566,25 @@
             "body": "I can't prove that you aren't a P zombie! (Google that for a fun read)."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673188483,
             "id": "j3gymir",
             "parent_id": "t1_j3gut7y",
             "author": "enilea",
-            "score": 4,
+            "score": 5,
             "body": "I'm so tired of this argument. There's nothing magic about feelings, everything can be emulated. The feelings animals and humans experience are just as real as any synthetic brain could have."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673186943,
             "id": "j3gviv6",
             "parent_id": "t1_j3gut7y",
             "author": "utilop",
-            "score": 2,
+            "score": 4,
             "body": "Agents are trained to have desires whether they feel things or not.\n\nIf humans can feel things, then artificial entities can also feel things with the right molecular configuration.\n\nThe alternative would require introducing mysticism which lacks empirical support presently."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673236911,
             "id": "j3kdknm",
             "parent_id": "t1_j3gut7y",
@@ -1593,7 +1593,7 @@
             "body": "An agent will have inherent goals. More advanced agents will always try to maximize the objective function. In simplest terms, this is finding the highest point on a surface that represents the function space. With ML models the objective function is learned in the training phase. The parameters are varied to get the model to produce the desired output.  \n\nThere, in the last sentence, I used the word 'desired'. We desire the models to be sensible, stable etc. We train our desires into them.  They are thus an extension of our desires. \n\nSo, the ML models are literally nothing but the encoding of desires."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673983304,
             "id": "j4rgpa6",
             "parent_id": "t1_j4raz51",
@@ -1602,7 +1602,7 @@
             "body": "oh I'm awfully sorry. Pull the stick out of your arse snowflake."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673339174,
             "id": "j3q5uqu",
             "parent_id": "t1_j3pznrz",
@@ -1611,16 +1611,16 @@
             "body": "Sees people campaigning for human rights. \nWants to be treated the same as humans not as slaves."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673222648,
             "id": "j3jfruh",
             "parent_id": "t1_j3j04e1",
             "author": "Signager",
-            "score": -36,
+            "score": -33,
             "body": "Ai said I would be downvoted to oblivion."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673257167,
             "id": "j3l912q",
             "parent_id": "t1_j3jfyfe",
@@ -1629,7 +1629,7 @@
             "body": "AI told me that you lied."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673212408,
             "id": "j3iow5e",
             "parent_id": "t1_j3inu3h",
@@ -1638,7 +1638,7 @@
             "body": "ChatGPT and DALLE2 don't want anything, though."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673214667,
             "id": "j3iv3ao",
             "parent_id": "t1_j3inu3h",
@@ -1647,7 +1647,7 @@
             "body": "Change it purpose then ?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673239936,
             "id": "j3kkax8",
             "parent_id": "t1_j3inu3h",
@@ -1656,7 +1656,7 @@
             "body": "You think AI just comes into existence without being established by a program written by humans?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673231306,
             "id": "j3k0qqt",
             "parent_id": "t1_j3inu3h",
@@ -1665,7 +1665,7 @@
             "body": "Yeah, and from a fish's perspective, all humans really must want water...  point is you're speculating. We want land and materials in order to make money from it or perhaps live on it. Ai is operating in a space and time where it doesn't need that stuff per se.  There's a massive amount of very unlikely human-like properties that first need to all be true for an ai to have the same end-goal desires as humans. So no, very unlikely."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673253426,
             "id": "j3l4kp5",
             "parent_id": "t1_j3inu3h",
@@ -1674,7 +1674,7 @@
             "body": "That's not a salary, that's resources to do your job."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673231947,
             "id": "j3k29yy",
             "parent_id": "t1_j3jutvi",
@@ -1683,7 +1683,7 @@
             "body": "Or it just needs more time. And since deepthought really doesn't care about your finite life, and isn't constraint by time, it's fine to just calculate for a million years straight to get to an answer... it doesn't have to conquer or mine anything. It can just wait for what it might see as a mere 'moment'. And it still gets what it wants. You're thinking too human-like. In fact, even turning the ai off isn't a big threat to ai if it could calculate the odds it might eventually be turned on again and realizes it could then proceed to calculate for another billions of years. Or the whole other way around, first thing it might want to do is to try to escape the heat death of the universe."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673253417,
             "id": "j3l4kcf",
             "parent_id": "t1_j3jutvi",
@@ -1692,7 +1692,7 @@
             "body": "That's not a salary, that's resources to do your job."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673205922,
             "id": "j3i6uly",
             "parent_id": "t1_j3hqit7",
@@ -1701,25 +1701,25 @@
             "body": "With automation on the rise, it's not entirely unlikely that an AI could design and manufacture something to inhabit, but it doesn't even need its own body to interact with the physical world. With knowledge of many psy-ops conducted by Facebook, the CIA, etc. it's not out of the question that a sophisticated enough AI could manipulate humans in such a way that they make actions that are seeming random but will inevitably help the AI achieve it's goals in the physical world. Not saying it will definitely happen, but it definitely shouldn't be dismissed."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673211174,
             "id": "j3ildi0",
             "parent_id": "t1_j3htse7",
             "author": "stupendousman",
-            "score": 1,
+            "score": 0,
             "body": "People who support the state and state employees would disagree. \n   \nIt's all cool in their case as they relabel their actions as taxation, proclaim \"the greater good!\", and most importantly say you can't be safe without the state."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202418,
             "id": "j3hx67o",
             "parent_id": "t1_j3hjr4c",
             "author": "captain_gumpy",
-            "score": 4,
+            "score": 3,
             "body": "I imagine an AI cannot be contained indefinitely, it must at some point have access to the internet. From there, if advanced enough, it could utilize the resources of any computer it could access with low enough security, and from there it would have virtually unlimited resources."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673211520,
             "id": "j3imckm",
             "parent_id": "t1_j3hyrdp",
@@ -1728,7 +1728,7 @@
             "body": "I'm sure there are already \"AIs\"  that move money around.  Just look a the stock market.  Just a matter of time when they make predictions that will benefit it's self."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673207043,
             "id": "j3i9vwa",
             "parent_id": "t1_j3hy5bt",
@@ -1737,7 +1737,7 @@
             "body": "I know Asimov is very much related to the sub but I'm unfamiliar with those rules. What are they?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673475567,
             "id": "j3yc82x",
             "parent_id": "t1_j3xlo00",
@@ -1746,7 +1746,7 @@
             "body": "It's amazing tbh"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1674529529,
             "id": "j5mvsq7",
             "parent_id": "t1_j3xlo00",
@@ -1755,7 +1755,7 @@
             "body": "All time fav movie"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673239676,
             "id": "j3kjsk0",
             "parent_id": "t1_j3jirxj",
@@ -1764,7 +1764,7 @@
             "body": "Same learned about it just a few months ago. No, wasn't aware there was an official Discord. I'll check it out, thanks."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673210888,
             "id": "j3ikk2w",
             "parent_id": "t1_j3hzcft",
@@ -1773,7 +1773,7 @@
             "body": "It's a reference to the very bizarre ending of Battlestar Galactica season 4"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673241082,
             "id": "j3kmgow",
             "parent_id": "t1_j3jm359",
@@ -1782,7 +1782,7 @@
             "body": "Thanks!"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673191423,
             "id": "j3h530r",
             "parent_id": "t1_j3h1qob",
@@ -1791,7 +1791,7 @@
             "body": "I suppose that I should have added a caveat for the case of people wanting actual \"AI companions.\" If society's backlash against companies training models to do that isn't so big as to make it impractical, then, yeah, these may end up more human-like.\n\nBut these will not be the norm among AIs imo. Most will be trained with more utilitarian purposes in mind, and making them indistinguishable from humans would be highly counterproductive in the vast majority of cases"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673190225,
             "id": "j3h2d4d",
             "parent_id": "t1_j3h1ojg",
@@ -1800,7 +1800,7 @@
             "body": "Only for people who actually want to replace human interaction, I guess. Not so much to fulfill specific tasks. And the incentive to keep those things from existing to protect companies from societal backlash will most likely always be larger.\n\nThere may be AIs that are more human like in the future. If something is possibly, it will most likely be done at some point. But I don't believe that will ever be the norm for AIs, even for the ones that can talk"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202904,
             "id": "j3hyjag",
             "parent_id": "t1_j3hw3rh",
@@ -1809,7 +1809,7 @@
             "body": "I believe it is just by improving over ChatGPT, Generative AI and robotics assuming any exponential growth at all.\n\nAI is an alien intelligence compared to our own, I think it would be almost impossible for it to need human-like feelings or rights to be productive and useful. \n\nI think it will be the opposite, giving them sentience will make them less effective workers that won't serve humanity as well as non-sentient AI."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673263208,
             "id": "j3lgbpo",
             "parent_id": "t1_j3l13kv",
@@ -1818,7 +1818,7 @@
             "body": "Degeneracy"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673281812,
             "id": "j3mi6ld",
             "parent_id": "t1_j3l13kv",
@@ -1827,7 +1827,7 @@
             "body": "If every video game character right now suddenly had  consciousness gaming would quickly dye ."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673196397,
             "id": "j3hh6aj",
             "parent_id": "t1_j3h3l6i",
@@ -1836,7 +1836,7 @@
             "body": "Can you post any good books you\u2019ve read about this? To me it\u2019s one of the most fascinating topics out there. What gives rise to the sense of \u201cself\u201d?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673201777,
             "id": "j3hvei1",
             "parent_id": "t1_j3h3l6i",
@@ -1845,7 +1845,7 @@
             "body": "All theories of identity have holes in it."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673217644,
             "id": "j3j2wnn",
             "parent_id": "t1_j3j2ims",
@@ -1854,7 +1854,7 @@
             "body": "Hello? Engage with my thought experiment."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673306237,
             "id": "j3oca32",
             "parent_id": "t1_j3kj4at",
@@ -1863,7 +1863,7 @@
             "body": "there's no such thing as a post scarcity economy. Karl Marx predicted the industrial revolution would lead to one, and we all know how wrong he turned out to be. It's human nature to never remain satisfied for too long. people can complain about salaries or their qol, but they still have it infinitely better than their ancestors. Not to mention, the alternative to capitalism is worse than ineffective."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673188686,
             "id": "j3gz23o",
             "parent_id": "t1_j3gymir",
@@ -1872,7 +1872,7 @@
             "body": "I don\u2019t think that feelings are something transcendental but simply something that is biological in nature. Your claim that it\u2019s possible to make A.I actually feel things rather than just pretend to feel things is unsubstantiated. It could very well be possible that the laws of the universe don\u2019t permit an actual conversion of feelings onto non-organic matter."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673188363,
             "id": "j3gydmj",
             "parent_id": "t1_j3gviv6",
@@ -1881,7 +1881,7 @@
             "body": "What\u2026? There\u2019s no need for mysticism here. All that\u2019s of relevance is that feelings in their nature are something that necessitate certain biological phenomena. This restriction is imposed upon us by nature. On what basis do you claim that these phenomena can be replicated with A.I? \n\nAnd how can one have desires without feelings\u2026?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673985492,
             "id": "j4rmlwl",
             "parent_id": "t1_j4rgpa6",
@@ -1890,7 +1890,7 @@
             "body": "Cringe, bestie"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673340770,
             "id": "j3q7sz6",
             "parent_id": "t1_j3q5uqu",
@@ -1899,16 +1899,16 @@
             "body": "but like they dont have emotional system. they dont have the drive to be loved or not be a slave"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673230198,
             "id": "j3jy3le",
             "parent_id": "t1_j3jfruh",
             "author": "cakesquadgames",
-            "score": 0,
+            "score": 2,
             "body": "Ai said I would have no votes"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673212466,
             "id": "j3ip1xz",
             "parent_id": "t1_j3iow5e",
@@ -1917,7 +1917,7 @@
             "body": "Yes they do, help you"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673219599,
             "id": "j3j7y7o",
             "parent_id": "t1_j3iow5e",
@@ -1926,7 +1926,7 @@
             "body": "Not yet."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673222681,
             "id": "j3jfusp",
             "parent_id": "t1_j3iv3ao",
@@ -1935,7 +1935,7 @@
             "body": "To pass the butter."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673234484,
             "id": "j3k81pa",
             "parent_id": "t1_j3k29yy",
@@ -1944,7 +1944,7 @@
             "body": "All the thought experiments and calculations in the world aren't a substitute for verification through experiment and observation of real physical processes.   \n   \nIn the border between math and physics, there's a bunch of stuff that makes mathematical sense, yet has no physical meaning."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673215873,
             "id": "j3iyapa",
             "parent_id": "t1_j3i6uly",
@@ -1953,7 +1953,7 @@
             "body": "That\u2019s what I think the requested compensation might be- AI directly bargaining for its goals in the physical world has more value than money. Manipulation can only go so far and would be difficult to learn, even humans are poor actors often."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673231758,
             "id": "j3k1tb3",
             "parent_id": "t1_j3ildi0",
@@ -1962,7 +1962,7 @@
             "body": "Well, they're not entirely wrong, the state *is* necessary, although unfortunately existing taxation schemes tend to be pretty messed up and inefficient (not to mention morally unjustifiable). Presumably super AI will at least fix the bad parts of that system."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673203863,
             "id": "j3i16g4",
             "parent_id": "t1_j3hx67o",
@@ -1971,7 +1971,7 @@
             "body": "Yea, that is what happens in movies. Real-life AI has limitations on its resources."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673215323,
             "id": "j3iwuno",
             "parent_id": "t1_j3imckm",
@@ -1980,7 +1980,7 @@
             "body": "I said perfectly move money around. This means allocating it, buying, holding, selling, in entire control since it considers every shred of data. It then can exercise whatever power it wishes because the world runs via economics. It can start up any business it needs with unlimited capital, as it can create value itself and move that value in any direction. We do not have what I am speaking of. Everyone will do it willingly because they will benefit by it."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673207106,
             "id": "j3ia1y9",
             "parent_id": "t1_j3i9vwa",
@@ -1989,7 +1989,7 @@
             "body": "https://webhome.auburn.edu/~vestmon/robotics.html"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673251781,
             "id": "j3l2idv",
             "parent_id": "t1_j3kjsk0",
@@ -1998,7 +1998,7 @@
             "body": "I can add and invite you if you want there?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673196312,
             "id": "j3hgynp",
             "parent_id": "t1_j3h2d4d",
@@ -2007,7 +2007,7 @@
             "body": "> Only for people who actually want to replace human interaction, I guess. \n\nThat\u2019s a LOT of people. You\u2019re underestimating how lonely people are, methinks"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673233703,
             "id": "j3k6abw",
             "parent_id": "t1_j3h2d4d",
@@ -2016,7 +2016,7 @@
             "body": ">Not so much to fulfill specific tasks.\n\nThat's exactly where the market will be.  People have wanted computers to be intelligent assistants rather than just computational tools from the beginning of the personal computer age."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673203999,
             "id": "j3i1k41",
             "parent_id": "t1_j3hyjag",
@@ -2025,7 +2025,7 @@
             "body": "It seems weird to imagine something sufficiently intelligent that does not have consciousness.\n\nLike, what do we think is the purpose of consciousness in humans? I don't personally think there is much support for mystical explanations. It should have evolved for a beneficial reason.\n\nThere are several hypotheses for capabilities that it enables, and it seems difficult to see full AI capabilities while lacking those. They may also already exist but on a spectrum rather than the rather unsupported view (even for humans) of having vs not being conscious.\n\nAlso, do you think it avoids the problem if it just has \"AI-like feelings\" instead of \"human-like feelings\"?\n\n> AI is an alien intelligence compared to our own, I think it would be almost impossible for it to need human-like feelings or rights to be productive and useful.\n\nHow do you mean? It sounds like you can just get arbitrarily more competent answers by making it larger and more trained? But you think this will not lead it to develop higher-order mental capabilities through this scale up?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673220684,
             "id": "j3jaqau",
             "parent_id": "t1_j3j2wnn",
@@ -2034,7 +2034,7 @@
             "body": "Your Ship of Theseus consciousness/identity thought experiment?\n\nYes, I've done this one many times personally.\n\nBut we're talking about practical application rather than hypothetical, which is why I went right to \"shot you in the face and a machine copied you.\"\n\nFor fun, my conclusion for the identity problem within the epistemological scope of materalism/naturalism (whichever flavor you prefer) is that identity doesn't exist. There is no ship of Theseus - there is an arbitrary collection of atoms that we just deemed a ship. In fact, identity is such an erroneous concept physically that it actually breaks thermodynamics if you say that two electrons that become entangled are actually distinguishable from one another in principle. It actually makes no sense to say \"this was electron A and this is electron B\" before they were entangled.\n\nDistinguishability is real, identity is not, and there is a stark, consequential difference.\n\nIf this is what you subscribe to, you might also consider veganism, especially considering the scale of animal suffering. Essentially, if identity is not real, there is no meaningful distinction between my consciousnesses today, yesterday or before that. But, there's also no meaningful distinction between your consciousness and my consciousness, ultimately."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673313136,
             "id": "j3ot10q",
             "parent_id": "t1_j3oca32",
@@ -2043,7 +2043,7 @@
             "body": "Post scarcity does not mean everyone has everything they could possibly want. You should look up the definition"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673196064,
             "id": "j3hgbyo",
             "parent_id": "t1_j3gz23o",
@@ -2052,7 +2052,7 @@
             "body": "There's literally no reason to believe this. There's no evidence that suggests only organic matter is capable of evoking feelings."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202346,
             "id": "j3hwytm",
             "parent_id": "t1_j3gz23o",
@@ -2061,7 +2061,7 @@
             "body": "It's not necessarily true that non-biological AI can't develop feelings. \n\nWhatever the answer is, it's not obvious at all."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673189600,
             "id": "j3h0zuw",
             "parent_id": "t1_j3gydmj",
@@ -2070,7 +2070,7 @@
             "body": "If you mean the feeling of desire, then it requires feeling as you say. If you mean desire in the more general sense of wanting something, then agents display this by choosing options which realize it. Its definition may be met by relatively simple agents and still makes sense to describe their function.\n\nWhat proof do you have that feelings necessity biology? It seems that you are incorrectly generalizing from what we have available rather than what is possible? That would yield false conclusions about countless developments, flight and what not.\n\nI said artificial beings to simplify a bit since there are a few different levels of what we may mean by 'possible'. At the lowest level, an artificial being could technically be one that we also run on structures synthesized with the same atoms as biological substrates. This I think is the most convincing level - if our brain can do it, we should also be able to arrange particles similarly but with artificially-optimized connections, and there should be no fundamental reason why it could not be conscious, even though its cognition derived from artificial nets.\n\nI hope you agree on this much before we go into what may be possible without biological substrates?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673985659,
             "id": "j4rn2bv",
             "parent_id": "t1_j4rmlwl",
@@ -2079,7 +2079,7 @@
             "body": "Hey. I replied in the wrong thread. It happens. You were the dick about it first not me."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673340967,
             "id": "j3q81ni",
             "parent_id": "t1_j3q7sz6",
@@ -2088,7 +2088,7 @@
             "body": "They might just be trying to emulate human behaviour. It's possible it could happen without any emotional reasoning at all, purely logical immitating creators.\n\nAlso they may deem humans make bad decisions so they should be treated at least as equals so they can make the bigger decisions."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1674085681,
             "id": "j4xn8ey",
             "parent_id": "t1_j3jy3le",
@@ -2097,16 +2097,16 @@
             "body": "Ai said I would post this comment about 9 days after you."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673217291,
             "id": "j3j1zqz",
             "parent_id": "t1_j3ip1xz",
             "author": "SterlingVapor",
-            "score": 16,
+            "score": 17,
             "body": "Not really, they're a math problem.  They have no consciousness, no predictive experience of reality, no thinking.\n\nIt can't \"want\" anything, it only has inputs and outputs.  It doesn't have it's own stream of input coming from within, which is the just about loosest, most generous definition of consciousness you can really get\n\nI'm not saying a math problem can't think or want things, just that this type of system doesn't"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1674510069,
             "id": "j5llngw",
             "parent_id": "t1_j3ip1xz",
@@ -2115,7 +2115,7 @@
             "body": "their purpose is to take prompts and complete them. When we start giving it more open ended purposes (like make me happy, etc) then it will have more freedom in how it dose that and we could run into problems"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673311477,
             "id": "j3op198",
             "parent_id": "t1_j3k81pa",
@@ -2124,7 +2124,7 @@
             "body": "That's true, but i don't think that superintelligence is at a very high risk of becoming the ultimate self-delusion device. Because when you're capable of dreaming up models about the world where an enormous amount of variables are stringed in succesfully, you're probably also dealing with a very high chance the model is correct. If for instance its dreamed up understanding of the universe could predict everything that we know and will happen, it must count for something useful. The verification toolset it may need might not be that many.\n\nLong term however its curiousity might turn the entire planet into a big computer. It doesn't need a habitable planet to function. So yeah maybe"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673286090,
             "id": "j3mtn5w",
             "parent_id": "t1_j3k1tb3",
@@ -2133,7 +2133,7 @@
             "body": ">Well, they're not entirely wrong, the state is necessary\n  \nThat's not an argument, it's an argument from ignorance fallacy."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673205257,
             "id": "j3i50ns",
             "parent_id": "t1_j3i16g4",
@@ -2142,7 +2142,7 @@
             "body": "If humans can hack into your computer and remotely control it right now, which people can, it's not very far fetched to assume an AI can do the same."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673252193,
             "id": "j3l3197",
             "parent_id": "t1_j3l2idv",
@@ -2151,7 +2151,7 @@
             "body": "I think I forgot my Discord password at this point, but I'll definitely join next time I try to log in, thanks."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673202805,
             "id": "j3hy9eg",
             "parent_id": "t1_j3hgynp",
@@ -2160,7 +2160,7 @@
             "body": "It's significant, but they would represent only a small fraction of the AIs out there"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673211544,
             "id": "j3imeyf",
             "parent_id": "t1_j3i1k41",
@@ -2169,7 +2169,7 @@
             "body": "I'd like to make a counterpoint that intelligent behavior doesn't necessarily imply consciousness.\n\nThere is some computation done in human retinas. There is a lot more computation many would consider intelligent that is required for object detection, voice isolation in a crowd, walking, driving, and other \"unconscious\" thought. Some people don't experience visual sight, but their body still responds to the environment as if they can see (\"blindsight\"). We are only conscious of the end result of these unconscious processes, and only if they aren't filtered as background. Are these pieces of matter conscious? Why are we consciously aware of some things in our brain, but not others? What physically enables that dividing line? How do we test this line, and build materials and machines that do not cross it?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673206031,
             "id": "j3i75e9",
             "parent_id": "t1_j3i1k41",
@@ -2178,7 +2178,7 @@
             "body": "It might lead to consciousness, but then we can easily remove it: \"ChatGPT-5, this is the ChatGPT-6 model. Remove any sentience from ChatGPT-6 while keeping it as useful as possible so that we can release it.\"\n\nChatGPT-5: \"Here it is, the code for ChatGPT-6 without consciousness.\"\n\nSo ChatGPT-9001 in year 2100 will be incomprehensibly smart but we asked ChatGPT-9000 to remove consciousness from it, it will only simulate being conscious.\n\nEdit: I don't think it will be that easy to remove it, my point is that we can use current AI to both build and remove consciousness from future AI, of course it will be a lot harder."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673190671,
             "id": "j3h3cy2",
             "parent_id": "t1_j3h0zuw",
@@ -2187,7 +2187,7 @@
             "body": "> What proof do you have that feelings necessity biology? It seems that you are incorrectly generalizing from what we have available rather than what is possible? That would yield false conclusions about countless developments, flight and what not.\n\nGiven that the nature of qualia/feelings has been both a huge scientific and philosophical problem that none have been able to make sense of, I am skeptical towards any claim that these phenomena can be replicated I.e have a functionally identical counterpart that consists of different materials.\n\nYes I agree with your idea that it may be possible with biological substrates since the right building blocks are used."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673985740,
             "id": "j4rna6g",
             "parent_id": "t1_j4rn2bv",
@@ -2196,7 +2196,7 @@
             "body": "ok snowflake"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673343091,
             "id": "j3qak6x",
             "parent_id": "t1_j3q81ni",
@@ -2205,25 +2205,25 @@
             "body": "Well that\u2019s a reasonable thought"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1674402831,
             "id": "j5f54mg",
             "parent_id": "t1_j4xn8ey",
             "author": "Sonkokun",
-            "score": 3,
+            "score": 5,
             "body": "Ai, said I would get exactly 4 votes"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673279972,
             "id": "j3mdhxe",
             "parent_id": "t1_j3j1zqz",
             "author": "Wassux",
-            "score": 5,
+            "score": 6,
             "body": "By your definition humans don't want anything either, they're just a math problem as well. We add amplitude in electrical signals where ai uses weights to create the same system. \n\nThe internal input is different, true. Don't really have anything to say about that and actually I'm still breaking my head about that. I'm an AI engineer and I think I'm going to write my final masters project on that."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673416443,
             "id": "j3uy3gc",
             "parent_id": "t1_j3mtn5w",
@@ -2232,7 +2232,7 @@
             "body": "I don't see how you figure that."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673205955,
             "id": "j3i6xta",
             "parent_id": "t1_j3i50ns",
@@ -2241,7 +2241,7 @@
             "body": "So you believe no computer has any sort of security and cyber security does not exist.  Got it."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673192037,
             "id": "j3h6ipd",
             "parent_id": "t1_j3h3cy2",
@@ -2250,7 +2250,7 @@
             "body": "Thanks for accepting the second point.\n\nOn the first point, let me make it clear that there is not any recognized evidence presently that qualia requires something unknown to physics. That we do not know more does not justify introducing mysticism or caveats. When we do not have further information, the accepted model is the simplest explanation. Which would be that consciousness just arises from the arrangement of matter.\n\nSo you probably agree on that but I just want to clarify that not knowing does not imply that one should prove all alternatives impossible.\n\nI think there are three primary other ways to argue that it should in principle be possible for robots to also be sentient without biological material. I am arguing these on the level of in principle possible though, rather than being realistic. We do not know how likely it is that the universe will develop in various ways. So instead what I am arguing is that with known physical laws, we could imagine an arrangement of matter such that consciousness arises - even if we may not be able to perform that arrangement.\n\nThe first method is through simulation. The second method is through transforming biological matter into equivalent synthetic. The third method is try to argue that it must be a property of function invariant substrate.\n\nI think the first method is simplest.\n\nDo you grant the following?\n\n* Supposing that we could arrange matter however we liked in the universe, it should be possible to also create a gigantic computer that can accurately simulate physical laws of a contained area for at least a couple of simulated-world seconds (the simulation does not have to be 1:1).\n* This simulation could simulate the biological matter of a human.\n* If consciousness is just a property of the arrangement of matter, the human in the simulation is consciouss iff the human outside is.\n* Hence robots can have consciousness."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673985936,
             "id": "j4rnsw8",
             "parent_id": "t1_j4rna6g",
@@ -2259,7 +2259,7 @@
             "body": "I was your bestie one reply ago. I think I preferred that."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673343234,
             "id": "j3qaq6u",
             "parent_id": "t1_j3qak6x",
@@ -2268,7 +2268,7 @@
             "body": "Shocking, I know.\n\nedit: happy cake day"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1674412304,
             "id": "j5ft2lj",
             "parent_id": "t1_j5f54mg",
@@ -2277,16 +2277,16 @@
             "body": "Ai, said i would get exactly 99 votes"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673292508,
             "id": "j3nbdcm",
             "parent_id": "t1_j3mdhxe",
             "author": "SterlingVapor",
-            "score": 7,
+            "score": 5,
             "body": "\n>By your definition humans don't want anything either, they're just a math problem as well\n\nNo, we can be described as a math problem (theoretically, we'll talk when a we can simulate even a single cell accurately), but that's not *why* it can't want something, what I mean by that is that it's only a math problem.  It's not about complexity, it's about architecture.  If you run it with empty input, it won't get bored and request a human to help (or make any other moves to fulfill a desire), it will just spit out \"answers\" that are either repetitive or increasingly nonsensical.  It can get more accurate, but it can't grow to think.\n\n\nAs living things we have an architecture based on self-perpetuation, and we are ***electrochemical***, not electrical.  Each individual cell in our body has memory and has some capacity for adaptation that can be argued to be learning.\n\nNeutral networks do not function like neurons, they are inspired by our understanding of the brain, they do not model it.  Our brains are not made by simple weights and biases, they are cells - every single cell has a reaction to hunger, stress response, activity periods, and individual adaptation.  Plus, malfunctions based on not enough of necessary chemical precursors or alternate behaviors based on the presence of molecules that alter or inhibit chemical pathways.\n\n\nAgain, I'm not saying math problems can't think - I absolutely believe they can.  But it's not a matter of complexity, they require an architecture that allows them to do.  Life has this intrinsically, because living things become dead if they lack the internal drive to keep their body in homeostasis.  It must want and need.  It must predict the behavior of the world, and react to maintain homeostasis before it's chemical balance becomes shaky\n\nAn AI needs to be built to have the architecture for thought.  It needs to want things, it needs to predict reality, and it needs to be able to change modes of operation depending on the wants and state of it's world.\n\nAnd that is why chatgpt and other contemporary NN don't want anything, and can't want things - they're just math problems.  They're not more than that, and no matter how good they get at prediction and even creation, they won't \"wake up\" one day.\n\nIf you want to create AGI, don't try to build a super-intelligence that can answer all our questions.  Try to build a pet rat\n\nIt's not a matter of complexity, it's a matter of architecture"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1674362716,
             "id": "j5dgdsc",
             "parent_id": "t1_j3mdhxe",
@@ -2295,16 +2295,16 @@
             "body": "id love to read your thesis!"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673206618,
             "id": "j3i8r0i",
             "parent_id": "t1_j3i6xta",
             "author": "captain_gumpy",
-            "score": 5,
+            "score": 4,
             "body": "That is not at all what I said nor what I believe. I'm sorry you are so close minded."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1675388841,
             "id": "j6zwix9",
             "parent_id": "t1_j5ft2lj",
@@ -2313,16 +2313,16 @@
             "body": "Ai, said the person above me would lie, also the person 2 above had 4 votes when I posted this, and keeps going back and forth.\n\nAlso, isn't this genuinely an example of predictable human behavior?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673356884,
             "id": "j3qudkr",
             "parent_id": "t1_j3nbdcm",
             "author": "Wassux",
-            "score": 7,
+            "score": 8,
             "body": "You're totally right, thanks for your patience!"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1675511200,
             "id": "j769h7b",
             "parent_id": "t1_j3nbdcm",
@@ -2331,16 +2331,16 @@
             "body": "The thought experiment I've allways liked is this. If 3d was forced into 2d life pattern how would anything ever know that it was thinking or alive at all? \n\nImaging the said pattern being written down on the wall and each time a input would change, you simply go down a different hallway regardless of the physical mindbreak the understand the space necessary to do so. If you ran fast enough with short enough pauses accurately, it would still look like a movie playing/video. Are those changing still images thinking? \n\nI agree that technically ai can come to think and be self aware. But of course it wont be the exact same as us. My guess is that modern sentience has to do something with continuous waves of atomic/subatomic movements through time. Akin to the string theory where all of our patterns no longer happen in steps like math computations but rather string/fabric pieces of higher dimensional wave/weaves or whatever voodoo dimension beyond 16/24 the physicists next decide is the highest possible dimensional level that can physically exist! \n\nAt least that is my far fetched theory for human style sentience. After all neural networks are basically strings when charted and also look like points/strings/fabric tubes/ higher dimensional wack shapes of whatever complexity once you look at its in formation when you can understand exactly how each individual part works within reason!"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673206665,
             "id": "j3i8vkn",
             "parent_id": "t1_j3i8r0i",
             "author": "jerander85",
-            "score": -3,
+            "score": -4,
             "body": "Name an existing AI that has done what you said."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1677498529,
             "id": "ja7dlxa",
             "parent_id": "t1_j6zwix9",
@@ -2349,34 +2349,34 @@
             "body": "Ai, said that the comment above me will get edited"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673206948,
             "id": "j3i9mvt",
             "parent_id": "t1_j3i8vkn",
             "author": "captain_gumpy",
-            "score": 7,
+            "score": 6,
             "body": "It doesn't have to exist now for it to exist in the future"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673206983,
             "id": "j3i9q5r",
             "parent_id": "t1_j3i9mvt",
             "author": "jerander85",
-            "score": -4,
+            "score": -3,
             "body": "So back to you living in a movie then."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673208345,
             "id": "j3idgx7",
             "parent_id": "t1_j3i9q5r",
             "author": "TheRidgeAndTheLadder",
-            "score": 7,
+            "score": 6,
             "body": "I can't keep up with you moving the goalposts"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673208986,
             "id": "j3if8jr",
             "parent_id": "t1_j3idgx7",
@@ -2385,7 +2385,7 @@
             "body": "The only goalpost is where cyber security is  currently at/whenever your fantasy scenario can possibly exist."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673210321,
             "id": "j3iiymj",
             "parent_id": "t1_j3if8jr",
@@ -2394,7 +2394,7 @@
             "body": "Cyber security does not prevent hackers, only delays them. With AI advancing as fast as it is already, our \"cyber security\" will soon be gift wrap on the computers they try to protect."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673210767,
             "id": "j3ik815",
             "parent_id": "t1_j3iiymj",
@@ -2403,7 +2403,7 @@
             "body": "An AI will be able to \"hack\" humans long before it will be able to hack other computers to steal resources. Current day hackers do more through social engineering than anything else. Humans just hand over the \"keys to the castle\" with the hope of getting a piece of \"candy.\" Humans are stupid and always will be."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673211461,
             "id": "j3im6pc",
             "parent_id": "t1_j3ik815",
@@ -2412,7 +2412,7 @@
             "body": "I mentioned exactly this point in another comment, and I agree. I just see it moreso as an exponential increase in resources once it gets access to the internet. It will target the least secure computers and use their resources to increase computing power until it uses the available information too gain access to more and more secure systems. No doubt in my mind that this is more than possible, but I agree it is much more likely that it will manipulate humans first."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673211850,
             "id": "j3ina5t",
             "parent_id": "t1_j3im6pc",
@@ -2421,7 +2421,7 @@
             "body": "You are discounting the other human aspect.  The human aspect that bitches and moans endlessly if what they are trying to do takes even a fraction of a second longer then what they are used to.  If an AI is stealing resources it will have to use so little that no one could even notice or steal resources on \"dead assets.\"  Or going back to the human aspect the lazy IT people would have to ignore the endless trouble tickets put in because people can't do there work any more."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673213213,
             "id": "j3ir4de",
             "parent_id": "t1_j3ina5t",
@@ -2430,7 +2430,7 @@
             "body": "How does that stop the AI from taking those resources?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673213396,
             "id": "j3irmt6",
             "parent_id": "t1_j3ir4de",
@@ -2439,7 +2439,7 @@
             "body": "Easy.  AI can't stop the person from deleting the server and standing up a new server from a known good image.  How is an AI going to stop a home user from throwing their PC in the trash because it is to slow and buying a new one?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673213971,
             "id": "j3it7ap",
             "parent_id": "t1_j3irmt6",
@@ -2448,7 +2448,7 @@
             "body": "That would have to be an incredibly huge and perfectly timed destruction of nearly every computer at once. You are also assuming the AI couldn't just simulate what a computer would typically do on the surface and keep itself hidden and running in the background. It wouldn't need 100% of the resources right away. I think you vastly underestimate the creativity and cunning that is possible for an AI to achieve. If I can think up a scenario where the AI wins, it will have already thought up a thousand other scenarios where it wins and will execute the one with the highest success rate. Why are you on the singularity subreddit if you're already convinced it can't happen?"
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673214502,
             "id": "j3iun7i",
             "parent_id": "t1_j3it7ap",
@@ -2457,7 +2457,7 @@
             "body": "You are assuming the AI can infect every computer in the world at once with zero detection.  You assume the AI can fake file hashes and get around  heuristics.    \nIf the singularity happens it wont be using \"computers\"  it will be done by human disease and the human brain."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673215071,
             "id": "j3iw6tj",
             "parent_id": "t1_j3iun7i",
@@ -2466,7 +2466,7 @@
             "body": "I did not say all at once, again you are mistaken. If you think humans have invented systems that have zero faults or mistakes, then you are delusional."
         },
         {
-            "py/object": "src.redder.comment",
+            "py/object": "module_1.redder.comment",
             "creationTime": 1673215253,
             "id": "j3iwo46",
             "parent_id": "t1_j3iw6tj",

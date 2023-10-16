@@ -1,100 +1,64 @@
+# redder_module: Redder Module
+
+    # Input: Takes in Various Reddit related String Data (Name of Subreddit, URL of Reddit Post, Read/Write .py/.json objects)
+
+    # Output: Subreddit/Post python objects with scrapped data, and/or '.json'/'.txt' files of their associated data
+
+    # Usage: Main Module of Redder App To Scrape Subreddit Data and Create python subreddit objects, which can be serialized to JSON and written out to files and/or read-back/parsed
+
 # Dependencies
-    # Standard Lib(s)
+    # Standard Module(s)
+import re
 import time
-    # Installed Lib(s)
+    # Installed Module(s)
 import jsonpickle
 import praw
     # Local Module(s)
-from .util.util import *
 
 ###### ###### ###### ###### ######
 ###### Interface For Redder ######
 ###### ###### ###### ###### ######
 
 # Create subredder class object from given subreddit name and post count
-def GetSubreddit(subName: str, postCount: int = 10) -> 'subredder':
+def QuerySubredder(subName: str, postCount: int = 10) -> 'subredder':
     try:
         ri = praw.Reddit(
             client_id     = Creds.client_id,
             client_secret = Creds.client_secret,
             user_agent    = Creds.user_agent
         )
-        sr = subredder(ri.subreddit(subName), postCount)
-        return sr
+        return subredder(ri.subreddit(subName), postCount)
     except Exception as e: 
-        mrkr.Yellow("Redder ran into unexpected issues when retrieving data from the URL the subreddit data!")
+        print("Redder ran into unexpected issues when retrieving data from the URL the subreddit data!")
         raise e
 
 # Create class object from given reddit url
-def GetPost(URL: str) -> 'post':
+def QueryPost(URL: str) -> 'post':
     try:
         ri = praw.Reddit(
             client_id     = Creds.client_id,
             client_secret = Creds.client_secret,
             user_agent    = Creds.user_agent
         )
-        sr = post(ri.submission(url=URL))
-        return sr
+        return post(ri.submission(url=URL))
     except Exception as e: 
-        mrkr.Yellow("Redder ran into unexpected issues when retrieving data from the URL provided!")
-        raise e
-
-# Convert class object to JSON str
-def ToJSON(obj, isIndented: bool = True) -> str:
-    try:
-        jsonpickle.set_encoder_options('json')
-        if isIndented:
-            return jsonpickle.encode(obj, keys = True, indent=4, separators=(',', ': '))
-        else:
-            return jsonpickle.encode(obj, keys = True)
-    except Exception as e:
-        mrkr.Yellow("Redder ran into unexpected issues encoding python object to JSON!")
-        raise e
-    
-# Convert subredder JSON str to subredder class object
-def JSONToSubredder(json: str) -> 'subredder':
-    try:
-        jsonpickle.set_decoder_options('json')
-        return jsonpickle.decode(json, keys = True)
-    except Exception as e:
-        mrkr.Yellow("Redder ran into unexpected issues decoding JSON to subredder!")
-        raise e
-
-# Convert post JSON str to post class object
-def JSONToPost(json: str) -> 'post':
-    try:
-        jsonpickle.set_decoder_options('json')
-        return jsonpickle.decode(json, keys = True)
-    except Exception as e:
-        mrkr.Yellow("Redder ran into unexpected issues decoding JSON to post!")
-        raise e
-
-# Write file "output\filename.fileExt"
-def WriteFile(fileName: str, json: str, fileExt: str = "json") -> None:
-    try:
-        file = open("output\\" + fileName + "." + fileExt, "w", encoding = "utf-8")
-        file.write(json)
-        file.close()
-    except Exception as e:
-        mrkr.printYellow("Redder ran into unexpected issues writing file!")
-        raise e
-    
-# Read file "output\fileName.fileExt", return str
-def ReadFile(fileName: str, fileExt: str = "json") -> str:
-    try:
-        file = open("output\\" + fileName + "." + fileExt, "r", encoding = "utf-8")
-        json = file.read()
-        file.close()
-        return json
-    except Exception as e:
-        mrkr.Yellow("Redder ran into unexpected issues reading file!")
+        print("Redder ran into unexpected issues when retrieving data from the URL provided!")
         raise e
 
 # Container For Redder Credentials for PRAW API
 class Creds:
+
     client_id     = "2ywZ-_sgiTazjJo-ue2hfQ"
     client_secret = "LMxkB2T9P9klCYG-NHGLGX-7cWHwtA"
-    user_agent    = "redder:v0.8.0"
+    user_agent    = "redder:v1.0.0"
+
+    # Check if ID is parent ID (PRAW ID)
+    @staticmethod
+    def IsParentId(id: str) -> bool:
+        if parentMatch := re.match(r"t1_", id):
+            return True
+        else:
+            return False
 
 ###### ###### ###### ###### ###### ###### ###### ######
 ###### Containers For Retrieved Sub-Reddit Data  ######
@@ -113,16 +77,22 @@ class subredder:
         for pst in subreddit.new(limit=postCount):
             newPst = post(pst)
             self.posts.append(newPst)
+    
+    # Convert formated subredder JSON string to subredder class object
+    @staticmethod
+    def JSONToSubredder(cls, json: str) -> 'subredder':
+        try:
+            jsonpickle.set_decoder_options('json')
+            return jsonpickle.decode(json, keys = True)
+        except Exception as e:
+            print("Redder ran into unexpected issues decoding JSON to subredder!")
+            raise e
 
     # Update subredder class object data, optional
     def Update(self) -> None:
-        newSubRedderInst = GetSubreddit(self.name, len(self.posts))
+        newSubRedderInst = QuerySubredder(self.name, len(self.posts))
         self.snapshotTime = int(time.time())
         self.posts = newSubRedderInst.posts
-
-    # Get JSON str of the subredder class object
-    def ToJSON(self, isIndented: bool = True) -> str:
-        return ToJSON(self, isIndented)
 
     # Get the average score among the retrieved posts
     def GetAvgPostScore(self) -> float:
@@ -157,10 +127,16 @@ class post:
         for cmt in submission.comments.list():
             newCmt = comment(cmt)
             self.comments.append(newCmt)
-
-    # Get JSON str of the post class object
-    def ToJSON(self, isIndented: bool = True) -> str:
-        return ToJSON(self, isIndented)
+    
+    # Convert formated post JSON string to post class object
+    @staticmethod
+    def JSONToPost(json: str) -> 'post':
+        try:
+            jsonpickle.set_decoder_options('json')
+            return jsonpickle.decode(json, keys = True)
+        except Exception as e:
+            print("Redder ran into unexpected issues decoding JSON to post!")
+            raise e
     
     # Return comments of post
     def ListComments(self) -> str:
@@ -170,7 +146,7 @@ class post:
                 comments += cmt.body + "\n\n"
             return comments
         except Exception as e:
-            mrkr.Yellow("Redder ran into unexpected issues listing comments from the post!")
+            print("Redder ran into unexpected issues listing comments from the post!")
             raise e
     
     # get the average comment score of the post
@@ -189,7 +165,7 @@ class comment:
         self.creationTime = int(comment.created_utc)
         self.id = str(comment.id)
         self.parent_id = None
-        if clrx.IsParentId(comment.parent_id):
+        if Creds.IsParentId(comment.parent_id):
             self.parent_id = str(comment.parent_id)
         self.author = str(comment.author)
         self.score = int(comment.score)
