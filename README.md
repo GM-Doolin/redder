@@ -12,7 +12,7 @@
 >>
 >> **The first use case for Redder is when you would like to scrape data from a specific reddit post.**
 >>
->> Redder uses the **post** argument formated '**-p**' or '**--post**' for this operation.
+>> Redder uses the **post** argument of the format'**-p**' or '**--post**' for this operation.
 >>
 >> This argument takes in a url of the desired reddit post.
 >>
@@ -26,7 +26,7 @@
 >>
 >> This operation will produce a file in the local application path subfolder in 'redder\CS325_p3\Data\raw\\'
 >>
->> This new file will be titled 'post-id#.json' in the local path 'redder\CS325_p3\Data\raw\\', where id# is the internal unique ID of the post.
+>> This new file will be titled '**post-id#.json**' in the local path 'redder\CS325_p3\Data\raw\\', where id# is the internal unique ID of the post.
 >>
 >
 > ## `Project 2`
@@ -35,11 +35,11 @@
 >>
 >> **The second use case for Redder is when you would like to get comments from a previously scraped reddit post using operation 1 above.**
 >>
->> Redder uses the **comments** argument formated '**-c**' or '**--comments**' for this operation.
+>> Redder uses the **comments** argument of the format '**-c**' or '**--comments**' for this operation.
 >>
 >> This argument takes in a filename of the desired file located in the local app directory 'redder\CS325_p3\Data\raw\\'
 >> 
->> The filename should be formatted 'post-id#.json', the same file format which is output using operation Mode 2 above in Project 1.
+>> The filename should be of the format '**post-id#.json**', the same file format which is output using operation Mode 2 above in Project 1.
 >>
 >> Example of this arguments use:
 >>
@@ -51,7 +51,7 @@
 >>
 >> This operation will produce a file in the local application path subfolder in 'redder\CS325_p3\Data\processed\\'
 >>
->> This new file will be titled 'post-id#-comments.txt' in the local path 'redder\CS325_p3\Data\processed\', where id# is the internal unique ID of the post.
+>> This new file will be titled '**post-id#-comments.txt**' in the local path 'redder\CS325_p3\Data\processed\', where id# is the internal unique ID of the post.
 >>
 >
 > ## `Project 3`
@@ -70,9 +70,11 @@
 >>
 >>> *Before using this method, be sure you have a valid and active OpenAI account, and have properly set up your account's token for redder. If not, follow the OpenAI setup guide further down.*
 >>
->> Redder uses the **sentiments** argument formated '**-s**' or '**--sentiments**' for this operation.
+>> Redder uses the **sentiments** argument  of the format '**-s**' or '**--sentiments**' for this operation.
 >>
 >> The argument takes in the filename of the desired file located in the local app directory 'redder\CS325_p3\Data\processed\\'
+>>
+>> This filename should be of the format '**post-id#-comments.txt**', the same file format which is output using operation 2 above in Project 2.
 >>
 >> Example of this arguments use:
 >>
@@ -80,9 +82,11 @@
 >> python rdr.py -s post-id#-comments.txt
 >> ```
 >>
->> This argument will produce a CSV file titled 'post-id#-comments-sentiments.txt' in the local app path 'redder\CS325_p3\Data\Sentiments\\'.
+>> This argument will produce a CSV file titled '**post-id#-comments-sentiments.txt**' in the local app path 'redder\CS325_p3\Data\Sentiments\\'.
 >>
 >> The CSV format inside of this new file will be like so: "sentiment","Text Analyzed"
+>> 
+>> The file will contain only 50 comments (**As noted in the project 4 outline**) that have been analyzed as to avoid wasting API tokens.
 > 
 > ## `Redder OpenAI API Setup Guide`
 >
