@@ -9,7 +9,6 @@
 # Dependencies
     # Standard Module(s)
 import re
-import time
     # Installed Module(s)
 import jsonpickle
 import praw
@@ -19,26 +18,13 @@ import praw
 ###### Interface For Redder ######
 ###### ###### ###### ###### ######
 
-# Create subredder class object from given subreddit name and post count
-def QuerySubredder(subName: str, postCount: int = 10) -> 'subredder':
-    try:
-        ri = praw.Reddit(
-            client_id     = Creds.client_id,
-            client_secret = Creds.client_secret,
-            user_agent    = Creds.user_agent
-        )
-        return subredder(ri.subreddit(subName), postCount)
-    except Exception as e: 
-        print("Redder ran into unexpected issues when retrieving data from the URL the subreddit data!")
-        raise e
-
 # Create class object from given reddit url
 def QueryPost(URL: str) -> 'post':
     try:
         ri = praw.Reddit(
-            client_id     = Creds.client_id,
-            client_secret = Creds.client_secret,
-            user_agent    = Creds.user_agent
+            client_id     = PRAWCreds.client_id,
+            client_secret = PRAWCreds.client_secret,
+            user_agent    = PRAWCreds.user_agent
         )
         return post(ri.submission(url=URL))
     except Exception as e: 
@@ -46,7 +32,7 @@ def QueryPost(URL: str) -> 'post':
         raise e
 
 # Container For Redder Credentials for PRAW API
-class Creds:
+class PRAWCreds:
 
     client_id     = "2ywZ-_sgiTazjJo-ue2hfQ"
     client_secret = "LMxkB2T9P9klCYG-NHGLGX-7cWHwtA"
@@ -54,7 +40,7 @@ class Creds:
 
     # Check if ID is parent ID (PRAW ID)
     @staticmethod
-    def IsParentId(id: str) -> bool:
+    def IsParentID(id: str) -> bool:
         if parentMatch := re.match(r"t1_", id):
             return True
         else:
@@ -63,52 +49,6 @@ class Creds:
 ###### ###### ###### ###### ###### ###### ###### ######
 ###### Containers For Retrieved Sub-Reddit Data  ######
 ###### ###### ###### ###### ###### ###### ###### ######
-
-# data container for retrieved reddit subreddit data
-class subredder:
-
-    # subredder class object constructor
-    def __init__(self, subreddit: 'praw.Reddit.subreddit', postCount: int) -> 'subredder':
-        self.snapshotTime = int(time.time())
-        self.id = str(subreddit.id)
-        self.name = str(subreddit.display_name)
-        self.description = str(subreddit.public_description)
-        self.posts =  []
-        for pst in subreddit.new(limit=postCount):
-            newPst = post(pst)
-            self.posts.append(newPst)
-    
-    # Convert formated subredder JSON string to subredder class object
-    @staticmethod
-    def JSONToSubredder(cls, json: str) -> 'subredder':
-        try:
-            jsonpickle.set_decoder_options('json')
-            return jsonpickle.decode(json, keys = True)
-        except Exception as e:
-            print("Redder ran into unexpected issues decoding JSON to subredder!")
-            raise e
-
-    # Update subredder class object data, optional
-    def Update(self) -> None:
-        newSubRedderInst = QuerySubredder(self.name, len(self.posts))
-        self.snapshotTime = int(time.time())
-        self.posts = newSubRedderInst.posts
-
-    # Get the average score among the retrieved posts
-    def GetAvgPostScore(self) -> float:
-        scoreTotal = 0
-        for pst in self.posts:
-            scoreTotal += int(pst.score)
-        scoreAvg = scoreTotal / len(self.posts)
-        return scoreAvg
-
-    # Get the average upvote ratio among retrieved posts
-    def GetAvgPostUpvoteRatio(self) -> float:
-        ratioTotal = 0
-        for pst in self.posts:
-            ratioTotal += int(pst.upvoteRatio)
-        ratioAvg = ratioTotal / len(self.posts)
-        return ratioAvg
 
 # data container for retrieved reddit post data
 class post:
@@ -125,8 +65,7 @@ class post:
         self.comments = []
         submission.comments.replace_more()
         for cmt in submission.comments.list():
-            newCmt = comment(cmt)
-            self.comments.append(newCmt)
+            self.comments.append(comment(cmt))
     
     # Convert formated post JSON string to post class object
     @staticmethod
@@ -165,8 +104,20 @@ class comment:
         self.creationTime = int(comment.created_utc)
         self.id = str(comment.id)
         self.parent_id = None
-        if Creds.IsParentId(comment.parent_id):
+        if PRAWCreds.IsParentID(comment.parent_id):
             self.parent_id = str(comment.parent_id)
         self.author = str(comment.author)
         self.score = int(comment.score)
-        self.body = str(comment.body)
+        self.body = self.FormatComment(str(comment.body))
+
+    # Format comment for proper entry use for analyzing
+    @staticmethod
+    def FormatComment(cmt: str) -> str:
+        try:
+            # remove unecessary whitespace above 1 space
+            newCmt = re.sub(r"[\s]{2,}", " ", cmt).strip()
+            # remove unecessary escape sequences for different lines
+            newCmt = re.sub(r"[\t|\r|\n]", "", newCmt)
+            return newCmt
+        except Exception as e:
+            raise e
