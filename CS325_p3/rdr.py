@@ -10,6 +10,7 @@
     # Standard Module(s)
 import argparse
     # Installed Module(s)
+
     # Local Module(s)
 from module_1 import redder, fio
 from module_2 import clrx, saai
@@ -35,13 +36,13 @@ try:
     p.add_argument(
         '-c',
         '--comments',
-        help = 'File Name of Previously Ouput Scrapped Post File in the Local App. Path, For Example: \'\\Data\\raw\\post-id.json\'',
+        help = 'File Name of Previously Scraped and Ouput Post JSON File in the Local App. Path, For Example: redder\\CS325_p3\\Data\\raw\\post-id.json',
         type = str
     )
     p.add_argument(
         '-s',
         '--sentiments',
-        help = 'File Name of Previously Ouput and processed Post File in the Local App. Path, For Example: \'\\Data\\processed\\post-id-comments.json\'',
+        help = 'File Name of Previously processed and Ouput Post comments Text File in the Local App. Path, For Example: redder\\CS325_p3\\Data\\processed\\post-id-comments.txt',
         type = str
     )
     args = parser.parse_args()

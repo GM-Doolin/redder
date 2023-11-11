@@ -12,7 +12,7 @@
 >>
 >> **The first use case for Redder is when you would like to scrape data from a specific reddit post.**
 >>
->> Redder uses the **post** argument of the format'**-p**' or '**--post**' for this operation.
+>> Redder uses the `post` argument of the format `-p` or `--post` for this operation.
 >>
 >> This argument takes in a url of the desired reddit post.
 >>
@@ -24,22 +24,22 @@
 >>
 >> The data scraped using this operation will contain information regarding the post and the comments associated with.
 >>
->> This operation will produce a file in the local application path subfolder in 'redder\CS325_p3\Data\raw\\'
+>> This operation will produce a file in the local application path subfolder in `redder\CS325_p3\Data\raw\`
 >>
->> This new file will be titled '**post-id#.json**' in the local path 'redder\CS325_p3\Data\raw\\', where id# is the internal unique ID of the post.
+>> This new file will be titled `post-id#.json` in the local path `redder\CS325_p3\Data\raw\`, where id# is the internal unique ID of the post.
 >>
 >
 > ## `Project 2`
 >
 >> ### `Operation 2 - Retrieve Post Comments`
 >>
->> **The second use case for Redder is when you would like to get comments from a previously scraped reddit post using operation 1 above.**
+>> **The second use case for Redder is when you would like to get comments from a previously scraped reddit post using Operation 1.**
 >>
->> Redder uses the **comments** argument of the format '**-c**' or '**--comments**' for this operation.
+>> Redder uses the `comments` argument of the format `-c` or `--comments` for this operation.
 >>
->> This argument takes in a filename of the desired file located in the local app directory 'redder\CS325_p3\Data\raw\\'
+>> This argument takes in a filename of the desired file located in the local app directory `redder\CS325_p3\Data\raw\`
 >> 
->> The filename should be of the format '**post-id#.json**', the same file format which is output using operation Mode 2 above in Project 1.
+>> The filename should be of the format `post-id#.json`, a file which is has been output using operation 1 in Project 1.
 >>
 >> Example of this arguments use:
 >>
@@ -49,32 +49,32 @@
 >>
 >> This operation method will retrieve the post data from the file and save the associated comments into a new .txt file.
 >>
->> This operation will produce a file in the local application path subfolder in 'redder\CS325_p3\Data\processed\\'
+>> This operation will produce a file in the local application path subfolder in `redder\CS325_p3\Data\processed\`
 >>
->> This new file will be titled '**post-id#-comments.txt**' in the local path 'redder\CS325_p3\Data\processed\', where id# is the internal unique ID of the post.
+>> This new file will be titled `post-id#-comments.txt`, where id# is the internal unique ID of the post.
 >>
 >
 > ## `Project 3`
 >
->> The main functional component of Redder, 'rdr.py' has been moved inside the 'redder\CS325_p3\\' folder located inside the main repository directory
+>> The main functional component of Redder, `rdr.py` has been moved inside the `redder\CS325_p3\` folder located inside the main repository directory
 >>
->> The Output Location(s) have been Moved To Their Respective Folder inside the 'redder\CS325_p3\Data\\' Subfolder of 'redder\CS325_p3\\'
+>> The Output Location(s) have been Moved To Their Respective Folder inside the `redder\CS325_p3\Data\` Subfolder of `redder\CS325_p3\`
 >
 > ## `Project 4 - Grant Doolin & Gautam Aneja`
 >
 >> ### `Operation 3 - Analyze Sentiments of Comments`
 >>
->> **The third use case is the ability to analyze the sentiments of the comments previously extracted to file from Operation Mode 2 Above (Project 2 - Operation 2).**
+>> **The third use case of redder is the ability to analyze the sentiments of the comments previously extracted using Operation 2.**
 >> 
->> To do this, Redder utilizes OpenAI's API to leverage the GPT-3.5-turbo model to analyze the comments and return their sentiments.
+>> To do this, Redder utilizes `OpenAI's API` to leverage the `GPT-3.5-turbo` model to analyze the comments and return their sentiments.
 >>
->>> *Before using this method, be sure you have a valid and active OpenAI account, and have properly set up your account's token for redder. If not, follow the OpenAI setup guide further down.*
+>>> *Before using this method, be sure you have a valid and active OpenAI account, and have properly set up your account's API key for redder. If not, follow the OpenAI setup guide further down.*
 >>
->> Redder uses the **sentiments** argument  of the format '**-s**' or '**--sentiments**' for this operation.
+>> Redder uses the `sentiments` argument  of the format `-s` or `--sentiments` for this operation.
 >>
->> The argument takes in the filename of the desired file located in the local app directory 'redder\CS325_p3\Data\processed\\'
+>> The argument takes in the filename of the desired file located in the local app directory `redder\CS325_p3\Data\processed\`
 >>
->> This filename should be of the format '**post-id#-comments.txt**', the same file format which is output using operation 2 above in Project 2.
+>> This filename should be of the format `post-id#-comments.txt`, a file which has been output using Operation 2 in Project 2.
 >>
 >> Example of this arguments use:
 >>
@@ -82,7 +82,7 @@
 >> python rdr.py -s post-id#-comments.txt
 >> ```
 >>
->> This argument will produce a CSV file titled '**post-id#-comments-sentiments.txt**' in the local app path 'redder\CS325_p3\Data\Sentiments\\'.
+>> This argument will produce a CSV file titled `post-id#-comments-sentiments.txt` in the local app path `redder\CS325_p3\Data\Sentiments\`
 >>
 >> The CSV format inside of this new file will be like so: "sentiment","Text Analyzed"
 >> 
@@ -92,13 +92,13 @@
 >
 >> In order to use the features of Redder which are enabled by OpenAI's API, please follow these steps to ensure correct app execution.
 >>
->> 1. First create an OpenAI account at: https://platform.openai.com/ and log in. (If this is your first account you should be given $5.00 in free credit to use the API)
+>> 1. First create an OpenAI account at: https://platform.openai.com/ and log in. (If this is your first account you should be given $5.00 in free credit to use the API, If not see OpenAI's fees for more information.) The API costs money to use, so this account must have a monetary 'balance' on it to proceed with using it.
 >>
->> 2. Once logged in, navigate to the left side of the page in the nav bar and select the 'API Keys' tab to arrive at this page:
+>> 2. Once logged in, navigate to the left side of the page in the nav bar and select the 'API Keys' tab:
 >>
 >> ![Logged In](rsc/P4_LoggedIn.jpg)
 >> 
->> 3. On the 'API Keys' page, select the Button 'Create new secret key' and give the key a name, then click the 'Create secret key' to confirm.
+>> 3. On the API Keys page, select the Button 'Create new secret key' and give the key a name, then click the 'Create secret key' to confirm.
 >>
 >> ![Create Key](rsc/P4_CreateKey.jpg)
 >>
@@ -110,7 +110,7 @@
 >>
 >> ## `Using OpenAI API Key`
 >>
->> Before proceding with writing python code, make sure you have installed the necessary **openai** python package:
+>> Before proceding with writing python code, make sure you have installed the necessary `openai` python package:
 >>
 >> ```
 >> pip install openai
@@ -120,19 +120,19 @@
 >>>
 >>> To quickly and easily use your key without system variables, you can use a file to store your key instead.
 >>>
->>> This is done by creating a new file in the local directory of the target python application called '**.env**'.
+>>> This is done by creating a new file in the local directory of the target python application called `.env`
 >>>
->>> Redder uses this method natively so the '.env' file already exists and is waiting for you at the local app path 'redder\CS325_p3\\'.
+>>> Redder uses this method natively so the `.env` file already exists and is waiting for you at the local app path `redder\CS325_p3\`
 >>>
->>> Inside of this file named '.env', simply use the following line at the top and then save and close it:
+>>> Inside of this file named `.env`, simply use the following line at the top and then save and close it:
 >>>
 >>> ```
->>> OPENAI_API_KEY=yourSavedOpenAPIKeyGoesHere
+>>> OPENAI_API_KEY=YourOpenAIAPIKeyGoesHere
 >>> ```
 >>>
 >>> Once the key has been added to the file, the key is ready to be used.
 >>>
->>> To use the key in python, we can simply import openai and then call the function OpenAI() and assign it to a variable instance we can use to make requests from:
+>>> To use the key in python, we can simply `import openai` and then call the function `OpenAI()` and assign it to a variable instance we can use to make requests from:
 >>>
 >>> ```
 >>> import openai
@@ -140,9 +140,9 @@
 >>> clientAI = openai.OpenAI()
 >>> ```
 >>>
->>> Calling OpenAI() will look in the local directory for the '.env' file we made earlier and use the OPENAI_API_KEY value found in it.
+>>> Calling `OpenAI()` will look in the local directory for the `.env` file we made earlier and use the `OPENAI_API_KEY` value found in it.
 >>>
->>> If the '.env' file and key were added properly, the function will return an openai instance we can use to make requests from like so:
+>>> If the `.env` file and key were added properly, the function will return an openai instance we can use to make requests from like so:
 >>>
 >>> ```
 >>> response = clientAI.chat.completions.create(
@@ -165,14 +165,13 @@
 >>> ```
 >>> Variable name: OPENAI_API_KEY
 >>>
->>> Variable value: yourSavedOpenAPIKeyGoesHere
->>>
+>>> Variable value: YourOpenAIAPIKeyGoesHere
 >>> ```
 >>> ![Environment Variable](rsc/P4_EnvVar.jpg)
 >>>
 >>> Once the variable has been added successfully, you can now use the key in python.
 >>>
->>> To assign your key in python for the API, import openai and simply get the OS environment variable and assign it to the API's api_key instance for future API requests.
+>>> To assign your key in python for the API, `import openai` and `os`, then just get the OS environment variable and assign it to the API's api_key instance for future API requests.
 >>>
 >>> ```
 >>> import openai
