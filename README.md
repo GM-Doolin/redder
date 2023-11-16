@@ -106,7 +106,7 @@
 >>
 >> ![Created Key](rsc/P4_CreatedKey.jpg) 
 >>
->> 5. The last step is to actually use the key to call the API and this can be done a few different ways but I will show two ways below. `For redder, please use the 1st method below.`
+>> 5. The last step is to actually use the key to call the API and this can be done a few different ways but I will show two ways below. `For redder, please use the 2nd method below.`
 >>
 >> ## `Using OpenAI API Key`
 >>
