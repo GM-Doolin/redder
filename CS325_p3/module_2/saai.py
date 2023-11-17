@@ -37,11 +37,15 @@ def QueryTextSentiment(text: str) -> []:
         raise e
     
 # Create List of Sentiment Pair List's -> [[sentiment, text], [sentiment, text], [sentiment, text]]
-# size by default is small (50) to avoid Open API request limits
+# size by default is small (50) to avoid OpenAI API request limit breaches
 def CreateSentimentTextList(textList: [str], size: int = 50) -> []:
     sentimentList = []
     i = 0
-    for text in textList[:size]:
-        sentimentList.append(QueryTextSentiment(text))
-        i += 1
+    for text in textList:
+        if i >= size:
+            break
+        # Limit comment char count to avoid high token usage for single comment
+        if len(text) <= 1024:
+            sentimentList.append(QueryTextSentiment(text))
+            i += 1
     return sentimentList

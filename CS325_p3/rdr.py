@@ -21,47 +21,65 @@ from module_3 import mrkr
 ###### ###### ###### ###### ###### ######
 
 try:
-    parser = argparse.ArgumentParser(
+    argparser = argparse.ArgumentParser(
         prog = 'Redder',
         description = 'Collect Subreddit Data Into Local Files',
         epilog = 'Positional Arg. Types: string'
     )
-    p = parser.add_mutually_exclusive_group()
-    p.add_argument(
+    o = argparser.add_mutually_exclusive_group()
+    o.add_argument(
         '-p',
         '--post',
         help = 'URL of Desired Reddit Post to Scrape',
         type = str
     )
-    p.add_argument(
+    o.add_argument(
+        '-f',
+        '--file',
+        help = 'File Name of local user input file that contains Reddit Post URLs to be Scraped, For Example: C:\\Users\\User\\FolderWithFile\\URLfile.txt',
+        type = str
+    )
+    o.add_argument(
         '-c',
         '--comments',
-        help = 'File Name of Previously Scraped and Ouput Post JSON File in the Local App. Path, For Example: redder\\CS325_p3\\Data\\raw\\post-id.json',
+        help = 'File Name of Previously Scraped and Ouput Post JSON File in the Local App. Path, For Example: redder\\CS325_p3\\Data\\raw\\post-id#.json',
         type = str
     )
-    p.add_argument(
+    o.add_argument(
         '-s',
         '--sentiments',
-        help = 'File Name of Previously processed and Ouput Post comments Text File in the Local App. Path, For Example: redder\\CS325_p3\\Data\\processed\\post-id-comments.txt',
+        help = 'File Name of Previously Processed and Ouput Post comments Text File in the Local App. Path, For Example: redder\\CS325_p3\\Data\\processed\\post-id#-comments.txt',
         type = str
     )
-    args = parser.parse_args()
+    args = argparser.parse_args()
 
     if args.post:
         myPost = redder.QueryPost(args.post)
         mrkr.Cyan("Redder is retrieving data from the \"" + myPost.title + "\" post!")
         fio.WriteDataFile("post-" + myPost.id, clrx.ToJSON(myPost), "raw")
-        mrkr.Green("Redder has successfully finished collecting data from the \"" + myPost.title + "\" reddit post into the file : post-" + myPost.id + ".json")
+        mrkr.Green("Redder has Successfully Finished Collecting Data from the \"" + myPost.title + "\" Reddit Post into the File: post-" + myPost.id + ".json")
+    elif args.file:
+        URLS = list(filter(None, fio.ReadFile(args.file).split("\n")))
+        mrkr.Cyan("Redder is retrieving the Reddit URL's from File: " + args.file + " and has begun processing their associated data!")
+        for url in URLS:
+            thisPost = redder.QueryPost(url)
+            thisPostFileName = "post-" + thisPost.id
+            fio.WriteDataFile(thisPostFileName, clrx.ToJSON(thisPost), "raw")
+            thisCommentFileName = thisPostFileName + "-comments"
+            fio.WriteDataFile(thisCommentFileName, redder.post.JSONToPost(fio.ReadDataFile(thisPostFileName, "raw")).ListComments(), "processed", fileExt = "txt")
+            thisSentimentsFileName = thisCommentFileName + "-sentiments"
+            fio.WriteCSVFile(thisSentimentsFileName, saai.CreateSentimentTextList(fio.ReadDataFile(thisCommentFileName, "processed", fileExt = "txt").split("\n\n")), "Sentiments", fileExt = "txt")
+        mrkr.Green("Redder has Successfully Finished Processing all data associated with the Reddit URL's from File: " + args.file)
     elif args.comments:
-        myFile = clrx.RemoveFileExt(args.comments)
+        myFileName = clrx.RemoveFileExt(args.comments)
         mrkr.Cyan("Redder is retrieving comments from file: " + args.comments)
-        fio.WriteDataFile(myFile + "-comments", redder.post.JSONToPost(fio.ReadDataFile(myFile, "raw")).ListComments(), "processed", fileExt = "txt")
-        mrkr.Green("Redder has successfully finished retrieving the comments into the file: " + myFile + "-comments.txt")
+        fio.WriteDataFile(myFileName + "-comments", redder.post.JSONToPost(fio.ReadDataFile(myFileName, "raw")).ListComments(), "processed", fileExt = "txt")
+        mrkr.Green("Redder has Successfully Finished Retrieving the Comments into the File: " + myFileName + "-comments.txt")
     elif args.sentiments:
-        myFile = clrx.RemoveFileExt(args.sentiments)
+        myFileName = clrx.RemoveFileExt(args.sentiments)
         mrkr.Cyan("Redder is Analyzing the Sentiments of the comments from file: " + args.sentiments)
-        fio.WriteCSVFile(myFile + "-sentiments", saai.CreateSentimentTextList(fio.ReadDataFile(myFile, "processed", fileExt = "txt").split("\n\n")), "Sentiments", fileExt = "txt")
-        mrkr.Green("Redder has successfully finished analyzing the sentiments of the comments into the file: " + myFile + "-sentiments.txt")
+        fio.WriteCSVFile(myFileName + "-sentiments", saai.CreateSentimentTextList(fio.ReadDataFile(myFileName, "processed", fileExt = "txt").split("\n\n")), "Sentiments", fileExt = "txt")
+        mrkr.Green("Redder has Successfully Finished Analyzing the Sentiments of the Comments into the File: " + myFileName + "-sentiments.txt")
 except Exception as e:
     mrkr.Red("Exception: " + str(e))
 mrkr.Cyan("Redder Exiting Safely...")

@@ -46,3 +46,13 @@ def ReadDataFile(fileName: str, subFolder: str, fileExt: str = "json") -> str:
         return dta
     except Exception as e:
         raise e
+
+# Read Local System Files, return str
+def ReadFile(fileName: str) -> str:
+    try:
+        file = open(fileName, "r", encoding = "utf-8")
+        dta = file.read()
+        file.close()
+        return dta
+    except Exception as e:
+        raise e
