@@ -88,13 +88,13 @@
 >> 
 >> The file will contain only 50 comments (**As noted in the project 4 outline**) that have been analyzed as to avoid wasting API tokens.
 >>
->> ***`You may experience wait times of several minutes`***, this is expected as there are by default a max of 50 queries that need to be made for possible 50 comments and each query relies on a 3rd party API that has request latency, connectivity dependencies, processing time, and then transfer times.
+>> ***`You may experience wait times of several minutes`***, this is expected as there are by default a max of 50 queries that need to be made for 50 possible comments and each query relies on a 3rd party API that has request latency, API traffic and connectivity dependencies, processing time, and transfer times.
 >>
 >> Progress updates will be given in the form of a percentage during during sentiment analysis to keep you informed on the operations progress and state.
 >>
->> The application may get hung up and timeout while waiting for OpenAI's API to properly query a request. If this happens, Redder will notify you of the situation and automatically re-query the request a number of times if needed.
+>> Redder may get hung up and timeout while waiting for OpenAI's API to properly query a request. If this happens, Redder will notify you of the situation and automatically re-query the request a number of times if needed.
 >>
->> ***`If you notice the sentiment query progress has been stuck on the same percentage for an unusually long amount of time AND you have not gotten any new messages displayed back to you from Redder updating you on the sentiment analysis progress state, try killing the process and running the command again as there is a high likelyhood that OpenAI API is having issues and currently has trouble serving requests.`***
+>> ***If you notice the sentiment query progress has been stuck on the same percentage for an unusually long amount of time AND you have not gotten any new messages displayed back to you from Redder updating you on the sentiment analysis progress state, try killing the process and running the command again as there is a high likelyhood that OpenAI API is having issues and currently has trouble serving requests.***
 >
 > ## `Project 5 - Grant Doolin & Gautam Aneja`
 >
@@ -102,7 +102,7 @@
 >>
 >> **The Fourth use case of Redder is the ability to get the sentiments of the comments from multiple Reddit Post URL's at once using a file.**
 >>
->> To do this, Redder just needs a single user input text file, that for each line used, contains a single reddit post URL.  (a .txt file is preferred for simplicity sake)
+>> To do this, Redder just needs a single user input URL file, that for each line used, contains a single reddit post URL. (.txt file is preferred for simplicity sake)
 >>
 >> For Example, for 5 different Reddit Post URL's the user input text file would contain nothing else but the URL's in this format:
 >>
@@ -114,21 +114,23 @@
 >> https://www.reddit.com/r/desired_subreddit5/comments/post_id#5/post_title5/
 >> ```
 >>
+>> An example file with 5 Reddit Post URL's has been included with Redder at the local app path `redder\rsc\ExampleURLfile.txt`
+>>
 >>> *Before using this method, be sure you have a valid and active OpenAI account, and have properly set up your account's API key for redder. If not, follow the OpenAI setup guide further down.*
 >>
 >> To process these URL's, Redder uses the `file` argument of the format `-f` or `--file` for this operation.
 >>
->> The `file` argument takes in the filename (and the files path, if necessary) of the desired file located in the user's local machine.
+>> The `file` argument takes in the full path of the desired URL file located on the user's local machine.
 >>
->> Example of this arguments use:
+>> Example of this arguments use with the included Example URL file (you can create and use your own):
 >>
 >> ```
->> python rdr.py -f C:\Users\User\FolderWithFile\URLfile.txt
+>> python rdr.py -f C:\Users\User\redder\rsc\ExampleURLfile.txt
 >> ```
 >>
->> This argument operation consists of running operations 1 through 3 back to back for each URL in the input file.
+>> This argument operation consists of running operations 1 through 3 back to back for each URL in the user input URL file.
 >>
->> As such, `this operation will produce 3 files for each URL corresponding to operations 1 through 3`. (Visit those operation sections in the README to see more about each operation and their output)
+>> As such, `this operation will produce 3 files for each URL corresponding to operations 1 through 3`. (Read these operations sections in this README to see more about them and their output)
 >>
 >> The 3 files output for each URL are as follows:
 >>
@@ -142,13 +144,13 @@
 >> 
 >> Different URL's will output files with different `id#`s in the file name.
 >>
->> ***`You may experience wait times of several minutes per URL`***, this is expected as there are by default 50 queries that need to be made per URL and each query relies on a 3rd party API that has request latency, connectivity dependencies, and transfer times.
+>> ***`You may experience wait times of several minutes per URL`***, this is expected as there are by default a max of 50 queries that need to be made per URL and each query relies on a 3rd party API that has request latency, API traffic and connectivity dependencies, and transfer times.
 >>
 >> Progress updates will be given in the form of a percentage during during sentiment analysis stage for each URL to keep you informed on the operations progress and state.
 >>
->> The application may get hung up and timeout while waiting for OpenAI's API to properly query a request. If this happens, Redder will notify you of the situation and automatically re-query the request a number of times if needed.
+>> Redder may get hung up and timeout while waiting for OpenAI's API to properly query a request. If this happens, Redder will notify you of the situation and automatically re-query the request a number of times if needed.
 >>
->> ***`If you notice the sentiment query progress has been stuck on the same percentage for an unusually long amount of time AND you have not gotten any new messages displayed back to you from Redder updating you on the sentiment analysis progress state, try killing the process and running the command again as there is a high likelyhood that OpenAI API is having issues and currently has trouble serving requests.`***
+>> ***If you notice the sentiment query progress has been stuck on the same percentage for an unusually long amount of time AND you have not gotten any new messages displayed back to you from Redder updating you on the sentiment analysis progress state, try killing the process and running the command again as there is a high likelyhood that OpenAI API is having issues and currently has trouble serving requests.***
 >
 > ## `Redder OpenAI API Setup Guide`
 >
