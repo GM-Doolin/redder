@@ -84,7 +84,7 @@ try:
     elif args.sentiments:
         myFileName = clrx.RemoveFileExt(args.sentiments)
         mrkr.Cyan("Redder is Analyzing the Sentiments of the comments from file: " + args.sentiments + "\n")
-        mrkr.Yellow("It may take awhile to Query all API sentiment requests, please be patient and standby!")
+        mrkr.Yellow("\tIt may take awhile to Query all API sentiment requests, please be patient and standby!")
         fio.WriteCSVFile(myFileName + "-sentiments", saai.CreateTextSentimentList(fio.ReadDataFile(myFileName, "processed", fileExt = "txt").split("\n\n")), "Sentiments", fileExt = "txt")
         mrkr.Green("Redder has Successfully Finished Analyzing the Sentiments of the Comments into the File: " + myFileName + "-sentiments.txt" + "\n")
 except Exception as e:

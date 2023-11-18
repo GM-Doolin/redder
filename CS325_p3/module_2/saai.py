@@ -39,7 +39,7 @@ def QueryTextSentiment(text: str) -> []:
                 return [sentiment, text]
         except Exception as e:    
             if e:   
-                mrkr.Magenta('OpenAI API Timeout, Retrying Query...')    
+                mrkr.Magenta('\tOpenAI API Timeout, Retrying Query...')    
                 requests -= 1
                 if requests <= 0:
                     raise e

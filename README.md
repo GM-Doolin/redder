@@ -88,7 +88,7 @@
 >> 
 >> The file will contain only 50 comments (**As noted in the project 4 outline**) that have been analyzed as to avoid wasting API tokens.
 >>
->> ***`You may experience wait times of several minutes`***, this is expected as there are by default 50 queries that need to be made for the 50 comments and each query relies on a 3rd party API that has request latency, connectivity dependencies, processing time, and then transfer times.
+>> ***`You may experience wait times of several minutes`***, this is expected as there are by default a max of 50 queries that need to be made for possible 50 comments and each query relies on a 3rd party API that has request latency, connectivity dependencies, processing time, and then transfer times.
 >>
 >> Progress updates will be given in the form of a percentage during during sentiment analysis to keep you informed on the operations progress and state.
 >>
@@ -128,7 +128,7 @@
 >>
 >> This argument operation consists of running operations 1 through 3 back to back for each URL in the input file.
 >>
->> As such, `this operation will produce 3 files for each URL corresponding to operations 1 through 3`. (Visit those operation sections in the README to see more about each output)
+>> As such, `this operation will produce 3 files for each URL corresponding to operations 1 through 3`. (Visit those operation sections in the README to see more about each operation and their output)
 >>
 >> The 3 files output for each URL are as follows:
 >>
@@ -142,7 +142,7 @@
 >> 
 >> Different URL's will output files with different `id#`s in the file name.
 >>
->> ***`You may experience wait times of several minutes per URL`***, this is expected as there are by default 50 queries that need to be made per URL and each relies on a 3rd party API that has request latency, connectivity dependencies, and transfer times..
+>> ***`You may experience wait times of several minutes per URL`***, this is expected as there are by default 50 queries that need to be made per URL and each query relies on a 3rd party API that has request latency, connectivity dependencies, and transfer times.
 >>
 >> Progress updates will be given in the form of a percentage during during sentiment analysis stage for each URL to keep you informed on the operations progress and state.
 >>
@@ -194,7 +194,7 @@
 >>
 >> ![Environment Variable](rsc/P4_EnvVar.jpg)
 >>
->> Once the variable has been added successfully, you can now use the key in python directly (Proceed to the end of this section to see how) and the next step is not necessary but recommended.
+>> Once the variable has been added successfully, you can now use the key in python directly (Proceed to the end of this section to see how) however the next step is recommended.
 >>
 >> Next, create a new file in the local directory of the target python application called `.env`
 >>
@@ -232,7 +232,7 @@
 >> 
 >>> *If you chose to not use a .env file to avoid clutter, below will show you how to use your key directly from your system environment variable.*
 >>>
->>> This almost identical as before, just slightly less pleasing to the eyes as we didnt take the extra step in adding the `.env` file.
+>>> This is almost identical to the process before, just a bit less pleasing to the eyes.
 >>>
 >>> To assign your key in python for the API, import the `openai` and `os` packages, then just get the OS environment variable and assign it to the API's `api_key` instance. You can then make requests with the API like so:
 >>>
