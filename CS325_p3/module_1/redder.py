@@ -30,6 +30,18 @@ def QueryPost(URL: str) -> 'post':
     except Exception as e: 
         print("Redder ran into unexpected issues when retrieving data from the URL provided!")
         raise e
+    
+# Get title of post from internal id
+def QueryPostTitleFromID(id: str) -> str:
+    try:
+        ri = praw.Reddit(
+            client_id     = PRAWCreds.client_id,
+            client_secret = PRAWCreds.client_secret,
+            user_agent    = PRAWCreds.user_agent
+        )
+        return str(ri.submission(id=id).title)
+    except Exception as e:
+        raise e
 
 # Container For Redder Credentials for PRAW API
 class PRAWCreds:

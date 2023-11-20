@@ -17,6 +17,24 @@ import jsonpickle
 ###### Interface For clrx   ######
 ###### ###### ###### ###### ######
 
+# Parse file name and remove extension
+def RemoveFileExt(filename: str) -> str:
+    if extSnip := re.sub(r".[a-zA-Z0-9]+$", "", filename):
+        return extSnip
+    else:
+        return filename
+
+# Encode Unicode Text
+def SanitizeText(text: str) -> str:
+    #newText = re.sub(r"&#[0-9a-zA-Z]+;", "", text)
+    newText = text.encode("ascii", "ignore")
+    return str(newText)
+
+# Revert Unicode Encoding
+def UnSanitizeText(text: str) -> str:
+    newText = text.decode("ascii", "ignore")
+    return str(newText)
+
 # Parse url for the page name
 def GetURLPage(url: str) -> str:
     if protoSnip := re.sub(r"^https{0,1}|://|www.|reddit|.com|/r/|/|/$", "", url):
@@ -24,12 +42,10 @@ def GetURLPage(url: str) -> str:
     else:
         return url
 
-# Parse file name and remove extension
-def RemoveFileExt(filename: str) -> str:
-    if extSnip := re.sub(r".[a-zA-Z0-9]+$", "", filename):
-        return extSnip
-    else:
-        return filename
+# Parse FileName for ID
+def GetFileID(fileName: str) -> str:
+    if idSnip := re.sub(r"^post-|-comments|-sentiments|.[a-zA-Z0-9]+$", "", fileName):
+        return idSnip
 
 # Convert any python class object to a properly Sanitized and Serialized JSON String
 def ToJSON(obj, isIndented: bool = True) -> str:
@@ -42,14 +58,3 @@ def ToJSON(obj, isIndented: bool = True) -> str:
     except Exception as e:
         print("Redder ran into unexpected issues encoding python object to JSON!")
         raise e
-
-# Encode Unicode Text
-def SanitizeText(text: str) -> str:
-    #newText = re.sub(r"&#[0-9a-zA-Z]+;", "", text)
-    newText = text.encode("ascii", "ignore")
-    return str(newText)
-
-# Revert Unicode Encoding
-def UnSanitizeText(text: str) -> str:
-    newText = text.decode("ascii", "ignore")
-    return str(newText)

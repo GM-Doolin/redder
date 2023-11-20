@@ -74,7 +74,7 @@
 >>
 >> The `sentiments` argument takes in the filename of the desired file located in the local app directory `redder\CS325_p3\Data\processed\`
 >>
->> This filename should be of the format `post-id#-comments.txt`, a file which has been output using Operation 2 in Project 2.
+>> This filename should be of the format `post-id#-comments.txt`, a file which has been output using operation 2 in Project 2.
 >>
 >> Example of this arguments use:
 >>
@@ -82,7 +82,7 @@
 >> python rdr.py -s post-id#-comments.txt
 >> ```
 >>
->> This argument will produce a CSV file titled `post-id#-comments-sentiments.txt` in the local app path `redder\CS325_p3\Data\Sentiments\`
+>> This argument will produce a CSV file titled `post-id#-comments-sentiments.txt` in the local app path `redder\CS325_p3\Data\Sentiments\` (*The Sentiments folder is reserved for files output by Redder only*)
 >>
 >> The CSV format inside of this new file will be like so: "sentiment","Text Analyzed"
 >> 
@@ -100,7 +100,7 @@
 >
 >> ### `Operation 4 - Fully Process Multiple Reddit Post URL's from File` 
 >>
->> **The Fourth use case of Redder is the ability to get the sentiments of the comments from multiple Reddit Post URL's at once using a file.**
+>> **The fourth use case of Redder is the ability to get the sentiments of the comments from multiple Reddit Post URL's at once using a file.**
 >>
 >> To do this, Redder just needs a single user input URL file, that for each line used, contains a single reddit post URL. (.txt file is preferred for simplicity sake)
 >>
@@ -140,9 +140,7 @@
 >>
 >> - File 3: `post-id#-comments-sentiments.txt` - This file contains the sentiment's of each comment from File 2. See Redder Operation 3 for more information.
 >>
->> Note that the `id#` in the file names will be consistent to each URL, meaning each URL will ouput 3 files that contain the same `id#` in their file names.
->> 
->> Different URL's will output files with different `id#`s in the file name.
+>> ***Note that `id#` in the file names are consistent to eachother, files with the same `id#` in their file names represent the same reddit post from the same URL.***
 >>
 >> ***`You may experience wait times of several minutes per URL`***, this is expected as there are by default a max of 50 queries that need to be made per URL and each query relies on a 3rd party API that has request latency, API traffic and connectivity dependencies, and transfer times.
 >>
@@ -151,6 +149,30 @@
 >> Redder may get hung up and timeout while waiting for OpenAI's API to properly query a request. If this happens, Redder will notify you of the situation and automatically re-query the request a number of times if needed.
 >>
 >> ***If you notice the sentiment query progress has been stuck on the same percentage for an unusually long amount of time AND you have not gotten any new messages displayed back to you from Redder updating you on the sentiment analysis progress state, try killing the process and running the command again as there is a high likelyhood that OpenAI API is having issues and currently has trouble serving requests.***
+>
+> ## `Project 6 - Grant Doolin & Gautam Aneja`
+>
+>> ### `Operation 5 - Graph Comment Sentiments` 
+>>
+>> **The fifth use case of Redder allows you to plot out bar graphs from ouput comment sentiments files (produced by operation 3 & 4).**
+>>
+>> To plot bar graphs of comment sentiments, Redder uses the `graph` argument of the format `-g` or `--graph` for this operation.
+>>
+>> The `graph` argument is a simple flag and takes does not take any user input value.
+>>
+>> Instead, the operation will process all the output comment sentiment files inside of the local app directory `redder\CS325_p3\Data\Sentiments\` automatically.
+>>
+>> Example of this arguments use:
+>>
+>> ```
+>> python rdr.py -g
+>> ```
+>>
+>> This argument operation will produce .png bar graph image(s) with a name of the format `post-id#-comments-sentiments-plot.png`
+>>
+>> ***`One Graph image will be produced for every comment sentiment file located in the local app path`*** `redder\CS325_p3\Data\Sentiments\` (*Sentiments folder is for files output by Redder only*)
+>>
+>> ***Note that `id#` in the file names are consistent to eachother, files with the same `id#` in their file names represent the same reddit post from the same URL.***
 >
 > ## `Redder OpenAI API Setup Guide`
 >
