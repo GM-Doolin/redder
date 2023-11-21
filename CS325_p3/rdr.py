@@ -1,8 +1,8 @@
 # rdr_main: Main Redder Application
 
-    # Input: Takes in Various User Command Line Agruments of type string (URL/Name of Subreddit, URL of reddit Post, Name of File in raw 'Data\raw\post-id.json')
+    # Input: Takes in Various User Command Line Agruments of type string (URL/Name of Subreddit, URL of reddit Post, Name of File in raw 'redder\CS325_p3\Data\raw\post-id.json')
 
-    # Output: '.json' and '.txt' files in 'Data/'
+    # Output: '.json' , '.txt', and '.png' files in 'redder\CS325_p3\Data\'
 
     # Usage: Redder Application Entry Point, Where The User-Side of the Redder Application Begins and Ends
 
