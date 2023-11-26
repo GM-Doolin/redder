@@ -84,7 +84,7 @@
 >>
 >> This argument will produce a CSV file titled `post-id#-comments-sentiments.txt` in the local app path `redder\CS325_p3\Data\Sentiments\` (*The Sentiments folder is reserved for files output by Redder only*)
 >>
->> The CSV format inside of this new file will be like so: "sentiment","Text Analyzed"
+>> The CSV format inside of this new file will be like so: "Sentiment","Comment"
 >> 
 >> The file will contain only 50 comments (**As noted in the project 4 outline**) that have been analyzed as to avoid wasting API tokens.
 >>
@@ -154,23 +154,37 @@
 >
 >> ### `Operation 5 - Graph Comment Sentiments` 
 >>
->> **The fifth use case of Redder allows you to plot out bar graphs from ouput comment sentiments files (produced by operation 3 & 4).**
+>> **The fifth use case of Redder allows you to plot out bar graphs from previously output comment sentiments files (produced by operation 3 & 4).**
 >>
 >> To plot bar graphs of comment sentiments, Redder uses the `graph` argument of the format `-g` or `--graph` for this operation.
 >>
->> The `graph` argument is a simple flag and takes does not take any user input value.
+>> The `graph` argument offers `two different modes of operation depending on your use case`.
 >>
->> Instead, the operation will process all the output comment sentiment files inside of the local app directory `redder\CS325_p3\Data\Sentiments\` automatically.
+>> The `first and default mode of operation` will process all the output comment sentiment files currently inside the local app directory `redder\CS325_p3\Data\Sentiments\` (*Sentiments folder is for files output by Redder only*)
 >>
->> Example of this arguments use:
+>> Example of this arguments first and default use case ***without an argument value***:
 >>
 >> ```
 >> python rdr.py -g
 >> ```
 >>
->> This argument operation will produce .png bar graph image(s) with a name of the format `post-id#-comments-sentiments-plot.png`
+>> ***`This use case will output a Bar Graph Image for every ouput comment sentiment file located in the local app path: redder\CS325_p3\Data\Sentiments\`***  (*Sentiments folder is for files output by Redder only*)
 >>
->> ***`One Graph image will be produced for every comment sentiment file located in the local app path`*** `redder\CS325_p3\Data\Sentiments\` (*Sentiments folder is for files output by Redder only*)
+>> The `second mode of operation` allows you to be more specific in which Comment Sentiment file you would like to Plot to a Graph.
+>>
+>> To do this, the argument can take in the file name of an output comment sentiment file located inside the local app directory `redder\CS325_p3\Data\Sentiments\` (*Sentiments folder is for files output by Redder only*)
+>>
+>> Example of this arguments second use case ***with an argument value***:
+>>
+>> ```
+>> python rdr.py -g post-id#-comments-sentiments.txt
+>> ```
+>>
+>> ***`This use case will ouput a single Bar Graph Image of the input comment sentiment file.`***
+>>
+>> Both of these use cases will produce .png bar graph image(s) with a name of the format `post-id#-comments-sentiments-plot.png`
+>>
+>> The Bar Graph Image(s) will be output inside the local app directory `redder\CS325_p3\Data\Plots\`
 >>
 >> ***Note that `id#` in the file names are consistent to eachother, files with the same `id#` in their file names represent the same reddit post from the same URL.***
 >
@@ -222,9 +236,9 @@
 >>
 >> Next, create a new file in the local directory of the target python application called `.env`
 >>
->> Redder has this file natively so the `.env` file already exists and is waiting for you at the local app path `redder\CS325_p3\`
+>> Redder has this file natively so the `.env` file already exists and is waiting for you at the local app path `redder\CS325_p3\.env`
 >>
->> Inside of this file named `.env`, simply use the following line at the top of the file and replace it with your key, save, and close it:
+>> Inside of this file named `.env`, simply use the following line at the top of the file and replace it with your key:
 >>
 >> ```
 >> OPENAI_API_KEY=YourOpenAIAPIKeyGoesHere
@@ -232,9 +246,9 @@
 >>
 >> Once your key has been added to the file, save and exit the file. The key is now ready to be used.
 >>
->> To use our key in python, we first need to import `openai` package.
+>> To use our key in python, we first need to import the `openai` package we installed earlier.
 >>
->> Now we can call the function `OpenAI()` and assign it to a variable instance called `clientAI` that we can use to make requests from:
+>> Once done, we can just call `OpenAI()` and assign it to a variable instance called `clientAI` that we can use to make requests from:
 >>
 >> ```
 >> import openai
@@ -258,7 +272,9 @@
 >>>
 >>> This is almost identical to the process before, just a bit less pleasing to the eyes.
 >>>
->>> To assign your key in python for the API, import the `openai` and `os` packages, then just get the OS environment variable and assign it to the API's `api_key` instance. You can then make requests with the API like so:
+>>> To assign your key in python for the API, import the `openai` and `os` packages, then just get the OS environment variable and assign it to the API's `api_key` instance.
+>>>
+>>> You can then make requests with the API like so:
 >>>
 >>> ```
 >>> import openai

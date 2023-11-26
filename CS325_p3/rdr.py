@@ -54,8 +54,10 @@ try:
     o.add_argument(
         '-g',
         '--graph',
-        help = 'Takes no value, Flag to process each sentiment CSV file in the Local App. Path redder\\CS325_p3\\Data\\Sentiments\\ and output a bar graph for each.',
-        action = 'store_true'
+        help = 'Flag to process All Sentiment CSV file(s) in the Local App. Directory redder\\CS325_p3\\Data\\Sentiments\\ and Output a Bar Graph for Each. Argument can take Optional Input Value of a Comment Sentiment File name in Local App. Directory redder\\CS325_p3\\Data\\Sentiments\\.',
+        nargs='?',
+        const='All',
+        type = str
     )
     args = argparser.parse_args()
 
@@ -65,21 +67,23 @@ try:
         fio.WriteDataFile("post-" + myPost.id, clrx.ToJSON(myPost), "raw")
         mrkr.Green("Redder has Successfully Finished Collecting Data from the \"" + myPost.title + "\" Reddit Post into File: post-" + myPost.id + ".json\n")
     elif args.file:
-        URLS = list(filter(None, fio.ReadFile(args.file).split("\n")))
-        mrkr.Cyan("Redder is Retrieving the Reddit URL's from File: " + args.file + "\n")
-        for url in URLS:
-            thisPost = redder.QueryPost(url)
-            thisPostFileName = "post-" + thisPost.id
-            fio.WriteDataFile(thisPostFileName, clrx.ToJSON(thisPost), "raw")
-            mrkr.Green("\tRedder has Scraped the URL's Data into File: " + thisPostFileName + ".json")
-            thisCommentFileName = thisPostFileName + "-comments"
-            fio.WriteDataFile(thisCommentFileName, redder.post.JSONToPost(fio.ReadDataFile(thisPostFileName, "raw")).ListComments(), "processed", fileExt = "txt")
-            mrkr.Green("\tRedder has Parsed the Comments into File: " + thisCommentFileName + ".txt")
-            thisSentimentsFileName = thisCommentFileName + "-sentiments"
-            mrkr.Yellow("\tRedder is now Analyzing the Sentiments, it may take Awhile to Query all API Sentiment Requests, Please be Patient and Standby!")
-            fio.WriteCSVFile(thisSentimentsFileName, saai.CreateSentimentList(fio.ReadDataFile(thisCommentFileName, "processed", fileExt = "txt").split("\n\n")), "Sentiments", fileExt = "txt")
-            mrkr.Green("\tRedder has Analyzed the Comment Sentiments into File: " + thisSentimentsFileName + "\n")
-        mrkr.Green("Redder has Successfully Finished Processing All Data Associated with the Reddit URL's from File: " + args.file + "\n")
+        if URLS := list(filter(None, fio.ReadFile(args.file).split("\n"))):
+            mrkr.Cyan("Redder is Retrieving the Reddit URL's from File: " + args.file + "\n")
+            for url in URLS:
+                thisPost = redder.QueryPost(url)
+                thisPostFileName = "post-" + thisPost.id
+                fio.WriteDataFile(thisPostFileName, clrx.ToJSON(thisPost), "raw")
+                mrkr.Green("\tRedder has Scraped the URL's Data into File: " + thisPostFileName + ".json")
+                thisCommentFileName = thisPostFileName + "-comments"
+                fio.WriteDataFile(thisCommentFileName, redder.post.JSONToPost(fio.ReadDataFile(thisPostFileName, "raw")).ListComments(), "processed", fileExt = "txt")
+                mrkr.Green("\tRedder has Parsed the Comments into File: " + thisCommentFileName + ".txt")
+                thisSentimentsFileName = thisCommentFileName + "-sentiments"
+                mrkr.Yellow("\tRedder is now Analyzing the Sentiments, it may take Awhile to Query all API Sentiment Requests, Please be Patient and Standby!")
+                fio.WriteCSVFile(thisSentimentsFileName, saai.CreateSentimentList(fio.ReadDataFile(thisCommentFileName, "processed", fileExt = "txt").split("\n\n")), "Sentiments", fileExt = "txt")
+                mrkr.Green("\tRedder has Analyzed the Comment Sentiments into File: " + thisSentimentsFileName + "\n")
+            mrkr.Green("Redder has Successfully Finished Processing All Data Associated with the Reddit URL's from File: " + args.file + "\n")
+        else:
+            mrkr.Yellow("Redder did not Find Any Appropriate Reddit URL's to Scrape From: " + args.file + "\n")
     elif args.comments:
         myFileName = clrx.RemoveFileExt(args.comments)
         mrkr.Cyan("Redder is Retrieving Comments from File: " + args.comments + "\n")
@@ -92,14 +96,23 @@ try:
         fio.WriteCSVFile(myFileName + "-sentiments", saai.CreateSentimentList(fio.ReadDataFile(myFileName, "processed", fileExt = "txt").split("\n\n")), "Sentiments", fileExt = "txt")
         mrkr.Green("Redder has Successfully Finished Analyzing the Sentiments of the Comments into File: " + myFileName + "-sentiments.txt\n")
     elif args.graph:
-        mrkr.Cyan("Redder is Looking for Comment Sentiment Files to Plot!\n")
-        if sentimentFiles := [f for f in fio.GetDataFiles("Sentiments") if saai.IsValidSentimentFile(f)]:
-            for file in sentimentFiles:
-                saai.PlotSentimentBarGraph(file, redder.QueryPostTitleFromID(clrx.GetFileID(file)), clrx.GetFileID(file))
-                mrkr.Green("\tRedder Plot the Comment Sentiments of " + file + " into File: " + clrx.RemoveFileExt(file) + "-plot.png\n")
-            mrkr.Green("Redder has Finished Plotting the Comment Sentiment Bar Graph(s)!\n")
+        if args.graph == 'All':
+            mrkr.Cyan("Redder is Looking for Comment Sentiment Files to Plot!\n")
+            if sentimentFiles := [f for f in fio.GetDataFiles("Sentiments") if saai.IsValidSentimentFile(f)]:
+                for file in sentimentFiles:
+                    saai.PlotSentimentBarGraph(file, redder.QueryPostTitleFromID(clrx.GetFileID(file)), clrx.GetFileID(file))
+                    mrkr.Green("\tRedder Plot the Comment Sentiments of " + file + " into File: " + clrx.RemoveFileExt(file) + "-plot.png\n")
+                mrkr.Green("Redder has Finished Plotting the Comment Sentiment Bar Graph(s)!\n")
+            else:
+                mrkr.Yellow("Redder did not Find Any Appropriate Comment Sentiment Files to Plot!\n")
         else:
-            mrkr.Yellow("Redder did not Find Any Appropriate Comment Sentiment Files in 'redder\\CS325_p3\\Data\\Sentiments\\'to Plot!" + "\n")
+            mrkr.Cyan("Redder is Plotting the Comment Sentiment File!\n")
+            if saai.IsValidSentimentFile(args.graph):
+                file = args.graph
+                saai.PlotSentimentBarGraph(file, redder.QueryPostTitleFromID(clrx.GetFileID(file)), clrx.GetFileID(file))
+                mrkr.Green("Redder has Finished Plotting Plot the Comment Sentiments of " + file + " into File: " + clrx.RemoveFileExt(file) + "-plot.png\n")
+            else:
+                mrkr.Yellow("Redder did not Receive an Appropriate Comment Sentiment File to Plot!\n")
 except Exception as e:
     mrkr.Red("Exception: " + str(e) + "\n")
 mrkr.Cyan("Redder Exiting Safely...")

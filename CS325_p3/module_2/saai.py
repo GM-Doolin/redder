@@ -72,7 +72,7 @@ def CreateSentimentList(textList: [str], size: int = 50) -> []:
     return sentimentList
 
 # Using pandas, Read processed sentiments CSV file located in "redder\CS325_p3\Data\Sentiments\" to DataFrame,
-# returns list of sentiments Column from CSV to gather all the various comment sentiments
+# returns list of sentiments Column from DataFrame to gather all the various sentiments in file
 def ReadFileSentiments(fileName: str) -> [str]:
     try:
         sentimentData = pandas.read_csv("Data\\Sentiments\\" + fileName)
