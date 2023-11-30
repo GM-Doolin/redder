@@ -80,7 +80,7 @@ def ReadFileSentiments(fileName: str) -> [str]:
     except Exception as e:
         raise e
 
-# Check if File Name is a output comment sentiment file, return bool
+# Using pandas, Check if File Name is a output comment sentiment file, return bool
 def IsValidSentimentFile(fileName: str) -> bool:
     try:
         if re.match(r"^post-", fileName) and re.search(r"-comments-sentiments.txt$", fileName):
@@ -97,14 +97,16 @@ def PlotSentimentBarGraph(fileName: str, header: str, id: str,  xLabel: str = "C
         sentimentTypes = ["positive", "neutral", "negative"]
         sentimentTotals = TallySentiments(ReadFileSentiments(fileName))
         sentimentColors = [(0.0, 0.42, 0.24), (1.0, 0.83, 0.0), (0.88, 0.23, 0.20)]
-        bar = matplot.bar(sentimentTypes, sentimentTotals, label=sentimentTypes, width=0.6, color=sentimentColors)
-        matplot.legend(title='Sentiment Colors', bbox_to_anchor=(1, 1))
-        matplot.tight_layout(pad=6)
+        fig, ax1 = matplot.subplots(figsize=(12, 9), layout='constrained')
+        fig.canvas.manager.set_window_title('Comment Sentiment Graph')
+        ax1.yaxis.grid(True, linestyle='--', which='major', color='black', alpha=.25)
+        bar = ax1.bar(sentimentTypes, sentimentTotals, label=sentimentTypes, width=0.6, color=sentimentColors)
+        matplot.legend(title='Comment Sentiment', bbox_to_anchor=(1, 1))
         matplot.title(header, pad=16, wrap=True)
         matplot.xlabel(xLabel, labelpad=16)
         matplot.ylabel(yLabel, labelpad=16)
-        matplot.xlim(right=4)
         matplot.bar_label(bar, label_type='center', padding=4, fmt='%0.2f')
+        matplot.xlim(right=4)
         matplot.savefig("Data\\Plots\\post-" + id + "-comments-sentiments-plot.png" )
         matplot.close()
     except Exception as e:    
