@@ -97,12 +97,12 @@ def PlotSentimentBarGraph(fileName: str, header: str, id: str,  xLabel: str = "C
         sentimentTypes = ["positive", "neutral", "negative"]
         sentimentTotals = TallySentiments(ReadFileSentiments(fileName))
         sentimentColors = [(0.0, 0.42, 0.24), (1.0, 0.83, 0.0), (0.88, 0.23, 0.20)]
-        fig, ax1 = matplot.subplots(figsize=(12, 9), layout='constrained')
+        fig, ax1 = matplot.subplots(figsize=(12, 9))
         fig.canvas.manager.set_window_title('Comment Sentiment Graph')
         ax1.yaxis.grid(True, linestyle='--', which='major', color='black', alpha=.25)
-        bar = ax1.bar(sentimentTypes, sentimentTotals, label=sentimentTypes, width=0.6, color=sentimentColors)
+        bar = matplot.bar(sentimentTypes, sentimentTotals, label=sentimentTypes, width=0.6, color=sentimentColors)
         matplot.legend(title='Comment Sentiment', bbox_to_anchor=(1, 1))
-        matplot.title(header, pad=16, wrap=True)
+        matplot.title(header, loc='center', pad=16, wrap=True)
         matplot.xlabel(xLabel, labelpad=16)
         matplot.ylabel(yLabel, labelpad=16)
         matplot.bar_label(bar, label_type='center', padding=4, fmt='%0.2f')
